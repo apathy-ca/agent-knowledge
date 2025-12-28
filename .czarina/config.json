@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "phase": "1",
     "description": "Merge agent-rules and agentic-dev-patterns into unified agent-knowledge repository",
+    "repository": "/home/jhenry/Source/agent-knowledge",
     "omnibus_branch": "cz1/release/v1.0.0"
   },
   "orchestration": {
