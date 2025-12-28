@@ -17,7 +17,7 @@
   "workers": [
     {
       "id": "repo-setup",
-      "agent": "code",
+      "agent": "claude",
       "branch": "cz1/feat/repo-setup",
       "dependencies": [],
       "role": "foundation",
@@ -32,7 +32,7 @@
     },
     {
       "id": "migrate-rules",
-      "agent": "code",
+      "agent": "claude",
       "branch": "cz1/feat/migrate-rules",
       "dependencies": ["repo-setup"],
       "role": "migration",
@@ -47,7 +47,7 @@
     },
     {
       "id": "migrate-patterns",
-      "agent": "code",
+      "agent": "claude",
       "branch": "cz1/feat/migrate-patterns",
       "dependencies": ["repo-setup"],
       "role": "migration",
@@ -64,7 +64,7 @@
     },
     {
       "id": "harmonize-content",
-      "agent": "architect",
+      "agent": "claude",
       "branch": "cz1/feat/harmonize-content",
       "dependencies": ["migrate-rules", "migrate-patterns"],
       "role": "integration",
@@ -80,7 +80,7 @@
     },
     {
       "id": "create-docs",
-      "agent": "docs",
+      "agent": "claude",
       "branch": "cz1/feat/create-docs",
       "dependencies": ["harmonize-content"],
       "role": "documentation",
@@ -98,7 +98,7 @@
     },
     {
       "id": "validate",
-      "agent": "qa",
+      "agent": "claude",
       "branch": "cz1/feat/validate",
       "dependencies": ["create-docs"],
       "role": "validation",
