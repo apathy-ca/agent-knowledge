@@ -1,0 +1,130 @@
+{
+  "project": {
+    "name": "Agent Knowledge Repository Merge",
+    "slug": "agent-knowledge-merge",
+    "version": "1.0.0",
+    "phase": "1",
+    "description": "Merge agent-rules and agentic-dev-patterns into unified agent-knowledge repository",
+    "omnibus_branch": "cz1/release/v1.0.0"
+  },
+  "orchestration": {
+    "mode": "local",
+    "parallel_workers": 2,
+    "retry_on_failure": true,
+    "max_retries": 3
+  },
+  "workers": [
+    {
+      "id": "repo-setup",
+      "agent": "code",
+      "branch": "cz1/feat/repo-setup",
+      "dependencies": [],
+      "role": "foundation",
+      "priority": 1,
+      "description": "Create new repository structure and foundation files",
+      "deliverables": [
+        "New repository initialized with git",
+        "Core directory structure created (core-rules/, patterns/, templates/, examples/, meta/)",
+        "LICENSE file created",
+        "Basic .gitignore configured"
+      ]
+    },
+    {
+      "id": "migrate-rules",
+      "agent": "code",
+      "branch": "cz1/feat/migrate-rules",
+      "dependencies": ["repo-setup"],
+      "role": "migration",
+      "priority": 2,
+      "description": "Migrate agent-rules content to core-rules/",
+      "deliverables": [
+        "All agent-rules content copied to core-rules/",
+        "Directory structure reorganized (removed numbered prefixes)",
+        "Templates moved to templates/ directory",
+        "Legacy README preserved as AGENT_RULES_LEGACY.md"
+      ]
+    },
+    {
+      "id": "migrate-patterns",
+      "agent": "code",
+      "branch": "cz1/feat/migrate-patterns",
+      "dependencies": ["repo-setup"],
+      "role": "migration",
+      "priority": 2,
+      "description": "Migrate agentic-dev-patterns content to patterns/",
+      "deliverables": [
+        "Error recovery patterns migrated to patterns/error-recovery/",
+        "Tool use patterns migrated to patterns/tool-use/",
+        "Mode capabilities migrated to patterns/mode-capabilities/",
+        "Git workflow patterns migrated to patterns/git-workflows/",
+        "Testing patterns migrated to patterns/testing-patterns/",
+        "Context management migrated to patterns/context-management/"
+      ]
+    },
+    {
+      "id": "harmonize-content",
+      "agent": "architect",
+      "branch": "cz1/feat/harmonize-content",
+      "dependencies": ["migrate-rules", "migrate-patterns"],
+      "role": "integration",
+      "priority": 3,
+      "description": "Resolve overlapping content and create cross-references",
+      "deliverables": [
+        "Git workflow content harmonized between core-rules and patterns",
+        "Testing content harmonized between core-rules and patterns",
+        "Cross-references added to all related documents",
+        "Duplicate content removed or consolidated",
+        "Navigation links validated"
+      ]
+    },
+    {
+      "id": "create-docs",
+      "agent": "docs",
+      "branch": "cz1/feat/create-docs",
+      "dependencies": ["harmonize-content"],
+      "role": "documentation",
+      "priority": 4,
+      "description": "Create unified README, CONTRIBUTING, and meta-documentation",
+      "deliverables": [
+        "README.md with unified overview and navigation",
+        "CONTRIBUTING.md with pattern submission guidelines",
+        "CHANGELOG.md initialized with v1.0.0 entry",
+        "meta/versioning.md created",
+        "meta/pattern-template.md created",
+        "meta/learning-extraction.md created",
+        "INDEX.md files created for core-rules/ and patterns/"
+      ]
+    },
+    {
+      "id": "validate",
+      "agent": "qa",
+      "branch": "cz1/feat/validate",
+      "dependencies": ["create-docs"],
+      "role": "validation",
+      "priority": 5,
+      "description": "Validate structure, links, and completeness",
+      "deliverables": [
+        "All internal links validated (zero broken links)",
+        "All content from both source repos confirmed present",
+        "Directory structure matches specification",
+        "All deliverables from other workers validated",
+        "Final quality report generated"
+      ]
+    }
+  ],
+  "hopper": {
+    "enabled": false
+  },
+  "daemon": {
+    "enabled": false
+  },
+  "git": {
+    "auto_commit": true,
+    "commit_message_template": "[{{worker_id}}] {{description}}",
+    "require_pr": false
+  },
+  "environment": {
+    "AGENT_RULES_PATH": "/home/jhenry/Source/agent-rules",
+    "AGENTIC_DEV_PATTERNS_PATH": "/home/jhenry/Source/agentic-dev-patterns"
+  }
+}
