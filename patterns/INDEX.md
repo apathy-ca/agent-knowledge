@@ -21,7 +21,7 @@ Strategies for handling failures gracefully and recovering from errors:
 - Error context preservation
 - Recovery workflows
 
-**Related Core Rules:** [Error Handling](../core-rules/python-standards/error-handling.md), [Recovery Workflow](../core-rules/workflows/recovery-workflow.md)
+**Related Core Rules:** [Error Handling](../core-rules/python-standards/ERROR_HANDLING.md)
 
 **Directory:** [error-recovery/](./error-recovery/)
 
@@ -72,7 +72,7 @@ Strategies for managing context windows and memory:
 - Memory management strategies
 - Selective context inclusion
 
-**Related Core Rules:** [Memory Patterns](../core-rules/design-patterns/memory-patterns.md), [Agent Handoffs](../core-rules/orchestration/agent-handoffs.md)
+**Related Core Rules:** [Orchestration](../core-rules/orchestration/)
 
 **Directory:** [context-management/](./context-management/)
 
@@ -89,7 +89,7 @@ Branch strategies, commit patterns, and PR workflows:
 - Conflict resolution patterns
 - Version control best practices
 
-**Related Core Rules:** [Git Workflows](../core-rules/workflows/git-workflows.md)
+**Related Core Rules:** [Git Workflows](../core-rules/workflows/GIT_WORKFLOW.md)
 
 **Directory:** [git-workflows/](./git-workflows/)
 
@@ -106,7 +106,7 @@ Advanced testing strategies and organization:
 - Coverage optimization
 - Test maintenance patterns
 
-**Related Core Rules:** [Testing](../core-rules/testing/), [Pytest Standards](../core-rules/testing/pytest-standards.md)
+**Related Core Rules:** [Testing](../core-rules/testing/)
 
 **Directory:** [testing-patterns/](./testing-patterns/) (if exists)
 
@@ -136,7 +136,7 @@ Advanced testing strategies and organization:
 ### I want to build more resilient systems
 **Recommended patterns:**
 - [Error Recovery](./error-recovery/) - Handle failures gracefully
-- **Related core rules:** [Recovery Workflow](../core-rules/workflows/recovery-workflow.md)
+- **Related core rules:** [Workflows](../core-rules/workflows/)
 
 ---
 
@@ -159,7 +159,7 @@ Advanced testing strategies and organization:
 ### I want to improve my version control
 **Recommended patterns:**
 - [Git Workflows](./git-workflows/) - Branch and commit strategies
-- **Related core rules:** [Git Workflows](../core-rules/workflows/git-workflows.md)
+- **Related core rules:** [Git Workflows](../core-rules/workflows/GIT_WORKFLOW.md)
 
 ---
 
@@ -188,7 +188,7 @@ Advanced testing strategies and organization:
 
 ### Example: Error Handling
 
-**Core Rule:** [Error Handling](../core-rules/python-standards/error-handling.md)
+**Core Rule:** [Error Handling](../core-rules/python-standards/ERROR_HANDLING.md)
 - Defines WHAT: Use specific exceptions, log errors, handle failures properly
 
 **Pattern:** [Error Recovery](./error-recovery/)
@@ -198,7 +198,6 @@ Advanced testing strategies and organization:
 ### Cross-Reference Map
 
 For detailed relationships between patterns and core rules, see:
-- [Cross-Reference Map](../meta/cross-reference-map.md)
 - [Core Rules Index](../core-rules/INDEX.md)
 
 ---

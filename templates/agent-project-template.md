@@ -670,11 +670,11 @@ def mock_agent(agent_config: AgentConfig) -> BaseAgent:
 
 ## Related Documents
 
-- [Agent Roles](../agents/AGENT_ROLES.md)
-- [Tool Use Patterns](../patterns/TOOL_USE_PATTERNS.md)
-- [Error Recovery](../patterns/ERROR_RECOVERY.md)
-- [Testing Patterns](../python/TESTING_PATTERNS.md)
-- [Security Patterns](../security/)
+- [Agent Roles](../core-rules/agent-roles/AGENT_ROLES.md)
+- [Tool Use Patterns](../core-rules/design-patterns/TOOL_USE_PATTERNS.md)
+- [Error Recovery](../core-rules/design-patterns/ERROR_RECOVERY.md)
+- [Testing Patterns](../core-rules/python-standards/TESTING_PATTERNS.md)
+- [Security Patterns](../core-rules/security/)
 
 ## References
 

@@ -333,7 +333,7 @@ MIT - see [LICENSE](LICENSE).
 - **Full Template:** [README Template](../templates/readme-template.md)
 - **Documentation Standards:** [Documentation Standards](./DOCUMENTATION_STANDARDS.md)
 - **API Documentation:** [API Documentation Standards](./API_DOCUMENTATION.md)
-- **Documentation Workflow:** [Documentation Workflow](../workflows/DOCUMENTATION_WORKFLOW.md)
+- **Documentation Workflow:** [Documentation Workflow](../core-rules/workflows/DOCUMENTATION_WORKFLOW.md)
 
 ## References
 

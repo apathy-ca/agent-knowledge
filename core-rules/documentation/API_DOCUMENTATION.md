@@ -659,7 +659,7 @@ Good example of:
 
 - [Documentation Standards](./DOCUMENTATION_STANDARDS.md)
 - [Architecture Documentation](./ARCHITECTURE_DOCS.md)
-- [Python Coding Standards](../python/CODING_STANDARDS.md)
+- [Python Coding Standards](../core-rules/python-standards/CODING_STANDARDS.md)
 
 ## References
 

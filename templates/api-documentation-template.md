@@ -775,7 +775,7 @@ def verify_webhook_signature(payload: bytes, signature: str, secret: str) -> boo
 
 - [Architecture Documentation](./architecture-documentation-template.md)
 - [README Template](./readme-template.md)
-- [Security Best Practices](../security/)
+- [Security Best Practices](../core-rules/security/)
 
 ## References
 

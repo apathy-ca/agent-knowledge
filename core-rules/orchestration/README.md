@@ -301,14 +301,14 @@ Orchestrator requires approval:
 - [Worker Closeout Template](../templates/worker-closeout-template.md)
 
 ### Standards
-- [Documentation Standards](../documentation/DOCUMENTATION_STANDARDS.md)
-- [Git Workflow](../workflows/GIT_WORKFLOW.md)
-- [PR Requirements](../workflows/PR_REQUIREMENTS.md)
+- [Documentation Standards](../core-rules/documentation/DOCUMENTATION_STANDARDS.md)
+- [Git Workflow](../core-rules/workflows/GIT_WORKFLOW.md)
+- [PR Requirements](../core-rules/workflows/PR_REQUIREMENTS.md)
 
 ### Agent Roles
-- [Agent Roles](../agents/AGENT_ROLES.md)
-- [Orchestrator Role](../agents/ORCHESTRATOR_ROLE.md)
-- [QA Role](../agents/QA_ROLE.md)
+- [Agent Roles](../core-rules/agent-roles/AGENT_ROLES.md)
+- [Orchestrator Role](../core-rules/agent-roles/ORCHESTRATOR_ROLE.md)
+- [QA Role](../core-rules/agent-roles/QA_ROLE.md)
 
 ## Use Cases
 

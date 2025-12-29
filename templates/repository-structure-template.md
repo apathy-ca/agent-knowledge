@@ -559,9 +559,9 @@ Types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 
 ## Related Documents
 
-- [Documentation Workflow](../workflows/DOCUMENTATION_WORKFLOW.md)
-- [Git Workflow](../workflows/GIT_WORKFLOW.md)
-- [PR Requirements](../workflows/PR_REQUIREMENTS.md)
+- [Documentation Workflow](../core-rules/workflows/DOCUMENTATION_WORKFLOW.md)
+- [Git Workflow](../core-rules/workflows/GIT_WORKFLOW.md)
+- [PR Requirements](../core-rules/workflows/PR_REQUIREMENTS.md)
 
 ## References
 
