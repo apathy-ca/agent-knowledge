@@ -976,6 +976,17 @@ Git is not just version control - it's your communication tool with future devel
 
 ---
 
+## Related Patterns
+
+For specific implementation patterns and real-world examples, see:
+- [Git Workflows](../../patterns/git-workflows/README.md) - Branch strategies, commit patterns, PR workflows
+- [Git Workflow Patterns: Branch Strategies](../../patterns/git-workflows/branch-strategies.md) - Feature branches, worker branches
+- [Git Workflow Patterns: Commit Patterns](../../patterns/git-workflows/commit-patterns.md) - Conventional commits, AI-generated messages
+- [Git Workflow Patterns: PR Workflows](../../patterns/git-workflows/pr-workflows.md) - AI-generated PR descriptions
+- [Git Workflow Patterns: Conflict Resolution](../../patterns/git-workflows/conflict-resolution.md) - Prevention and resolution strategies
+
+---
+
 **Source**: Extracted from [thesymposium](https://gitlab.henrynet.ca/symposium/thesymposium) production git history and workflow patterns.
 
 **See Also**:

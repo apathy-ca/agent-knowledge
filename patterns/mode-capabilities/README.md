@@ -216,6 +216,19 @@ These patterns generalize to any AI-assisted development, but Kilo Code has spec
 
 ---
 
+## Related Core Rules
+
+For agent role definitions and responsibilities, see:
+- [Agent Roles](../../core-rules/agent-roles/README.md) - Complete role taxonomy and coordination
+- [Architect Role](../../core-rules/agent-roles/ARCHITECT_ROLE.md) - Planning role definition
+- [Code Role](../../core-rules/agent-roles/CODE_ROLE.md) - Implementation role definition
+- [Debug Role](../../core-rules/agent-roles/DEBUG_ROLE.md) - Troubleshooting role definition
+- [Orchestrator Role](../../core-rules/agent-roles/ORCHESTRATOR_ROLE.md) - Coordination role definition
+
+**Note**: This patterns directory focuses on **HOW** to optimize each mode (strategies, usage patterns, decision trees). The core-rules directory defines **WHAT** each role is responsible for.
+
+---
+
 **Last Updated**: 2025-12-28
 **Patterns**: 5 modes + transitions
 **Applicable To**: AI-assisted development (generalizable beyond Kilo Code)

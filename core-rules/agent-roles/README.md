@@ -460,6 +460,17 @@ as-is for use in agent-driven software development.
 
 ---
 
+## Related Patterns
+
+For mode-specific optimization patterns and real-world usage, see:
+- [Mode Capabilities](../../patterns/mode-capabilities/README.md) - Mode-specific patterns and optimization
+- [Mode Capabilities: Architect Mode](../../patterns/mode-capabilities/architect-mode.md) - Planning and design optimization
+- [Mode Capabilities: Code Mode](../../patterns/mode-capabilities/code-mode.md) - Implementation optimization
+- [Mode Capabilities: Debug Mode](../../patterns/mode-capabilities/debug-mode.md) - Troubleshooting patterns
+- [Mode Capabilities: Mode Transitions](../../patterns/mode-capabilities/mode-transitions.md) - When and how to switch modes
+
+---
+
 **Questions or Issues?**
 - Review the role documents
 - Check the templates

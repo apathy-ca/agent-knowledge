@@ -1,4 +1,16 @@
-# Agentic Development Patterns
+# Agentic Development Patterns - LEGACY
+
+> **Historical Document**
+> This is the original README from the `agentic-dev-patterns` repository (v1.0.0).
+> Content has been migrated to `patterns/` directory in this repository.
+> Preserved for historical reference and attribution.
+
+**Source Repository:** https://github.com/apathy-ca/agentic-dev-patterns
+**Original Version:** 1.0.0
+**Migration Date:** 2025-12-28
+**Migrated To:** `/home/jhenry/Source/agent-knowledge/patterns/`
+
+---
 
 **A curated collection of patterns, practices, and guidelines for AI-assisted software development**
 

@@ -95,6 +95,16 @@ Knowing when to escalate to human intervention:
 
 ---
 
+## Related Core Rules
+
+For error recovery principles and requirements, see:
+- [Error Recovery](../../core-rules/design-patterns/ERROR_RECOVERY.md) - Core error recovery principles
+- [Error Handling](../../core-rules/python-standards/ERROR_HANDLING.md) - Python error handling standards
+
+**Note**: This patterns directory focuses on **HOW** to recover from specific errors (Docker, Python, database, git). The core-rules directory defines **WHAT** principles to follow for error recovery.
+
+---
+
 **Last Updated**: 2025-11-29
 **Patterns**: 12 documented
 **Source**: The Symposium development (v0.4.5)

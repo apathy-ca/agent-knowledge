@@ -88,6 +88,16 @@ Choosing the appropriate tool for each task:
 
 ---
 
+## Related Core Rules
+
+For tool usage requirements and principles, see:
+- [Tool Use Patterns](../../core-rules/design-patterns/TOOL_USE_PATTERNS.md) - Core tool usage principles and requirements
+- [Agent Roles](../../core-rules/agent-roles/README.md) - Tool access per role (Code has full access, Architect limited)
+
+**Note**: This patterns directory focuses on **HOW** to use tools efficiently (optimization, batching, caching, parallel execution). The core-rules directory defines **WHAT** tools to use and basic principles.
+
+---
+
 **Last Updated**: 2025-11-29
 **Source**: The Symposium development
 

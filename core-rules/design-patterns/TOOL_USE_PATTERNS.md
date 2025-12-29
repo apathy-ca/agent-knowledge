@@ -1180,6 +1180,18 @@ response = await client.get(url, timeout=10.0)
 
 ---
 
+## Related Patterns (Extended)
+
+For AI assistant tool optimization and usage patterns, see:
+- [Tool Use Patterns](../../patterns/tool-use/README.md) - AI assistant tool optimization (40-60% efficiency improvement)
+- [Optimization Patterns](../../patterns/tool-use/optimization-patterns.md) - Minimize round trips, choose right tools
+- [Batching Patterns](../../patterns/tool-use/batching-patterns.md) - Parallel operations, batch modifications
+- [Caching Patterns](../../patterns/tool-use/caching-patterns.md) - Mental caching, context retention
+- [Parallel Execution](../../patterns/tool-use/parallel-execution.md) - Concurrent operations
+- [Tool Selection](../../patterns/tool-use/tool-selection.md) - Choosing appropriate tools
+
+---
+
 **Last Updated**: 2025-12-26
 **Patterns**: 10 documented
 **Source**: TheSymposium (v0.4.5+)

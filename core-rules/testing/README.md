@@ -566,6 +566,16 @@ This testing documentation provides:
 
 ---
 
+## Related Patterns
+
+For specific testing strategies and AI-assisted testing workflows, see:
+- [Testing Patterns](../../patterns/testing-patterns/README.md) - TDD with AI, test automation, coverage optimization
+- [Testing Patterns: AI-Assisted Test Generation](../../patterns/testing-patterns/README.md#ai-assisted-test-generation)
+- [Testing Patterns: Test Isolation](../../patterns/testing-patterns/README.md#test-isolation-and-cleanup)
+- [Testing Patterns: Real-World Success](../../patterns/testing-patterns/README.md#real-world-success-the-symposium)
+
+---
+
 **Last Updated**: 2025-12-26
 **Extracted From**: thesymposium, SARK, and czarina projects
 **Maintained By**: Agent Development Team

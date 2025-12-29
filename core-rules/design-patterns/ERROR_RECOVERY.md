@@ -1271,6 +1271,18 @@ except Exception as e:
 
 ---
 
+## Related Patterns (Extended)
+
+For detailed error recovery strategies and real-world examples, see:
+- [Error Recovery Patterns](../../patterns/error-recovery/README.md) - Comprehensive error recovery strategies
+- [Error Detection Patterns](../../patterns/error-recovery/detection-patterns.md) - Docker, Python, database, git errors
+- [Recovery Strategies](../../patterns/error-recovery/recovery-strategies.md) - Step-by-step recovery procedures
+- [Retry Patterns](../../patterns/error-recovery/retry-patterns.md) - Exponential backoff, circuit breakers
+- [Fallback Patterns](../../patterns/error-recovery/fallback-patterns.md) - Graceful degradation strategies
+- [Escalation Patterns](../../patterns/error-recovery/escalation-patterns.md) - When to escalate to humans
+
+---
+
 **Last Updated**: 2025-12-26
 **Patterns**: 11 documented
 **Source**: SARK (v2.0+), Czarina (v0.6.0), TheSymposium (v0.4.5)

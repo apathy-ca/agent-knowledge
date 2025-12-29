@@ -73,6 +73,15 @@ This pattern category needs to be developed based on:
 
 ---
 
+## Related Core Rules
+
+For orchestration and coordination requirements, see:
+- [Orchestration Patterns](../../core-rules/orchestration/ORCHESTRATION_PATTERNS.md) - Multi-agent coordination and context handoffs
+
+**Note**: This patterns directory focuses on **HOW** to manage context efficiently (strategies, techniques, memory tiers). The core-rules directory defines **WHAT** is required for coordination.
+
+---
+
 **Source**: To be developed from The Symposium patterns (v0.4.5)
 **Status**: Placeholder created during migration from agentic-dev-patterns
 **Created**: 2025-12-28
