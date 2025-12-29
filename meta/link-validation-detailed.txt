@@ -1,0 +1,574 @@
+Validating internal links...
+Checking ./patterns/error-recovery/README.md...
+   ✓ Valid: ./detection-patterns.md
+   ✓ Valid: ./recovery-strategies.md
+   ✓ Valid: ./retry-patterns.md
+   ✓ Valid: ./fallback-patterns.md
+❌ Broken link in ./patterns/error-recovery/README.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+❌ Broken link in ./patterns/error-recovery/README.md: ../tool-use/README.md -> /home/jhenry/Source/agent-knowledge/patterns/tool-use/README.md
+❌ Broken link in ./patterns/error-recovery/README.md: ../testing-patterns/README.md -> /home/jhenry/Source/agent-knowledge/patterns/testing-patterns/README.md
+❌ Broken link in ./patterns/error-recovery/README.md: ../git-workflows/README.md -> /home/jhenry/Source/agent-knowledge/patterns/git-workflows/README.md
+Checking ./patterns/error-recovery/detection-patterns.md...
+   ✓ Valid: ./recovery-strategies.md
+   ✓ Valid: ./retry-patterns.md
+❌ Broken link in ./patterns/error-recovery/detection-patterns.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+Checking ./patterns/error-recovery/retry-patterns.md...
+   ✓ Valid: ./detection-patterns.md
+   ✓ Valid: ./fallback-patterns.md
+❌ Broken link in ./patterns/error-recovery/retry-patterns.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+Checking ./patterns/error-recovery/fallback-patterns.md...
+   ✓ Valid: ./retry-patterns.md
+   ✓ Valid: ./detection-patterns.md
+❌ Broken link in ./patterns/error-recovery/fallback-patterns.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+Checking ./patterns/error-recovery/recovery-strategies.md...
+   ✓ Valid: ./detection-patterns.md
+   ✓ Valid: ./retry-patterns.md
+   ✓ Valid: ./fallback-patterns.md
+❌ Broken link in ./patterns/error-recovery/recovery-strategies.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+Checking ./meta/migration-agent-rules.md...
+Checking ./meta/content-overlap-analysis.md...
+Checking ./meta/structure-validation-summary.md...
+Checking ./meta/content-completeness-report.md...
+Checking ./README.md...
+   ✓ Valid: ./core-rules/INDEX.md
+❌ Broken link in ./README.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
+   ✓ Valid: ./CONTRIBUTING.md
+   ✓ Valid: ./core-rules/INDEX.md
+❌ Broken link in ./README.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
+   ✓ Valid: ./CONTRIBUTING.md
+❌ Broken link in ./README.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
+   ✓ Valid: ./README.md
+   ✓ Valid: ./CONTRIBUTING.md
+   ✓ Valid: ./CHANGELOG.md
+   ✓ Valid: ./core-rules/INDEX.md
+❌ Broken link in ./README.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
+❌ Broken link in ./README.md: ./meta/versioning.md -> /home/jhenry/Source/agent-knowledge/meta/versioning.md
+❌ Broken link in ./README.md: ./meta/pattern-template.md -> /home/jhenry/Source/agent-knowledge/meta/pattern-template.md
+❌ Broken link in ./README.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
+   ✓ Valid: ./CHANGELOG.md
+Checking ./templates/worker-definition-template.md...
+Checking ./templates/repository-structure-template.md...
+❌ Broken link in ./templates/repository-structure-template.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/templates/docs/ARCHITECTURE.md
+❌ Broken link in ./templates/repository-structure-template.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/templates/docs/API.md
+❌ Broken link in ./templates/repository-structure-template.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/templates/docs/CONTRIBUTING.md
+❌ Broken link in ./templates/repository-structure-template.md: docs/ROADMAP.md -> /home/jhenry/Source/agent-knowledge/templates/docs/ROADMAP.md
+❌ Broken link in ./templates/repository-structure-template.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/templates/docs/CONTRIBUTING.md
+   ✓ Valid: ../README.md#quick-start
+   ✓ Valid: ../README.md#installation
+❌ Broken link in ./templates/repository-structure-template.md: ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/templates/ARCHITECTURE.md
+❌ Broken link in ./templates/repository-structure-template.md: API.md -> /home/jhenry/Source/agent-knowledge/templates/API.md
+❌ Broken link in ./templates/repository-structure-template.md: CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/templates/CONTRIBUTING.md
+   ✓ Valid: ../README.md#development
+❌ Broken link in ./templates/repository-structure-template.md: testing.md -> /home/jhenry/Source/agent-knowledge/templates/testing.md
+❌ Broken link in ./templates/repository-structure-template.md: ROADMAP.md -> /home/jhenry/Source/agent-knowledge/templates/ROADMAP.md
+   ✓ Valid: ../CHANGELOG.md
+❌ Broken link in ./templates/repository-structure-template.md: .github/ISSUE_TEMPLATE/bug_report.md -> /home/jhenry/Source/agent-knowledge/templates/.github/ISSUE_TEMPLATE/bug_report.md
+❌ Broken link in ./templates/repository-structure-template.md: .github/ISSUE_TEMPLATE/feature_request.md -> /home/jhenry/Source/agent-knowledge/templates/.github/ISSUE_TEMPLATE/feature_request.md
+❌ Broken link in ./templates/repository-structure-template.md: ../workflows/DOCUMENTATION_WORKFLOW.md -> /home/jhenry/Source/agent-knowledge/workflows/DOCUMENTATION_WORKFLOW.md
+❌ Broken link in ./templates/repository-structure-template.md: ../workflows/GIT_WORKFLOW.md -> /home/jhenry/Source/agent-knowledge/workflows/GIT_WORKFLOW.md
+❌ Broken link in ./templates/repository-structure-template.md: ../workflows/PR_REQUIREMENTS.md -> /home/jhenry/Source/agent-knowledge/workflows/PR_REQUIREMENTS.md
+Checking ./templates/test-fixture-template.md...
+   ✓ Valid: ./unit-test-template.md
+   ✓ Valid: ./integration-test-template.md
+   ✓ Valid: ./python-project-template.md
+❌ Broken link in ./templates/test-fixture-template.md: ../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/TESTING_PATTERNS.md
+❌ Broken link in ./templates/test-fixture-template.md: ../testing/MOCKING_STRATEGIES.md -> /home/jhenry/Source/agent-knowledge/testing/MOCKING_STRATEGIES.md
+❌ Broken link in ./templates/test-fixture-template.md: ../testing/TESTING_POLICY.md -> /home/jhenry/Source/agent-knowledge/testing/TESTING_POLICY.md
+Checking ./templates/unit-test-template.md...
+   ✓ Valid: ./integration-test-template.md
+   ✓ Valid: ./test-fixture-template.md
+   ✓ Valid: ./python-project-template.md
+❌ Broken link in ./templates/unit-test-template.md: ../testing/TESTING_POLICY.md -> /home/jhenry/Source/agent-knowledge/testing/TESTING_POLICY.md
+❌ Broken link in ./templates/unit-test-template.md: ../testing/UNIT_TESTING.md -> /home/jhenry/Source/agent-knowledge/testing/UNIT_TESTING.md
+❌ Broken link in ./templates/unit-test-template.md: ../testing/MOCKING_STRATEGIES.md -> /home/jhenry/Source/agent-knowledge/testing/MOCKING_STRATEGIES.md
+Checking ./templates/README.md...
+   ✓ Valid: ./python-project-template.md
+   ✓ Valid: ./agent-project-template.md
+   ✓ Valid: ./repository-structure-template.md
+   ✓ Valid: ./readme-template.md
+   ✓ Valid: ./api-documentation-template.md
+   ✓ Valid: ./architecture-documentation-template.md
+   ✓ Valid: ./unit-test-template.md
+   ✓ Valid: ./integration-test-template.md
+   ✓ Valid: ./test-fixture-template.md
+   ✓ Valid: ./worker-definition-template.md
+   ✓ Valid: ./worker-identity-template.md
+   ✓ Valid: ./worker-closeout-template.md
+❌ Broken link in ./templates/README.md: ../python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/python/CODING_STANDARDS.md
+❌ Broken link in ./templates/README.md: ../python/ASYNC_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/ASYNC_PATTERNS.md
+❌ Broken link in ./templates/README.md: ../python/ERROR_HANDLING.md -> /home/jhenry/Source/agent-knowledge/python/ERROR_HANDLING.md
+❌ Broken link in ./templates/README.md: ../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/TESTING_PATTERNS.md
+❌ Broken link in ./templates/README.md: ../python/SECURITY_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/SECURITY_PATTERNS.md
+❌ Broken link in ./templates/README.md: ../agents/AGENT_ROLES.md -> /home/jhenry/Source/agent-knowledge/agents/AGENT_ROLES.md
+❌ Broken link in ./templates/README.md: ../patterns/TOOL_USE_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/patterns/TOOL_USE_PATTERNS.md
+❌ Broken link in ./templates/README.md: ../patterns/ERROR_RECOVERY.md -> /home/jhenry/Source/agent-knowledge/patterns/ERROR_RECOVERY.md
+❌ Broken link in ./templates/README.md: ../workflows/GIT_WORKFLOW.md -> /home/jhenry/Source/agent-knowledge/workflows/GIT_WORKFLOW.md
+❌ Broken link in ./templates/README.md: ../workflows/DOCUMENTATION_WORKFLOW.md -> /home/jhenry/Source/agent-knowledge/workflows/DOCUMENTATION_WORKFLOW.md
+❌ Broken link in ./templates/README.md: ../workflows/PR_REQUIREMENTS.md -> /home/jhenry/Source/agent-knowledge/workflows/PR_REQUIREMENTS.md
+❌ Broken link in ./templates/README.md: ../workflows/TOKEN_PLANNING.md -> /home/jhenry/Source/agent-knowledge/workflows/TOKEN_PLANNING.md
+❌ Broken link in ./templates/README.md: ../testing/TESTING_POLICY.md -> /home/jhenry/Source/agent-knowledge/testing/TESTING_POLICY.md
+❌ Broken link in ./templates/README.md: ../testing/UNIT_TESTING.md -> /home/jhenry/Source/agent-knowledge/testing/UNIT_TESTING.md
+❌ Broken link in ./templates/README.md: ../testing/INTEGRATION_TESTING.md -> /home/jhenry/Source/agent-knowledge/testing/INTEGRATION_TESTING.md
+❌ Broken link in ./templates/README.md: ../testing/COVERAGE_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/testing/COVERAGE_STANDARDS.md
+❌ Broken link in ./templates/README.md: ../security/AUTHENTICATION.md -> /home/jhenry/Source/agent-knowledge/security/AUTHENTICATION.md
+❌ Broken link in ./templates/README.md: ../security/AUTHORIZATION.md -> /home/jhenry/Source/agent-knowledge/security/AUTHORIZATION.md
+❌ Broken link in ./templates/README.md: ../security/SECRET_MANAGEMENT.md -> /home/jhenry/Source/agent-knowledge/security/SECRET_MANAGEMENT.md
+❌ Broken link in ./templates/README.md: ../security/INJECTION_PREVENTION.md -> /home/jhenry/Source/agent-knowledge/security/INJECTION_PREVENTION.md
+Checking ./templates/worker-closeout-template.md...
+Checking ./templates/architecture-documentation-template.md...
+   ✓ Valid: ./api-documentation-template.md
+   ✓ Valid: ./readme-template.md
+   ✓ Valid: ./repository-structure-template.md
+Checking ./templates/agent-project-template.md...
+   ✓ Valid: ./python-project-template.md
+❌ Broken link in ./templates/agent-project-template.md: ../agents/AGENT_ROLES.md -> /home/jhenry/Source/agent-knowledge/agents/AGENT_ROLES.md
+❌ Broken link in ./templates/agent-project-template.md: ../patterns/TOOL_USE_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/patterns/TOOL_USE_PATTERNS.md
+❌ Broken link in ./templates/agent-project-template.md: ../patterns/ERROR_RECOVERY.md -> /home/jhenry/Source/agent-knowledge/patterns/ERROR_RECOVERY.md
+❌ Broken link in ./templates/agent-project-template.md: ../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/TESTING_PATTERNS.md
+Checking ./templates/worker-identity-template.md...
+Checking ./templates/python-project-template.md...
+❌ Broken link in ./templates/python-project-template.md: ../python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/python/CODING_STANDARDS.md
+❌ Broken link in ./templates/python-project-template.md: ../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/TESTING_PATTERNS.md
+❌ Broken link in ./templates/python-project-template.md: ../workflows/DOCUMENTATION_WORKFLOW.md -> /home/jhenry/Source/agent-knowledge/workflows/DOCUMENTATION_WORKFLOW.md
+❌ Broken link in ./templates/python-project-template.md: ../workflows/GIT_WORKFLOW.md -> /home/jhenry/Source/agent-knowledge/workflows/GIT_WORKFLOW.md
+Checking ./templates/api-documentation-template.md...
+   ✓ Valid: ./architecture-documentation-template.md
+   ✓ Valid: ./readme-template.md
+Checking ./templates/readme-template.md...
+❌ Broken link in ./templates/readme-template.md: docs/getting-started.md -> /home/jhenry/Source/agent-knowledge/templates/docs/getting-started.md
+❌ Broken link in ./templates/readme-template.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/templates/docs/API.md
+❌ Broken link in ./templates/readme-template.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/templates/docs/ARCHITECTURE.md
+❌ Broken link in ./templates/readme-template.md: docs/FAQ.md -> /home/jhenry/Source/agent-knowledge/templates/docs/FAQ.md
+❌ Broken link in ./templates/readme-template.md: docs/ROADMAP.md -> /home/jhenry/Source/agent-knowledge/templates/docs/ROADMAP.md
+❌ Broken link in ./templates/readme-template.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/templates/docs/CONTRIBUTING.md
+❌ Broken link in ./templates/readme-template.md: CHANGELOG.md -> /home/jhenry/Source/agent-knowledge/templates/CHANGELOG.md
+❌ Broken link in ./templates/readme-template.md: docs/MIGRATION.md -> /home/jhenry/Source/agent-knowledge/templates/docs/MIGRATION.md
+❌ Broken link in ./templates/readme-template.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/templates/docs/ARCHITECTURE.md
+❌ Broken link in ./templates/readme-template.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/templates/docs/API.md
+❌ Broken link in ./templates/readme-template.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/templates/docs/CONTRIBUTING.md
+   ✓ Valid: ./api-documentation-template.md
+   ✓ Valid: ./architecture-documentation-template.md
+   ✓ Valid: ./repository-structure-template.md
+Checking ./templates/integration-test-template.md...
+   ✓ Valid: ./unit-test-template.md
+   ✓ Valid: ./test-fixture-template.md
+   ✓ Valid: ./python-project-template.md
+❌ Broken link in ./templates/integration-test-template.md: ../testing/INTEGRATION_TESTING.md -> /home/jhenry/Source/agent-knowledge/testing/INTEGRATION_TESTING.md
+❌ Broken link in ./templates/integration-test-template.md: ../testing/TESTING_POLICY.md -> /home/jhenry/Source/agent-knowledge/testing/TESTING_POLICY.md
+Checking ./AGENT_KNOWLEDGE_MERGE_PLAN.md...
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./docs/getting-started.md -> /home/jhenry/Source/agent-knowledge/docs/getting-started.md
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./templates/INDEX.md -> /home/jhenry/Source/agent-knowledge/templates/INDEX.md
+   ✓ Valid: ./CONTRIBUTING.md
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./templates/INDEX.md -> /home/jhenry/Source/agent-knowledge/templates/INDEX.md
+   ✓ Valid: ./CONTRIBUTING.md
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
+   ✓ Valid: ./CHANGELOG.md
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ../../patterns/git-workflows/README.md -> /home/jhenry/patterns/git-workflows/README.md
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ../../patterns/git-workflows/branch-strategies.md -> /home/jhenry/patterns/git-workflows/branch-strategies.md
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ../../patterns/git-workflows/commit-patterns.md -> /home/jhenry/patterns/git-workflows/commit-patterns.md
+❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ../../templates/git/feature-branch.md -> /home/jhenry/templates/git/feature-branch.md
+Checking ./AGENT_RULES_LEGACY.md...
+❌ Broken link in ./AGENT_RULES_LEGACY.md: ./MIGRATION_GUIDE.md -> /home/jhenry/Source/agent-knowledge/MIGRATION_GUIDE.md
+❌ Broken link in ./AGENT_RULES_LEGACY.md: ./CZARINA_ORCHESTRATION_CLOSEOUT.md -> /home/jhenry/Source/agent-knowledge/CZARINA_ORCHESTRATION_CLOSEOUT.md
+Checking ./CONTRIBUTING.md...
+❌ Broken link in ./CONTRIBUTING.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
+❌ Broken link in ./CONTRIBUTING.md: ./meta/versioning.md -> /home/jhenry/Source/agent-knowledge/meta/versioning.md
+Checking ./core-rules/agent-roles/README.md...
+   ✓ Valid: ./AGENT_ROLES.md#worker-organization-patterns
+   ✓ Valid: ./ORCHESTRATOR_ROLE.md
+   ✓ Valid: ./ARCHITECT_ROLE.md
+   ✓ Valid: ./CODE_ROLE.md
+   ✓ Valid: ./DEBUG_ROLE.md
+   ✓ Valid: ./QA_ROLE.md
+   ✓ Valid: ./ORCHESTRATOR_ROLE.md
+   ✓ Valid: ./AGENT_ROLES.md#orchestration-patterns
+❌ Broken link in ./core-rules/agent-roles/README.md: ./templates/worker-definition-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agent-roles/templates/worker-definition-template.md
+❌ Broken link in ./core-rules/agent-roles/README.md: ./templates/worker-identity-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agent-roles/templates/worker-identity-template.md
+❌ Broken link in ./core-rules/agent-roles/README.md: ./templates/worker-closeout-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agent-roles/templates/worker-closeout-template.md
+❌ Broken link in ./core-rules/agent-roles/README.md: ../../python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/python/CODING_STANDARDS.md
+❌ Broken link in ./core-rules/agent-roles/README.md: ../../workflows/GIT_WORKFLOW.md -> /home/jhenry/Source/agent-knowledge/workflows/GIT_WORKFLOW.md
+❌ Broken link in ./core-rules/agent-roles/README.md: ../../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/TESTING_PATTERNS.md
+❌ Broken link in ./core-rules/agent-roles/README.md: ../../.czarina/README.md -> /home/jhenry/Source/agent-knowledge/.czarina/README.md
+❌ Broken link in ./core-rules/agent-roles/README.md: ../../plans/czarina-orchestration-plan.md -> /home/jhenry/Source/agent-knowledge/plans/czarina-orchestration-plan.md
+❌ Broken link in ./core-rules/agent-roles/README.md: ../../.czarina/README.md -> /home/jhenry/Source/agent-knowledge/.czarina/README.md
+Checking ./core-rules/agent-roles/CODE_ROLE.md...
+❌ Broken link in ./core-rules/agent-roles/CODE_ROLE.md: ../../python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/python/CODING_STANDARDS.md
+❌ Broken link in ./core-rules/agent-roles/CODE_ROLE.md: ../../python/ASYNC_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/ASYNC_PATTERNS.md
+❌ Broken link in ./core-rules/agent-roles/CODE_ROLE.md: ../../python/DEPENDENCY_INJECTION.md -> /home/jhenry/Source/agent-knowledge/python/DEPENDENCY_INJECTION.md
+   ✓ Valid: ./ARCHITECT_ROLE.md
+   ✓ Valid: ./QA_ROLE.md
+   ✓ Valid: ./DEBUG_ROLE.md
+   ✓ Valid: ./AGENT_ROLES.md
+❌ Broken link in ./core-rules/agent-roles/CODE_ROLE.md: ../../python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/python/CODING_STANDARDS.md
+❌ Broken link in ./core-rules/agent-roles/CODE_ROLE.md: ../../python/ASYNC_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/ASYNC_PATTERNS.md
+❌ Broken link in ./core-rules/agent-roles/CODE_ROLE.md: ../../python/DEPENDENCY_INJECTION.md -> /home/jhenry/Source/agent-knowledge/python/DEPENDENCY_INJECTION.md
+❌ Broken link in ./core-rules/agent-roles/CODE_ROLE.md: ../../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/TESTING_PATTERNS.md
+Checking ./core-rules/agent-roles/ARCHITECT_ROLE.md...
+   ✓ Valid: ./CODE_ROLE.md
+   ✓ Valid: ./QA_ROLE.md
+   ✓ Valid: ./AGENT_ROLES.md
+❌ Broken link in ./core-rules/agent-roles/ARCHITECT_ROLE.md: ../../plans/Hopper-Implementation-Plan.md -> /home/jhenry/Source/agent-knowledge/plans/Hopper-Implementation-Plan.md
+❌ Broken link in ./core-rules/agent-roles/ARCHITECT_ROLE.md: ../../plans/czarina-orchestration-plan.md -> /home/jhenry/Source/agent-knowledge/plans/czarina-orchestration-plan.md
+Checking ./core-rules/agent-roles/AGENT_ROLES.md...
+   ✓ Valid: ./ARCHITECT_ROLE.md
+   ✓ Valid: ./CODE_ROLE.md
+   ✓ Valid: ./DEBUG_ROLE.md
+   ✓ Valid: ./QA_ROLE.md
+   ✓ Valid: ./ORCHESTRATOR_ROLE.md
+   ✓ Valid: ./ARCHITECT_ROLE.md
+   ✓ Valid: ./CODE_ROLE.md
+   ✓ Valid: ./DEBUG_ROLE.md
+   ✓ Valid: ./QA_ROLE.md
+   ✓ Valid: ./ORCHESTRATOR_ROLE.md
+❌ Broken link in ./core-rules/agent-roles/AGENT_ROLES.md: ../../plans/czarina-orchestration-plan.md -> /home/jhenry/Source/agent-knowledge/plans/czarina-orchestration-plan.md
+❌ Broken link in ./core-rules/agent-roles/AGENT_ROLES.md: ../../.czarina/README.md -> /home/jhenry/Source/agent-knowledge/.czarina/README.md
+Checking ./core-rules/agent-roles/DEBUG_ROLE.md...
+   ✓ Valid: ./CODE_ROLE.md
+   ✓ Valid: ./QA_ROLE.md
+   ✓ Valid: ./ARCHITECT_ROLE.md
+   ✓ Valid: ./AGENT_ROLES.md
+❌ Broken link in ./core-rules/agent-roles/DEBUG_ROLE.md: ../../python/ERROR_HANDLING.md -> /home/jhenry/Source/agent-knowledge/python/ERROR_HANDLING.md
+❌ Broken link in ./core-rules/agent-roles/DEBUG_ROLE.md: ../../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/TESTING_PATTERNS.md
+❌ Broken link in ./core-rules/agent-roles/DEBUG_ROLE.md: ../../python/CODING_STANDARDS.md#docstring-conventions -> /home/jhenry/Source/agent-knowledge/python/CODING_STANDARDS.md
+Checking ./core-rules/agent-roles/ORCHESTRATOR_ROLE.md...
+   ✓ Valid: ./QA_ROLE.md
+   ✓ Valid: ./ARCHITECT_ROLE.md
+   ✓ Valid: ./CODE_ROLE.md
+   ✓ Valid: ./AGENT_ROLES.md
+❌ Broken link in ./core-rules/agent-roles/ORCHESTRATOR_ROLE.md: ../../plans/czarina-orchestration-plan.md -> /home/jhenry/Source/agent-knowledge/plans/czarina-orchestration-plan.md
+❌ Broken link in ./core-rules/agent-roles/ORCHESTRATOR_ROLE.md: ../../.czarina/README.md -> /home/jhenry/Source/agent-knowledge/.czarina/README.md
+Checking ./core-rules/agent-roles/QA_ROLE.md...
+   ✓ Valid: ./CODE_ROLE.md
+   ✓ Valid: ./ARCHITECT_ROLE.md
+   ✓ Valid: ./DEBUG_ROLE.md
+   ✓ Valid: ./ORCHESTRATOR_ROLE.md
+   ✓ Valid: ./AGENT_ROLES.md
+❌ Broken link in ./core-rules/agent-roles/QA_ROLE.md: ../../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/python/TESTING_PATTERNS.md
+❌ Broken link in ./core-rules/agent-roles/QA_ROLE.md: ../../testing/INTEGRATION_TESTING.md -> /home/jhenry/Source/agent-knowledge/testing/INTEGRATION_TESTING.md
+❌ Broken link in ./core-rules/agent-roles/QA_ROLE.md: ../../.czarina/workers/qa.md -> /home/jhenry/Source/agent-knowledge/.czarina/workers/qa.md
+Checking ./core-rules/design-patterns/ERROR_RECOVERY.md...
+   ✓ Valid: BATCH_OPERATIONS.md
+   ✓ Valid: CACHING_PATTERNS.md
+   ✓ Valid: STREAMING_PATTERNS.md
+   ✓ Valid: TOOL_USE_PATTERNS.md
+Checking ./core-rules/design-patterns/README.md...
+   ✓ Valid: TOOL_USE_PATTERNS.md
+   ✓ Valid: ERROR_RECOVERY.md
+   ✓ Valid: BATCH_OPERATIONS.md
+   ✓ Valid: CACHING_PATTERNS.md
+   ✓ Valid: STREAMING_PATTERNS.md
+Checking ./core-rules/design-patterns/CACHING_PATTERNS.md...
+   ✓ Valid: BATCH_OPERATIONS.md
+   ✓ Valid: ERROR_RECOVERY.md
+   ✓ Valid: STREAMING_PATTERNS.md
+   ✓ Valid: TOOL_USE_PATTERNS.md
+Checking ./core-rules/design-patterns/BATCH_OPERATIONS.md...
+   ✓ Valid: ERROR_RECOVERY.md
+   ✓ Valid: CACHING_PATTERNS.md
+   ✓ Valid: STREAMING_PATTERNS.md
+   ✓ Valid: TOOL_USE_PATTERNS.md
+Checking ./core-rules/design-patterns/TOOL_USE_PATTERNS.md...
+   ✓ Valid: ERROR_RECOVERY.md
+   ✓ Valid: BATCH_OPERATIONS.md
+   ✓ Valid: CACHING_PATTERNS.md
+   ✓ Valid: STREAMING_PATTERNS.md
+Checking ./core-rules/design-patterns/STREAMING_PATTERNS.md...
+   ✓ Valid: BATCH_OPERATIONS.md
+   ✓ Valid: ERROR_RECOVERY.md
+   ✓ Valid: CACHING_PATTERNS.md
+   ✓ Valid: TOOL_USE_PATTERNS.md
+Checking ./core-rules/README.md...
+   ✓ Valid: INDEX.md
+❌ Broken link in ./core-rules/README.md: agents/AGENT_ROLES.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/AGENT_ROLES.md
+❌ Broken link in ./core-rules/README.md: python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/CODING_STANDARDS.md
+❌ Broken link in ./core-rules/README.md: templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/agent-project-template.md
+   ✓ Valid: orchestration/ORCHESTRATION_PATTERNS.md
+   ✓ Valid: workflows/CLOSEOUT_PROCESS.md
+❌ Broken link in ./core-rules/README.md: ../.hopper/README.md -> /home/jhenry/Source/agent-knowledge/.hopper/README.md
+   ✓ Valid: INDEX.md
+❌ Broken link in ./core-rules/README.md: python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/CODING_STANDARDS.md
+❌ Broken link in ./core-rules/README.md: python/ASYNC_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/ASYNC_PATTERNS.md
+❌ Broken link in ./core-rules/README.md: python/ERROR_HANDLING.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/ERROR_HANDLING.md
+❌ Broken link in ./core-rules/README.md: agents/ARCHITECT_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/ARCHITECT_ROLE.md
+❌ Broken link in ./core-rules/README.md: agents/CODE_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/CODE_ROLE.md
+❌ Broken link in ./core-rules/README.md: agents/ORCHESTRATOR_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/ORCHESTRATOR_ROLE.md
+   ✓ Valid: workflows/GIT_WORKFLOW.md
+   ✓ Valid: workflows/PR_REQUIREMENTS.md
+   ✓ Valid: workflows/CLOSEOUT_PROCESS.md
+❌ Broken link in ./core-rules/README.md: patterns/TOOL_USE_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/patterns/TOOL_USE_PATTERNS.md
+❌ Broken link in ./core-rules/README.md: patterns/ERROR_RECOVERY.md -> /home/jhenry/Source/agent-knowledge/core-rules/patterns/ERROR_RECOVERY.md
+❌ Broken link in ./core-rules/README.md: patterns/CACHING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/patterns/CACHING_PATTERNS.md
+   ✓ Valid: testing/TESTING_POLICY.md
+   ✓ Valid: testing/UNIT_TESTING.md
+   ✓ Valid: testing/COVERAGE_STANDARDS.md
+   ✓ Valid: security/SECRET_MANAGEMENT.md
+   ✓ Valid: security/INJECTION_PREVENTION.md
+   ✓ Valid: security/AUTHORIZATION.md
+❌ Broken link in ./core-rules/README.md: templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/agent-project-template.md
+❌ Broken link in ./core-rules/README.md: templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+❌ Broken link in ./core-rules/README.md: templates/unit-test-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/unit-test-template.md
+   ✓ Valid: documentation/DOCUMENTATION_STANDARDS.md
+   ✓ Valid: documentation/API_DOCUMENTATION.md
+   ✓ Valid: orchestration/ORCHESTRATION_PATTERNS.md
+   ✓ Valid: INDEX.md
+   ✓ Valid: workflows/PR_REQUIREMENTS.md
+❌ Broken link in ./core-rules/README.md: ../.hopper/README.md -> /home/jhenry/Source/agent-knowledge/.hopper/README.md
+   ✓ Valid: INDEX.md
+❌ Broken link in ./core-rules/README.md: ../.hopper/README.md -> /home/jhenry/Source/agent-knowledge/.hopper/README.md
+   ✓ Valid: INDEX.md
+Checking ./core-rules/python-standards/README.md...
+   ✓ Valid: ./CODING_STANDARDS.md
+   ✓ Valid: ./ASYNC_PATTERNS.md
+   ✓ Valid: ./ERROR_HANDLING.md
+   ✓ Valid: ./DEPENDENCY_INJECTION.md
+   ✓ Valid: ./TESTING_PATTERNS.md
+   ✓ Valid: ./SECURITY_PATTERNS.md
+Checking ./core-rules/python-standards/ERROR_HANDLING.md...
+   ✓ Valid: ./CODING_STANDARDS.md
+   ✓ Valid: ./ASYNC_PATTERNS.md
+   ✓ Valid: ./TESTING_PATTERNS.md
+   ✓ Valid: ./SECURITY_PATTERNS.md
+Checking ./core-rules/python-standards/SECURITY_PATTERNS.md...
+   ✓ Valid: ./DEPENDENCY_INJECTION.md
+   ✓ Valid: ./ASYNC_PATTERNS.md
+   ✓ Valid: ./CODING_STANDARDS.md
+   ✓ Valid: ./DEPENDENCY_INJECTION.md
+   ✓ Valid: ./ERROR_HANDLING.md
+   ✓ Valid: ./TESTING_PATTERNS.md
+Checking ./core-rules/python-standards/ASYNC_PATTERNS.md...
+   ✓ Valid: ./TESTING_PATTERNS.md
+   ✓ Valid: ./CODING_STANDARDS.md
+   ✓ Valid: ./ERROR_HANDLING.md
+   ✓ Valid: ./DEPENDENCY_INJECTION.md
+   ✓ Valid: ./TESTING_PATTERNS.md
+Checking ./core-rules/python-standards/CODING_STANDARDS.md...
+   ✓ Valid: ./ASYNC_PATTERNS.md
+   ✓ Valid: ./ERROR_HANDLING.md
+   ✓ Valid: ./DEPENDENCY_INJECTION.md
+   ✓ Valid: ./TESTING_PATTERNS.md
+   ✓ Valid: ./SECURITY_PATTERNS.md
+Checking ./core-rules/python-standards/TESTING_PATTERNS.md...
+   ✓ Valid: ./CODING_STANDARDS.md
+   ✓ Valid: ./ASYNC_PATTERNS.md
+   ✓ Valid: ./DEPENDENCY_INJECTION.md
+   ✓ Valid: ./ERROR_HANDLING.md
+Checking ./core-rules/python-standards/DEPENDENCY_INJECTION.md...
+   ✓ Valid: ./CODING_STANDARDS.md
+   ✓ Valid: ./ASYNC_PATTERNS.md
+   ✓ Valid: ./TESTING_PATTERNS.md
+   ✓ Valid: ./SECURITY_PATTERNS.md
+   ✓ Valid: ./ERROR_HANDLING.md
+Checking ./core-rules/documentation/DOCUMENTATION_STANDARDS.md...
+❌ Broken link in ./core-rules/documentation/DOCUMENTATION_STANDARDS.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+   ✓ Valid: ./CHANGELOG_STANDARDS.md
+❌ Broken link in ./core-rules/documentation/DOCUMENTATION_STANDARDS.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+   ✓ Valid: ./API_DOCUMENTATION.md
+   ✓ Valid: ./ARCHITECTURE_DOCS.md
+   ✓ Valid: ./API_DOCUMENTATION.md
+   ✓ Valid: ./ARCHITECTURE_DOCS.md
+   ✓ Valid: ./CHANGELOG_STANDARDS.md
+   ✓ Valid: ./README_TEMPLATE.md
+   ✓ Valid: ../workflows/DOCUMENTATION_WORKFLOW.md
+Checking ./core-rules/documentation/API_DOCUMENTATION.md...
+❌ Broken link in ./core-rules/documentation/API_DOCUMENTATION.md: ../templates/api-documentation-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/api-documentation-template.md
+❌ Broken link in ./core-rules/documentation/API_DOCUMENTATION.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+   ✓ Valid: ./DOCUMENTATION_STANDARDS.md
+   ✓ Valid: ./ARCHITECTURE_DOCS.md
+❌ Broken link in ./core-rules/documentation/API_DOCUMENTATION.md: ../python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/CODING_STANDARDS.md
+Checking ./core-rules/documentation/README.md...
+   ✓ Valid: ./DOCUMENTATION_STANDARDS.md
+   ✓ Valid: ./API_DOCUMENTATION.md
+   ✓ Valid: ./ARCHITECTURE_DOCS.md
+   ✓ Valid: ./CHANGELOG_STANDARDS.md
+   ✓ Valid: ./README_TEMPLATE.md
+❌ Broken link in ./core-rules/documentation/README.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+❌ Broken link in ./core-rules/documentation/README.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+   ✓ Valid: ./API_DOCUMENTATION.md
+   ✓ Valid: ./ARCHITECTURE_DOCS.md
+   ✓ Valid: ./CHANGELOG_STANDARDS.md
+❌ Broken link in ./core-rules/documentation/README.md: ../templates/python-project-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/python-project-template.md
+❌ Broken link in ./core-rules/documentation/README.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+❌ Broken link in ./core-rules/documentation/README.md: ../templates/api-documentation-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/api-documentation-template.md
+❌ Broken link in ./core-rules/documentation/README.md: ../templates/architecture-documentation-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/architecture-documentation-template.md
+❌ Broken link in ./core-rules/documentation/README.md: ../python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/CODING_STANDARDS.md
+❌ Broken link in ./core-rules/documentation/README.md: ../python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/TESTING_PATTERNS.md
+   ✓ Valid: ../workflows/DOCUMENTATION_WORKFLOW.md
+   ✓ Valid: ../workflows/GIT_WORKFLOW.md
+   ✓ Valid: ../workflows/PR_REQUIREMENTS.md
+   ✓ Valid: ../testing/TESTING_POLICY.md
+Checking ./core-rules/documentation/CHANGELOG_STANDARDS.md...
+   ✓ Valid: ./DOCUMENTATION_STANDARDS.md
+   ✓ Valid: ../workflows/GIT_WORKFLOW.md
+   ✓ Valid: ../workflows/PR_REQUIREMENTS.md
+Checking ./core-rules/documentation/README_TEMPLATE.md...
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/API.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/DEPLOYMENT.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/DEPLOYMENT.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/COMMANDS.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/COMMANDS.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/ARCHITECTURE.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/getting-started.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/getting-started.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/API.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/ARCHITECTURE.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/CONTRIBUTING.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/CONTRIBUTING.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: API.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/API.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/getting-started.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/getting-started.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/guide.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/guide.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/API.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/ARCHITECTURE.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/CONTRIBUTING.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+   ✓ Valid: ./DOCUMENTATION_STANDARDS.md
+   ✓ Valid: ./API_DOCUMENTATION.md
+   ✓ Valid: ../workflows/DOCUMENTATION_WORKFLOW.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+❌ Broken link in ./core-rules/documentation/README_TEMPLATE.md: ../templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+Checking ./core-rules/documentation/ARCHITECTURE_DOCS.md...
+❌ Broken link in ./core-rules/documentation/ARCHITECTURE_DOCS.md: ../templates/architecture-documentation-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/architecture-documentation-template.md
+   ✓ Valid: ./DOCUMENTATION_STANDARDS.md
+   ✓ Valid: ./API_DOCUMENTATION.md
+   ✓ Valid: ./README_TEMPLATE.md
+❌ Broken link in ./core-rules/documentation/ARCHITECTURE_DOCS.md: ../templates/architecture-documentation-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/architecture-documentation-template.md
+Checking ./core-rules/orchestration/README.md...
+   ✓ Valid: ./ORCHESTRATION_PATTERNS.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../templates/worker-definition-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-definition-template.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../templates/worker-identity-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-identity-template.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../templates/worker-closeout-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-closeout-template.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../templates/worker-definition-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-definition-template.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../templates/worker-identity-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-identity-template.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../templates/worker-closeout-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-closeout-template.md
+   ✓ Valid: ../documentation/DOCUMENTATION_STANDARDS.md
+   ✓ Valid: ../workflows/GIT_WORKFLOW.md
+   ✓ Valid: ../workflows/PR_REQUIREMENTS.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../agents/AGENT_ROLES.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/AGENT_ROLES.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../agents/ORCHESTRATOR_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/ORCHESTRATOR_ROLE.md
+❌ Broken link in ./core-rules/orchestration/README.md: ../agents/QA_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/QA_ROLE.md
+   ✓ Valid: ./ORCHESTRATION_PATTERNS.md
+Checking ./core-rules/orchestration/ORCHESTRATION_PATTERNS.md...
+❌ Broken link in ./core-rules/orchestration/ORCHESTRATION_PATTERNS.md: ./WORKER_COORDINATION.md -> /home/jhenry/Source/agent-knowledge/core-rules/orchestration/WORKER_COORDINATION.md
+❌ Broken link in ./core-rules/orchestration/ORCHESTRATION_PATTERNS.md: ./DAEMON_AUTOMATION.md -> /home/jhenry/Source/agent-knowledge/core-rules/orchestration/DAEMON_AUTOMATION.md
+❌ Broken link in ./core-rules/orchestration/ORCHESTRATION_PATTERNS.md: ./STATUS_MONITORING.md -> /home/jhenry/Source/agent-knowledge/core-rules/orchestration/STATUS_MONITORING.md
+❌ Broken link in ./core-rules/orchestration/ORCHESTRATION_PATTERNS.md: ../templates/worker-definition-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-definition-template.md
+Checking ./core-rules/testing/UNIT_TESTING.md...
+Checking ./core-rules/testing/MOCKING_STRATEGIES.md...
+Checking ./core-rules/testing/README.md...
+   ✓ Valid: TESTING_POLICY.md
+   ✓ Valid: UNIT_TESTING.md
+   ✓ Valid: INTEGRATION_TESTING.md
+   ✓ Valid: MOCKING_STRATEGIES.md
+   ✓ Valid: COVERAGE_STANDARDS.md
+Checking ./core-rules/testing/INTEGRATION_TESTING.md...
+Checking ./core-rules/testing/TESTING_POLICY.md...
+Checking ./core-rules/testing/COVERAGE_STANDARDS.md...
+Checking ./core-rules/security/AUDIT_LOGGING.md...
+Checking ./core-rules/security/SECRET_MANAGEMENT.md...
+Checking ./core-rules/security/README.md...
+   ✓ Valid: ./AUTHENTICATION.md
+   ✓ Valid: ./AUTHORIZATION.md
+   ✓ Valid: ./SECRET_MANAGEMENT.md
+   ✓ Valid: ./INJECTION_PREVENTION.md
+   ✓ Valid: ./AUDIT_LOGGING.md
+   ✓ Valid: ./INJECTION_PREVENTION.md
+   ✓ Valid: ./INJECTION_PREVENTION.md
+   ✓ Valid: ./SECRET_MANAGEMENT.md
+   ✓ Valid: ./AUTHORIZATION.md
+   ✓ Valid: ./AUTHENTICATION.md
+   ✓ Valid: ./AUTHORIZATION.md
+   ✓ Valid: ./AUDIT_LOGGING.md
+   ✓ Valid: ./SECRET_MANAGEMENT.md
+   ✓ Valid: ./AUDIT_LOGGING.md
+   ✓ Valid: ./SECRET_MANAGEMENT.md
+   ✓ Valid: ./AUTHORIZATION.md
+Checking ./core-rules/security/INJECTION_PREVENTION.md...
+Checking ./core-rules/security/AUTHORIZATION.md...
+Checking ./core-rules/security/AUTHENTICATION.md...
+Checking ./core-rules/workflows/TOKEN_PLANNING.md...
+Checking ./core-rules/workflows/README.md...
+Checking ./core-rules/workflows/PR_REQUIREMENTS.md...
+Checking ./core-rules/workflows/CLOSEOUT_PROCESS.md...
+Checking ./core-rules/workflows/PHASE_DEVELOPMENT.md...
+Checking ./core-rules/workflows/GIT_WORKFLOW.md...
+Checking ./core-rules/workflows/DOCUMENTATION_WORKFLOW.md...
+❌ Broken link in ./core-rules/workflows/DOCUMENTATION_WORKFLOW.md: ROADMAP.md -> /home/jhenry/Source/agent-knowledge/core-rules/workflows/ROADMAP.md
+Checking ./core-rules/INDEX.md...
+❌ Broken link in ./core-rules/INDEX.md: python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/CODING_STANDARDS.md
+❌ Broken link in ./core-rules/INDEX.md: python/ASYNC_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/ASYNC_PATTERNS.md
+❌ Broken link in ./core-rules/INDEX.md: python/ERROR_HANDLING.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/ERROR_HANDLING.md
+❌ Broken link in ./core-rules/INDEX.md: python/DEPENDENCY_INJECTION.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/DEPENDENCY_INJECTION.md
+❌ Broken link in ./core-rules/INDEX.md: python/TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/TESTING_PATTERNS.md
+❌ Broken link in ./core-rules/INDEX.md: python/SECURITY_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/SECURITY_PATTERNS.md
+❌ Broken link in ./core-rules/INDEX.md: python/README.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/README.md
+❌ Broken link in ./core-rules/INDEX.md: agents/AGENT_ROLES.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/AGENT_ROLES.md
+❌ Broken link in ./core-rules/INDEX.md: agents/ARCHITECT_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/ARCHITECT_ROLE.md
+❌ Broken link in ./core-rules/INDEX.md: agents/CODE_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/CODE_ROLE.md
+❌ Broken link in ./core-rules/INDEX.md: agents/DEBUG_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/DEBUG_ROLE.md
+❌ Broken link in ./core-rules/INDEX.md: agents/QA_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/QA_ROLE.md
+❌ Broken link in ./core-rules/INDEX.md: agents/ORCHESTRATOR_ROLE.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/ORCHESTRATOR_ROLE.md
+❌ Broken link in ./core-rules/INDEX.md: agents/templates/worker-identity-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/templates/worker-identity-template.md
+❌ Broken link in ./core-rules/INDEX.md: agents/templates/worker-definition-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/templates/worker-definition-template.md
+❌ Broken link in ./core-rules/INDEX.md: agents/templates/worker-closeout-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agents/templates/worker-closeout-template.md
+   ✓ Valid: workflows/GIT_WORKFLOW.md
+   ✓ Valid: workflows/PR_REQUIREMENTS.md
+   ✓ Valid: workflows/DOCUMENTATION_WORKFLOW.md
+   ✓ Valid: workflows/PHASE_DEVELOPMENT.md
+   ✓ Valid: workflows/TOKEN_PLANNING.md
+   ✓ Valid: workflows/CLOSEOUT_PROCESS.md
+❌ Broken link in ./core-rules/INDEX.md: patterns/TOOL_USE_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/patterns/TOOL_USE_PATTERNS.md
+❌ Broken link in ./core-rules/INDEX.md: patterns/STREAMING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/patterns/STREAMING_PATTERNS.md
+❌ Broken link in ./core-rules/INDEX.md: patterns/CACHING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/core-rules/patterns/CACHING_PATTERNS.md
+❌ Broken link in ./core-rules/INDEX.md: patterns/BATCH_OPERATIONS.md -> /home/jhenry/Source/agent-knowledge/core-rules/patterns/BATCH_OPERATIONS.md
+❌ Broken link in ./core-rules/INDEX.md: patterns/ERROR_RECOVERY.md -> /home/jhenry/Source/agent-knowledge/core-rules/patterns/ERROR_RECOVERY.md
+   ✓ Valid: testing/TESTING_POLICY.md
+   ✓ Valid: testing/UNIT_TESTING.md
+   ✓ Valid: testing/INTEGRATION_TESTING.md
+   ✓ Valid: testing/COVERAGE_STANDARDS.md
+   ✓ Valid: testing/MOCKING_STRATEGIES.md
+   ✓ Valid: security/AUTHENTICATION.md
+   ✓ Valid: security/AUTHORIZATION.md
+   ✓ Valid: security/SECRET_MANAGEMENT.md
+   ✓ Valid: security/INJECTION_PREVENTION.md
+   ✓ Valid: security/AUDIT_LOGGING.md
+❌ Broken link in ./core-rules/INDEX.md: templates/python-project-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/python-project-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/agent-project-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/repository-structure-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/repository-structure-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/readme-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/readme-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/api-documentation-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/api-documentation-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/architecture-documentation-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/architecture-documentation-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/unit-test-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/unit-test-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/integration-test-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/integration-test-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/test-fixture-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/test-fixture-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/worker-identity-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-identity-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/worker-definition-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-definition-template.md
+❌ Broken link in ./core-rules/INDEX.md: templates/worker-closeout-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/worker-closeout-template.md
+   ✓ Valid: documentation/DOCUMENTATION_STANDARDS.md
+   ✓ Valid: documentation/API_DOCUMENTATION.md
+   ✓ Valid: documentation/ARCHITECTURE_DOCS.md
+   ✓ Valid: documentation/CHANGELOG_STANDARDS.md
+   ✓ Valid: documentation/README_TEMPLATE.md
+   ✓ Valid: orchestration/ORCHESTRATION_PATTERNS.md
+   ✓ Valid: README.md
+❌ Broken link in ./core-rules/INDEX.md: python/CODING_STANDARDS.md -> /home/jhenry/Source/agent-knowledge/core-rules/python/CODING_STANDARDS.md
+❌ Broken link in ./core-rules/INDEX.md: templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/templates/agent-project-template.md
+   ✓ Valid: orchestration/ORCHESTRATION_PATTERNS.md
+❌ Broken link in ./core-rules/INDEX.md: ../.hopper/README.md -> /home/jhenry/Source/agent-knowledge/.hopper/README.md
+   ✓ Valid: documentation/DOCUMENTATION_STANDARDS.md
+   ✓ Valid: workflows/PR_REQUIREMENTS.md
+   ✓ Valid: README.md
+❌ Broken link in ./core-rules/INDEX.md: ../.hopper/README.md -> /home/jhenry/Source/agent-knowledge/.hopper/README.md
+Checking ./core-rules/USAGE_GUIDE.md...
+   ✓ Valid: INDEX.md
+   ✓ Valid: INDEX.md
+   ✓ Valid: INDEX.md
+   ✓ Valid: INDEX.md
+❌ Broken link in ./core-rules/USAGE_GUIDE.md: ../.hopper/README.md -> /home/jhenry/Source/agent-knowledge/.hopper/README.md
+   ✓ Valid: README.md
+Checking ./CHANGELOG.md...
+   ✓ Valid: ./CONTRIBUTING.md
+
+=========================================
+Total links checked: 0
+Broken links found: 0
+=========================================
+✅ All links valid!
