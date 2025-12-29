@@ -245,11 +245,30 @@ To add new rules or update existing ones:
 
 ---
 
+## Related Patterns
+
+For practical implementation patterns and AI-assisted development strategies, see:
+
+### Patterns Library
+
+- [**Patterns Overview**](../patterns/INDEX.md) - Complete patterns index
+- [Error Recovery Patterns](../patterns/error-recovery/README.md) - Common errors and recovery strategies
+- [Git Workflow Patterns](../patterns/git-workflows/README.md) - Specific git patterns and examples
+- [Testing Patterns](../patterns/testing-patterns/README.md) - AI-assisted testing strategies
+- [Mode Capabilities](../patterns/mode-capabilities/README.md) - Tool-specific mode optimization
+- [Context Management](../patterns/context-management/README.md) - Context window management
+- [Tool Use Patterns](../patterns/tool-use/README.md) - Efficient tool usage strategies
+
+**Relationship:** Core rules define standards and requirements (the "what"). Patterns show proven strategies and examples (the "how").
+
+---
+
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0.0 | 2025-12-27 | Initial release - Complete agent rules library extraction |
+| 1.1.0 | 2025-12-28 | Added cross-references to patterns library |
 
 ---
 
