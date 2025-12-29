@@ -4,16 +4,19 @@
 echo "Validating internal links..."
 cd /home/jhenry/Source/agent-knowledge
 
-broken_links=0
-total_links=0
+broken_links_file=$(mktemp)
+total_links_file=$(mktemp)
+echo "0" > "$broken_links_file"
+echo "0" > "$total_links_file"
 
 # Find all markdown files
-while IFS= read -r file; do
+find . -name "*.md" -type f -not -path "./.git/*" -not -path "./.czarina/*" | while IFS= read -r file; do
     echo "Checking $file..."
 
     # Extract all relative markdown links
     grep -oE '\]\([^)]*\.md[^)]*\)' "$file" 2>/dev/null | sed 's/](\(.*\))/\1/' | while read -r link; do
-        ((total_links++))
+        total=$(cat "$total_links_file")
+        echo $((total + 1)) > "$total_links_file"
 
         # Remove any anchors (# fragments)
         link_path="${link%%#*}"
@@ -32,12 +35,18 @@ while IFS= read -r file; do
         # Check if file exists
         if [ ! -f "$target" ]; then
             echo "❌ Broken link in $file: $link -> $target"
-            ((broken_links++))
+            broken=$(cat "$broken_links_file")
+            echo $((broken + 1)) > "$broken_links_file"
         else
             echo "   ✓ Valid: $link"
         fi
     done
-done < <(find . -name "*.md" -type f -not -path "./.git/*" -not -path "./.czarina/*")
+done
+
+broken_links=$(cat "$broken_links_file")
+total_links=$(cat "$total_links_file")
+
+rm -f "$broken_links_file" "$total_links_file"
 
 echo ""
 echo "========================================="
@@ -45,7 +54,7 @@ echo "Total links checked: $total_links"
 echo "Broken links found: $broken_links"
 echo "========================================="
 
-if [ $broken_links -eq 0 ]; then
+if [ "$broken_links" -eq 0 ]; then
     echo "✅ All links valid!"
     exit 0
 else

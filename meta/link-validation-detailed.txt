@@ -26,6 +26,8 @@ Checking ./patterns/error-recovery/recovery-strategies.md...
    ✓ Valid: ./fallback-patterns.md
 ❌ Broken link in ./patterns/error-recovery/recovery-strategies.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
 Checking ./meta/migration-agent-rules.md...
+Checking ./meta/versioning.md...
+❌ Broken link in ./meta/versioning.md: ./new-pattern.md -> /home/jhenry/Source/agent-knowledge/meta/new-pattern.md
 Checking ./meta/content-overlap-analysis.md...
 Checking ./meta/structure-validation-summary.md...
 Checking ./meta/content-completeness-report.md...
@@ -42,7 +44,7 @@ Checking ./README.md...
    ✓ Valid: ./CHANGELOG.md
    ✓ Valid: ./core-rules/INDEX.md
 ❌ Broken link in ./README.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
-❌ Broken link in ./README.md: ./meta/versioning.md -> /home/jhenry/Source/agent-knowledge/meta/versioning.md
+   ✓ Valid: ./meta/versioning.md
 ❌ Broken link in ./README.md: ./meta/pattern-template.md -> /home/jhenry/Source/agent-knowledge/meta/pattern-template.md
 ❌ Broken link in ./README.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
    ✓ Valid: ./CHANGELOG.md
@@ -173,7 +175,7 @@ Checking ./AGENT_RULES_LEGACY.md...
 ❌ Broken link in ./AGENT_RULES_LEGACY.md: ./CZARINA_ORCHESTRATION_CLOSEOUT.md -> /home/jhenry/Source/agent-knowledge/CZARINA_ORCHESTRATION_CLOSEOUT.md
 Checking ./CONTRIBUTING.md...
 ❌ Broken link in ./CONTRIBUTING.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
-❌ Broken link in ./CONTRIBUTING.md: ./meta/versioning.md -> /home/jhenry/Source/agent-knowledge/meta/versioning.md
+   ✓ Valid: ./meta/versioning.md
 Checking ./core-rules/agent-roles/README.md...
    ✓ Valid: ./AGENT_ROLES.md#worker-organization-patterns
    ✓ Valid: ./ORCHESTRATOR_ROLE.md
@@ -568,7 +570,7 @@ Checking ./CHANGELOG.md...
    ✓ Valid: ./CONTRIBUTING.md
 
 =========================================
-Total links checked: 0
-Broken links found: 0
+Total links checked: 491
+Broken links found: 222
 =========================================
-✅ All links valid!
+❌ Found 222 broken links
