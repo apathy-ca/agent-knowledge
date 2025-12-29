@@ -226,29 +226,38 @@ See [Pattern Template](../meta/pattern-template.md) for submission guidelines.
 
 ## Statistics
 
-**Total Categories:** 6 (5 confirmed, 1 potential)
+**Total Categories:** 6
+
+**Migration Status (2025-12-28):**
+- ✅ Error Recovery: **COMPLETE** (6 documents) - Migrated from agentic-dev-patterns
+- ✅ Tool Use: **COMPLETE** (6 documents) - Migrated from agentic-dev-patterns
+- ✅ Mode Capabilities: **COMPLETE** (7 documents) - Migrated from agentic-dev-patterns
+- 🚧 Context Management: **PLACEHOLDER** - Content to be developed
+- 🚧 Git Workflows: **PLACEHOLDER** - Content to be developed (harmonization needed with core-rules)
+- 🚧 Testing Patterns: **PLACEHOLDER** - Content to be developed (harmonization needed with core-rules)
 
 **Impact Metrics:**
 - Error Recovery: 30-50% reduction in debugging time
 - Tool Use: 40-60% efficiency improvement
 - Mode Capabilities: Clear role separation
-- Context Management: Memory optimization
-- Git Workflows: Consistent version control
-- Testing Patterns: Comprehensive coverage
+- Context Management: Memory optimization (to be developed)
+- Git Workflows: Consistent version control (to be developed)
+- Testing Patterns: Comprehensive coverage (to be developed)
 
 **Source Projects:**
-- The Symposium (multi-agent collaboration)
+- The Symposium (multi-agent collaboration platform - v0.4.5)
+- Agentic-dev-patterns repository (v1.0.0)
 - Hopper (task routing)
 - Czarina (orchestration)
 - SARK (security validation)
 
-**Coverage:**
-- Error handling and recovery ✓
-- Tool usage optimization ✓
-- Multi-agent coordination ✓
-- Context management ✓
-- Version control ✓
-- Testing strategies ✓
+**Documentation Status:**
+- Error handling and recovery ✅ (Complete with 6 focused sub-documents)
+- Tool usage optimization ✅ (Complete with 6 focused sub-documents)
+- Multi-agent coordination ✅ (Complete with 7 mode-specific documents)
+- Context management 🚧 (Placeholder - needs development)
+- Version control 🚧 (Placeholder - needs development + harmonization)
+- Testing strategies 🚧 (Placeholder - needs development + harmonization)
 
 ---
 

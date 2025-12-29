@@ -1,52 +1,189 @@
 Validating internal links...
+Checking ./patterns/testing-patterns/README.md...
+   ✓ Valid: ../error-recovery/README.md
+   ✓ Valid: ../mode-capabilities/README.md
+   ✓ Valid: ../tool-use/README.md
 Checking ./patterns/error-recovery/README.md...
    ✓ Valid: ./detection-patterns.md
    ✓ Valid: ./recovery-strategies.md
    ✓ Valid: ./retry-patterns.md
    ✓ Valid: ./fallback-patterns.md
-❌ Broken link in ./patterns/error-recovery/README.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
-❌ Broken link in ./patterns/error-recovery/README.md: ../tool-use/README.md -> /home/jhenry/Source/agent-knowledge/patterns/tool-use/README.md
-❌ Broken link in ./patterns/error-recovery/README.md: ../testing-patterns/README.md -> /home/jhenry/Source/agent-knowledge/patterns/testing-patterns/README.md
-❌ Broken link in ./patterns/error-recovery/README.md: ../git-workflows/README.md -> /home/jhenry/Source/agent-knowledge/patterns/git-workflows/README.md
+   ✓ Valid: ./escalation-patterns.md
+   ✓ Valid: ../tool-use/README.md
+   ✓ Valid: ../testing-patterns/README.md
+   ✓ Valid: ../git-workflows/README.md
 Checking ./patterns/error-recovery/detection-patterns.md...
    ✓ Valid: ./recovery-strategies.md
    ✓ Valid: ./retry-patterns.md
-❌ Broken link in ./patterns/error-recovery/detection-patterns.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+   ✓ Valid: ./escalation-patterns.md
 Checking ./patterns/error-recovery/retry-patterns.md...
    ✓ Valid: ./detection-patterns.md
    ✓ Valid: ./fallback-patterns.md
-❌ Broken link in ./patterns/error-recovery/retry-patterns.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+   ✓ Valid: ./escalation-patterns.md
 Checking ./patterns/error-recovery/fallback-patterns.md...
    ✓ Valid: ./retry-patterns.md
    ✓ Valid: ./detection-patterns.md
-❌ Broken link in ./patterns/error-recovery/fallback-patterns.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+   ✓ Valid: ./escalation-patterns.md
+Checking ./patterns/error-recovery/escalation-patterns.md...
+   ✓ Valid: ./detection-patterns.md
+   ✓ Valid: ./retry-patterns.md
+   ✓ Valid: ./fallback-patterns.md
 Checking ./patterns/error-recovery/recovery-strategies.md...
    ✓ Valid: ./detection-patterns.md
    ✓ Valid: ./retry-patterns.md
    ✓ Valid: ./fallback-patterns.md
-❌ Broken link in ./patterns/error-recovery/recovery-strategies.md: ./escalation-patterns.md -> /home/jhenry/Source/agent-knowledge/patterns/error-recovery/escalation-patterns.md
+   ✓ Valid: ./escalation-patterns.md
+Checking ./patterns/git-workflows/README.md...
+   ✓ Valid: ../error-recovery/README.md
+   ✓ Valid: ../mode-capabilities/README.md
+Checking ./patterns/context-management/README.md...
+   ✓ Valid: ../tool-use/README.md
+   ✓ Valid: ../error-recovery/README.md
+Checking ./patterns/tool-use/caching-patterns.md...
+   ✓ Valid: ./optimization-patterns.md
+   ✓ Valid: ./batching-patterns.md
+   ✓ Valid: ./tool-selection.md
+Checking ./patterns/tool-use/README.md...
+   ✓ Valid: ./optimization-patterns.md
+   ✓ Valid: ./batching-patterns.md
+   ✓ Valid: ./caching-patterns.md
+   ✓ Valid: ./parallel-execution.md
+   ✓ Valid: ./tool-selection.md
+   ✓ Valid: ../error-recovery/README.md
+   ✓ Valid: ../context-management/README.md
+   ✓ Valid: ../testing-patterns/README.md
+Checking ./patterns/tool-use/batching-patterns.md...
+   ✓ Valid: ./optimization-patterns.md
+   ✓ Valid: ./parallel-execution.md
+   ✓ Valid: ./caching-patterns.md
+Checking ./patterns/tool-use/tool-selection.md...
+   ✓ Valid: ./optimization-patterns.md
+   ✓ Valid: ./batching-patterns.md
+   ✓ Valid: ./parallel-execution.md
+Checking ./patterns/tool-use/optimization-patterns.md...
+   ✓ Valid: ./batching-patterns.md
+   ✓ Valid: ./parallel-execution.md
+   ✓ Valid: ./tool-selection.md
+Checking ./patterns/tool-use/parallel-execution.md...
+   ✓ Valid: ./batching-patterns.md
+   ✓ Valid: ./optimization-patterns.md
+   ✓ Valid: ./tool-selection.md
+Checking ./patterns/mode-capabilities/mode-transitions.md...
+   ✓ Valid: ./architect-mode.md
+   ✓ Valid: ./code-mode.md
+   ✓ Valid: ./debug-mode.md
+   ✓ Valid: ./ask-mode.md
+   ✓ Valid: ./orchestrator-mode.md
+Checking ./patterns/mode-capabilities/README.md...
+   ✓ Valid: ./architect-mode.md
+   ✓ Valid: ./code-mode.md
+   ✓ Valid: ./debug-mode.md
+   ✓ Valid: ./ask-mode.md
+   ✓ Valid: ./orchestrator-mode.md
+   ✓ Valid: ./architect-mode.md
+   ✓ Valid: ./code-mode.md
+   ✓ Valid: ./debug-mode.md
+   ✓ Valid: ./ask-mode.md
+   ✓ Valid: ./orchestrator-mode.md
+   ✓ Valid: ./mode-transitions.md
+   ✓ Valid: ../error-recovery/README.md
+   ✓ Valid: ../tool-use/README.md
+   ✓ Valid: ../testing-patterns/README.md
+   ✓ Valid: ../git-workflows/README.md
+Checking ./patterns/mode-capabilities/orchestrator-mode.md...
+   ✓ Valid: ./mode-transitions.md
+   ✓ Valid: ./architect-mode.md
+   ✓ Valid: ./code-mode.md
+   ✓ Valid: ./debug-mode.md
+Checking ./patterns/mode-capabilities/code-mode.md...
+   ✓ Valid: ./mode-transitions.md
+   ✓ Valid: ./architect-mode.md
+   ✓ Valid: ./debug-mode.md
+   ✓ Valid: ../testing-patterns/README.md
+Checking ./patterns/mode-capabilities/ask-mode.md...
+   ✓ Valid: ./mode-transitions.md
+   ✓ Valid: ./architect-mode.md
+   ✓ Valid: ./code-mode.md
+   ✓ Valid: ../error-recovery/README.md
+Checking ./patterns/mode-capabilities/debug-mode.md...
+   ✓ Valid: ./mode-transitions.md
+   ✓ Valid: ./code-mode.md
+   ✓ Valid: ../error-recovery/README.md
+   ✓ Valid: ../testing-patterns/README.md
+Checking ./patterns/mode-capabilities/architect-mode.md...
+   ✓ Valid: ./mode-transitions.md
+   ✓ Valid: ./code-mode.md
+   ✓ Valid: ./ask-mode.md
+   ✓ Valid: ./orchestrator-mode.md
+Checking ./patterns/INDEX.md...
+   ✓ Valid: ../core-rules/INDEX.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/python-standards/error-handling.md -> /home/jhenry/Source/agent-knowledge/core-rules/python-standards/error-handling.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/workflows/recovery-workflow.md -> /home/jhenry/Source/agent-knowledge/core-rules/workflows/recovery-workflow.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/design-patterns/memory-patterns.md -> /home/jhenry/Source/agent-knowledge/core-rules/design-patterns/memory-patterns.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/orchestration/agent-handoffs.md -> /home/jhenry/Source/agent-knowledge/core-rules/orchestration/agent-handoffs.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/workflows/git-workflows.md -> /home/jhenry/Source/agent-knowledge/core-rules/workflows/git-workflows.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/testing/pytest-standards.md -> /home/jhenry/Source/agent-knowledge/core-rules/testing/pytest-standards.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/workflows/recovery-workflow.md -> /home/jhenry/Source/agent-knowledge/core-rules/workflows/recovery-workflow.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/workflows/git-workflows.md -> /home/jhenry/Source/agent-knowledge/core-rules/workflows/git-workflows.md
+❌ Broken link in ./patterns/INDEX.md: ../core-rules/python-standards/error-handling.md -> /home/jhenry/Source/agent-knowledge/core-rules/python-standards/error-handling.md
+❌ Broken link in ./patterns/INDEX.md: ../meta/cross-reference-map.md -> /home/jhenry/Source/agent-knowledge/meta/cross-reference-map.md
+   ✓ Valid: ../core-rules/INDEX.md
+   ✓ Valid: ../meta/pattern-template.md
+   ✓ Valid: ../CONTRIBUTING.md
+   ✓ Valid: ../meta/pattern-template.md
+   ✓ Valid: ../meta/learning-extraction.md
+   ✓ Valid: ../README.md
+   ✓ Valid: ../core-rules/INDEX.md
+   ✓ Valid: ../meta/pattern-template.md
+   ✓ Valid: ../meta/learning-extraction.md
+   ✓ Valid: ../CONTRIBUTING.md
+   ✓ Valid: ../CHANGELOG.md
+Checking ./meta/learning-extraction.md...
+   ✓ Valid: ../CONTRIBUTING.md
+Checking ./meta/documentation-quality-validation.md...
+Checking ./meta/git-history-validation.md...
 Checking ./meta/migration-agent-rules.md...
+Checking ./meta/deliverables-validation.md...
+Checking ./meta/cross-reference-validation.md...
 Checking ./meta/versioning.md...
 ❌ Broken link in ./meta/versioning.md: ./new-pattern.md -> /home/jhenry/Source/agent-knowledge/meta/new-pattern.md
+Checking ./meta/pattern-template.md...
+❌ Broken link in ./meta/pattern-template.md: ../category/pattern1.md -> /home/jhenry/Source/agent-knowledge/category/pattern1.md
+❌ Broken link in ./meta/pattern-template.md: ../category/pattern2.md -> /home/jhenry/Source/agent-knowledge/category/pattern2.md
+❌ Broken link in ./meta/pattern-template.md: ../../core-rules/domain/rule1.md -> /home/jhenry/Source/core-rules/domain/rule1.md
+❌ Broken link in ./meta/pattern-template.md: ../../core-rules/domain/rule2.md -> /home/jhenry/Source/core-rules/domain/rule2.md
+Checking ./meta/documentation-summary.md...
+Checking ./meta/final-quality-checks.md...
 Checking ./meta/content-overlap-analysis.md...
 Checking ./meta/structure-validation-summary.md...
 Checking ./meta/content-completeness-report.md...
+Checking ./meta/migration-agentic-dev-patterns.md...
+Checking ./meta/FINAL-QUALITY-REPORT.md...
+   ✓ Valid: ./structure-validation-summary.md
+   ✓ Valid: ./content-completeness-report.md
+   ✓ Valid: ./link-validation-summary.md
+   ✓ Valid: ./deliverables-validation.md
+   ✓ Valid: ./git-history-validation.md
+   ✓ Valid: ./documentation-quality-validation.md
+   ✓ Valid: ./cross-reference-validation.md
+   ✓ Valid: ./final-quality-checks.md
+Checking ./meta/link-validation-summary.md...
 Checking ./README.md...
    ✓ Valid: ./core-rules/INDEX.md
-❌ Broken link in ./README.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
+   ✓ Valid: ./patterns/INDEX.md
    ✓ Valid: ./CONTRIBUTING.md
    ✓ Valid: ./core-rules/INDEX.md
-❌ Broken link in ./README.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
+   ✓ Valid: ./patterns/INDEX.md
    ✓ Valid: ./CONTRIBUTING.md
-❌ Broken link in ./README.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
+   ✓ Valid: ./meta/learning-extraction.md
    ✓ Valid: ./README.md
    ✓ Valid: ./CONTRIBUTING.md
    ✓ Valid: ./CHANGELOG.md
    ✓ Valid: ./core-rules/INDEX.md
-❌ Broken link in ./README.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
+   ✓ Valid: ./patterns/INDEX.md
    ✓ Valid: ./meta/versioning.md
-❌ Broken link in ./README.md: ./meta/pattern-template.md -> /home/jhenry/Source/agent-knowledge/meta/pattern-template.md
-❌ Broken link in ./README.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
+   ✓ Valid: ./meta/pattern-template.md
+   ✓ Valid: ./meta/learning-extraction.md
    ✓ Valid: ./CHANGELOG.md
 Checking ./templates/worker-definition-template.md...
 Checking ./templates/repository-structure-template.md...
@@ -159,22 +296,30 @@ Checking ./templates/integration-test-template.md...
 ❌ Broken link in ./templates/integration-test-template.md: ../testing/TESTING_POLICY.md -> /home/jhenry/Source/agent-knowledge/testing/TESTING_POLICY.md
 Checking ./AGENT_KNOWLEDGE_MERGE_PLAN.md...
 ❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./docs/getting-started.md -> /home/jhenry/Source/agent-knowledge/docs/getting-started.md
-❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./patterns/INDEX.md -> /home/jhenry/Source/agent-knowledge/patterns/INDEX.md
+   ✓ Valid: ./patterns/INDEX.md
 ❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./templates/INDEX.md -> /home/jhenry/Source/agent-knowledge/templates/INDEX.md
    ✓ Valid: ./CONTRIBUTING.md
 ❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./templates/INDEX.md -> /home/jhenry/Source/agent-knowledge/templates/INDEX.md
    ✓ Valid: ./CONTRIBUTING.md
-❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
+   ✓ Valid: ./meta/learning-extraction.md
    ✓ Valid: ./CHANGELOG.md
 ❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ../../patterns/git-workflows/README.md -> /home/jhenry/patterns/git-workflows/README.md
 ❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ../../patterns/git-workflows/branch-strategies.md -> /home/jhenry/patterns/git-workflows/branch-strategies.md
 ❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ../../patterns/git-workflows/commit-patterns.md -> /home/jhenry/patterns/git-workflows/commit-patterns.md
 ❌ Broken link in ./AGENT_KNOWLEDGE_MERGE_PLAN.md: ../../templates/git/feature-branch.md -> /home/jhenry/templates/git/feature-branch.md
+Checking ./REMEDIATION_PLAN.md...
 Checking ./AGENT_RULES_LEGACY.md...
 ❌ Broken link in ./AGENT_RULES_LEGACY.md: ./MIGRATION_GUIDE.md -> /home/jhenry/Source/agent-knowledge/MIGRATION_GUIDE.md
 ❌ Broken link in ./AGENT_RULES_LEGACY.md: ./CZARINA_ORCHESTRATION_CLOSEOUT.md -> /home/jhenry/Source/agent-knowledge/CZARINA_ORCHESTRATION_CLOSEOUT.md
+Checking ./AGENTIC_DEV_PATTERNS_LEGACY.md...
+❌ Broken link in ./AGENTIC_DEV_PATTERNS_LEGACY.md: ERROR_RECOVERY_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/ERROR_RECOVERY_PATTERNS.md
+❌ Broken link in ./AGENTIC_DEV_PATTERNS_LEGACY.md: TOOL_USE_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/TOOL_USE_PATTERNS.md
+❌ Broken link in ./AGENTIC_DEV_PATTERNS_LEGACY.md: MODE_CAPABILITIES.md -> /home/jhenry/Source/agent-knowledge/MODE_CAPABILITIES.md
+❌ Broken link in ./AGENTIC_DEV_PATTERNS_LEGACY.md: GIT_WORKFLOW_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/GIT_WORKFLOW_PATTERNS.md
+❌ Broken link in ./AGENTIC_DEV_PATTERNS_LEGACY.md: TESTING_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/TESTING_PATTERNS.md
+❌ Broken link in ./AGENTIC_DEV_PATTERNS_LEGACY.md: DOCUMENTATION_PATTERNS.md -> /home/jhenry/Source/agent-knowledge/DOCUMENTATION_PATTERNS.md
 Checking ./CONTRIBUTING.md...
-❌ Broken link in ./CONTRIBUTING.md: ./meta/learning-extraction.md -> /home/jhenry/Source/agent-knowledge/meta/learning-extraction.md
+   ✓ Valid: ./meta/learning-extraction.md
    ✓ Valid: ./meta/versioning.md
 Checking ./core-rules/agent-roles/README.md...
    ✓ Valid: ./AGENT_ROLES.md#worker-organization-patterns
@@ -570,7 +715,8 @@ Checking ./CHANGELOG.md...
    ✓ Valid: ./CONTRIBUTING.md
 
 =========================================
-Total links checked: 491
-Broken links found: 222
+Total links checked: 605
+Broken links found: 225
 =========================================
-❌ Found 222 broken links
+❌ Found 225 broken links
+Exit code: 1

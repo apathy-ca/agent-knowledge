@@ -1,0 +1,227 @@
+{
+  "project": {
+    "name": "Agent Knowledge Remediation - Phase 2",
+    "slug": "agent-knowledge-phase2",
+    "version": "1.0.0",
+    "phase": "2",
+    "description": "Complete remaining 30-40% of work to achieve v1.0.0 release - fix broken links, complete pattern migration, create missing deliverables",
+    "repository": "/home/jhenry/Source/agent-knowledge",
+    "omnibus_branch": "cz2/release/v1.0.0"
+  },
+  "orchestration": {
+    "mode": "local",
+    "parallel_workers": 2,
+    "retry_on_failure": true,
+    "max_retries": 3,
+    "execution_strategy": "phased",
+    "phases": [
+      {
+        "name": "2A-Critical",
+        "description": "Parallel execution of critical blockers",
+        "workers": ["fix-links", "complete-patterns"],
+        "parallel": true
+      },
+      {
+        "name": "2B-Deliverables",
+        "description": "Complete all missing deliverables",
+        "workers": ["complete-deliverables"],
+        "parallel": false
+      },
+      {
+        "name": "2C-Validation",
+        "description": "Final validation and release approval",
+        "workers": ["final-validate"],
+        "parallel": false
+      }
+    ]
+  },
+  "workers": [
+    {
+      "id": "fix-links",
+      "agent": "claude",
+      "branch": "cz2/feat/fix-links",
+      "dependencies": [],
+      "role": "remediation",
+      "priority": 1,
+      "phase": "2A-Critical",
+      "description": "Fix all 222 broken internal links to achieve zero broken links status",
+      "deliverables": [
+        "core-rules/INDEX.md updated with correct paths",
+        "All broken links fixed or removed",
+        "Link validation report showing zero failures",
+        "meta/link-fix-summary.md created",
+        "Commit with all link fixes"
+      ],
+      "success_criteria": {
+        "broken_links": 0,
+        "validation_pass": true,
+        "files_modified": [
+          "core-rules/INDEX.md",
+          "meta/link-fix-summary.md",
+          "meta/link-validation-final.txt"
+        ]
+      },
+      "estimated_duration": "2-3 hours"
+    },
+    {
+      "id": "complete-patterns",
+      "agent": "claude",
+      "branch": "cz2/feat/complete-patterns",
+      "dependencies": [],
+      "role": "migration",
+      "priority": 1,
+      "phase": "2A-Critical",
+      "description": "Complete pattern migration from 17% to 100% (5 empty categories remaining)",
+      "deliverables": [
+        "patterns/tool-use/ populated with content",
+        "patterns/mode-capabilities/ populated with content",
+        "patterns/context-management/ populated with content",
+        "patterns/git-workflows/ populated with content",
+        "patterns/testing-patterns/ created and populated",
+        "patterns/INDEX.md created",
+        "All content from agentic-dev-patterns migrated",
+        "Commit with all pattern content"
+      ],
+      "success_criteria": {
+        "pattern_categories_complete": 6,
+        "pattern_migration_percentage": 100,
+        "index_created": true
+      },
+      "estimated_duration": "2-3 hours"
+    },
+    {
+      "id": "complete-deliverables",
+      "agent": "claude",
+      "branch": "cz2/feat/complete-deliverables",
+      "dependencies": ["fix-links", "complete-patterns"],
+      "role": "documentation",
+      "priority": 2,
+      "phase": "2B-Deliverables",
+      "description": "Create all missing deliverables (61% missing from Phase 1)",
+      "deliverables": [
+        "AGENT_RULES_LEGACY.md verified/updated",
+        "AGENTIC_DEV_PATTERNS_LEGACY.md verified/updated",
+        "meta/migration-agent-rules.md completed",
+        "meta/migration-agentic-dev-patterns.md completed",
+        "meta/cross-reference-map.md created",
+        "meta/harmonization-summary.md completed",
+        "Cross-references added to content files",
+        "Commit with all deliverables"
+      ],
+      "success_criteria": {
+        "deliverables_present": 28,
+        "deliverables_percentage": 100,
+        "cross_references_added": true
+      },
+      "estimated_duration": "1-2 hours"
+    },
+    {
+      "id": "final-validate",
+      "agent": "claude",
+      "branch": "cz2/feat/final-validate",
+      "dependencies": ["complete-deliverables"],
+      "role": "validation",
+      "priority": 3,
+      "phase": "2C-Validation",
+      "description": "Re-run validation and approve v1.0.0 release",
+      "deliverables": [
+        "Structure validation report (updated)",
+        "Link validation report showing ZERO broken links",
+        "Content completeness report (100%)",
+        "Deliverables validation report (100%)",
+        "Documentation quality report",
+        "Cross-reference validation report",
+        "meta/FINAL-QUALITY-REPORT.md updated with PASS status",
+        "meta/phase2-completion-summary.md created",
+        "v1.0.0 release approval documented",
+        "Commit with validation results"
+      ],
+      "success_criteria": {
+        "broken_links": 0,
+        "pattern_migration_complete": true,
+        "deliverables_complete": true,
+        "validation_pass": true,
+        "release_approved": true
+      },
+      "estimated_duration": "1 hour"
+    }
+  ],
+  "hopper": {
+    "enabled": false,
+    "comment": "Phase 2 does not use hopper - direct worker execution"
+  },
+  "daemon": {
+    "enabled": false,
+    "comment": "Phase 2 uses manual or czarina orchestration"
+  },
+  "git": {
+    "auto_commit": true,
+    "commit_message_template": "[{{worker_id}}] {{description}}",
+    "require_pr": false,
+    "branch_naming": {
+      "pattern": "cz{{phase}}/feat/{{worker_id}}",
+      "omnibus": "cz{{phase}}/release/v{{version}}"
+    }
+  },
+  "environment": {
+    "AGENT_RULES_PATH": "/home/jhenry/Source/agent-rules",
+    "AGENTIC_DEV_PATTERNS_PATH": "/home/jhenry/Source/agentic-dev-patterns",
+    "WORKING_DIR": "/home/jhenry/Source/agent-knowledge"
+  },
+  "success_metrics": {
+    "critical_blockers": {
+      "broken_links": {
+        "current": 222,
+        "target": 0,
+        "status": "BLOCKER"
+      },
+      "pattern_migration": {
+        "current": 17,
+        "target": 100,
+        "unit": "percent",
+        "status": "BLOCKER"
+      },
+      "deliverables": {
+        "current": 39,
+        "target": 100,
+        "unit": "percent",
+        "status": "BLOCKER"
+      }
+    },
+    "release_criteria": {
+      "zero_broken_links": true,
+      "pattern_migration_complete": true,
+      "all_deliverables_present": true,
+      "validation_pass": true
+    }
+  },
+  "validation": {
+    "scripts": {
+      "structure": "meta/validate-structure.sh",
+      "links": "meta/validate-links.sh",
+      "content": "meta/validate-content.sh"
+    },
+    "required_passes": [
+      "links",
+      "structure",
+      "content"
+    ]
+  },
+  "timeline": {
+    "estimated_total": "4-6 hours",
+    "phase_2a": "2-3 hours (parallel)",
+    "phase_2b": "1-2 hours",
+    "phase_2c": "1 hour"
+  },
+  "meta": {
+    "created": "2025-12-29",
+    "created_by": "czar-orchestrator",
+    "purpose": "Remediation run to complete unfinished Phase 1 work",
+    "status": "ready-for-launch",
+    "references": {
+      "launch_guide": ".czarina/PHASE2_LAUNCH.md",
+      "remediation_plan": "REMEDIATION_PLAN.md",
+      "validation_report": "meta/FINAL-QUALITY-REPORT.md"
+    }
+  }
+}
