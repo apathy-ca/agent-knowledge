@@ -670,10 +670,10 @@ def mock_agent(agent_config: AgentConfig) -> BaseAgent:
 
 ## Related Documents
 
-- [Agent Roles](../agents/AGENT_ROLES.md)
+- [Agent Roles](../agent-roles/AGENT_ROLES.md)
 - [Tool Use Patterns](../patterns/TOOL_USE_PATTERNS.md)
 - [Error Recovery](../patterns/ERROR_RECOVERY.md)
-- [Testing Patterns](../python/TESTING_PATTERNS.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
 - [Security Patterns](../security/)
 
 ## References

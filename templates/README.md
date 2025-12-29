@@ -294,14 +294,14 @@ README Template (entry point)
 These templates reference and integrate with extracted agent rules:
 
 ### Python Development
-- [Python Coding Standards](../python/CODING_STANDARDS.md)
-- [Async Patterns](../python/ASYNC_PATTERNS.md)
-- [Error Handling](../python/ERROR_HANDLING.md)
-- [Testing Patterns](../python/TESTING_PATTERNS.md)
-- [Security Patterns](../python/SECURITY_PATTERNS.md)
+- [Python Coding Standards](../python-standards/CODING_STANDARDS.md)
+- [Async Patterns](../python-standards/ASYNC_PATTERNS.md)
+- [Error Handling](../python-standards/ERROR_HANDLING.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
+- [Security Patterns](../python-standards/SECURITY_PATTERNS.md)
 
 ### Agent Development
-- [Agent Roles](../agents/AGENT_ROLES.md)
+- [Agent Roles](../agent-roles/AGENT_ROLES.md)
 - [Tool Use Patterns](../patterns/TOOL_USE_PATTERNS.md)
 - [Error Recovery](../patterns/ERROR_RECOVERY.md)
 
@@ -437,8 +437,8 @@ These templates reference and integrate with extracted agent rules:
 
 - [Documentation Standards](../documentation/) - Comprehensive documentation standards
 - [Orchestration Rules](../orchestration/) - Czarina orchestration patterns
-- [Agent Rules](../agents/) - Agent role definitions
-- [Python Standards](../python/) - Python coding standards
+- [Agent Rules](../agent-roles/) - Agent role definitions
+- [Python Standards](../python-standards/) - Python coding standards
 - [Testing Standards](../testing/) - Testing best practices
 - [Security Standards](../security/) - Security patterns
 - [Workflow Standards](../workflows/) - Development workflows

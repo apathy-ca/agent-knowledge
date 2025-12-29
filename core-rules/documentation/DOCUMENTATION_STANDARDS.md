@@ -70,7 +70,7 @@ Every project must have at minimum:
 - **Documentation:** Links to other docs
 - **License:** License information
 
-**See:** [README Template](../templates/readme-template.md)
+**See:** [README Template](../../templates/templates/agent-project-template.md)
 
 #### 2. ROADMAP.md
 **Purpose:** Development roadmap and planning
@@ -374,7 +374,7 @@ Before submitting code for review:
 - [Link to related docs]
 \`\`\`
 
-**See:** [README Template](../templates/readme-template.md)
+**See:** [README Template](../../templates/templates/agent-project-template.md)
 
 ### 2. API Documentation
 

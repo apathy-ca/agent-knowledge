@@ -571,7 +571,7 @@ Common issues:
 2. **Read domain READMEs:** Each domain has comprehensive overview
 3. **Search the library:** Use grep/search for keywords
 4. **Follow cross-references:** Rules link to related rules
-5. **Consult Hopper integration:** [.hopper/README.md](../.hopper/README.md)
+5. **Consult Hopper integration:** [external reference removed]
 
 ---
 

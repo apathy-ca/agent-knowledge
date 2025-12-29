@@ -794,7 +794,7 @@ def captured_logs(caplog):
 
 ## Related Documents
 
-- [Testing Patterns](../python/TESTING_PATTERNS.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
 - [Mocking Strategies](../testing/MOCKING_STRATEGIES.md)
 - [Testing Policy](../testing/TESTING_POLICY.md)
 

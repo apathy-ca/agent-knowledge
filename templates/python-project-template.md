@@ -497,8 +497,8 @@ jobs:
 
 ## Related Documents
 
-- [Python Coding Standards](../python/CODING_STANDARDS.md)
-- [Testing Patterns](../python/TESTING_PATTERNS.md)
+- [Python Coding Standards](../python-standards/CODING_STANDARDS.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
 - [Documentation Workflow](../workflows/DOCUMENTATION_WORKFLOW.md)
 - [Git Workflow](../workflows/GIT_WORKFLOW.md)
 

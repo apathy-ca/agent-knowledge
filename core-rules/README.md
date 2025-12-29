@@ -33,23 +33,23 @@ Start with the [INDEX.md](INDEX.md) to see all available rules organized by cate
 ### 2. Choose Your Path
 
 **Building a new agent?**
-- Start with [agents/AGENT_ROLES.md](agents/AGENT_ROLES.md) to understand role taxonomy
-- Review [python/CODING_STANDARDS.md](python/CODING_STANDARDS.md) for code quality
-- Use [templates/agent-project-template.md](templates/agent-project-template.md) to scaffold your project
+- Start with [agent-roles/AGENT_ROLES.md](agent-roles/AGENT_ROLES.md) to understand role taxonomy
+- Review [python-standards/CODING_STANDARDS.md](python-standards/CODING_STANDARDS.md) for code quality
+- Use [../templates/agent-project-template.md](../templates/agent-project-template.md) to scaffold your project
 
 **Improving an existing system?**
-- Check [patterns/](patterns/) for design patterns you can apply
+- Check [design-patterns/](design-patterns/) for design patterns you can apply
 - Review [security/](security/) for security hardening opportunities
 - See [testing/](testing/) to improve test coverage
 
 **Running an orchestration?**
 - Study [orchestration/ORCHESTRATION_PATTERNS.md](orchestration/ORCHESTRATION_PATTERNS.md)
-- Use worker templates in [agents/templates/](agents/templates/)
+- Use worker templates in [../templates/](../templates/)
 - Follow [workflows/CLOSEOUT_PROCESS.md](workflows/CLOSEOUT_PROCESS.md) for completion
 
-**Integrating with Hopper?**
-- Read [../.hopper/README.md](../.hopper/README.md) for integration guide
-- Check [../.hopper/modes/](../.hopper/modes/) for mode-specific usage
+**Integrating with dependent systems?**
+- Review [workflows/](workflows/) for integration patterns
+- Check [orchestration/](orchestration/) for multi-agent coordination
 
 ### 3. Apply the Rules
 
@@ -69,7 +69,7 @@ agent-rules/
 ├── INDEX.md                 # Complete rule index (START HERE)
 ├── README.md                # This file
 │
-├── python/                  # Python development standards
+├── python-standards/        # Python development standards
 │   ├── CODING_STANDARDS.md
 │   ├── ASYNC_PATTERNS.md
 │   ├── ERROR_HANDLING.md
@@ -78,14 +78,13 @@ agent-rules/
 │   ├── SECURITY_PATTERNS.md
 │   └── README.md
 │
-├── agents/                  # Agent role definitions
+├── agent-roles/             # Agent role definitions
 │   ├── AGENT_ROLES.md
 │   ├── ARCHITECT_ROLE.md
 │   ├── CODE_ROLE.md
 │   ├── DEBUG_ROLE.md
 │   ├── QA_ROLE.md
 │   ├── ORCHESTRATOR_ROLE.md
-│   ├── templates/
 │   └── README.md
 │
 ├── workflows/               # Development workflows
@@ -97,7 +96,7 @@ agent-rules/
 │   ├── CLOSEOUT_PROCESS.md
 │   └── README.md
 │
-├── patterns/                # Design patterns
+├── design-patterns/         # Design patterns
 │   ├── TOOL_USE_PATTERNS.md
 │   ├── STREAMING_PATTERNS.md
 │   ├── CACHING_PATTERNS.md
@@ -151,10 +150,10 @@ agent-rules/
 
 ```bash
 # 1. Review the coding standards
-cat agent-rules/python/CODING_STANDARDS.md
+cat agent-rules/python-standards/CODING_STANDARDS.md
 
 # 2. Choose an agent role
-cat agent-rules/agents/AGENT_ROLES.md
+cat agent-rules/agent-roles/AGENT_ROLES.md
 
 # 3. Use the project template
 cp agent-rules/templates/python-project-template.md my-agent/PROJECT_PLAN.md
@@ -167,9 +166,9 @@ cat agent-rules/testing/TESTING_POLICY.md
 
 ```bash
 # Review Python standards
-agent-rules/python/CODING_STANDARDS.md
-agent-rules/python/ERROR_HANDLING.md
-agent-rules/python/ASYNC_PATTERNS.md
+agent-rules/python-standards/CODING_STANDARDS.md
+agent-rules/python-standards/ERROR_HANDLING.md
+agent-rules/python-standards/ASYNC_PATTERNS.md
 
 # Check security
 agent-rules/security/INJECTION_PREVENTION.md
@@ -187,28 +186,14 @@ agent-rules/testing/UNIT_TESTING.md
 cat agent-rules/orchestration/ORCHESTRATION_PATTERNS.md
 
 # Set up workers
-cp agent-rules/agents/templates/worker-definition-template.md workers/worker1.md
-cp agent-rules/agents/templates/worker-identity-template.md workers/WORKER1_IDENTITY.md
+cp agent-rules/templates/worker-definition-template.md workers/worker1.md
+cp agent-rules/templates/worker-identity-template.md workers/WORKER1_IDENTITY.md
 
 # Plan token budgets
 cat agent-rules/workflows/TOKEN_PLANNING.md
 
 # Prepare closeout
-cp agent-rules/agents/templates/worker-closeout-template.md CLOSEOUT.md
-```
-
-### Scenario 4: Integrating with Hopper
-
-```bash
-# Read integration guide
-cat .hopper/README.md
-
-# Check mode-specific rules
-cat .hopper/modes/research.md
-cat .hopper/modes/implementation.md
-
-# Configure Hopper to use rules
-# (See .hopper/README.md for configuration)
+cp agent-rules/templates/worker-closeout-template.md CLOSEOUT.md
 ```
 
 ---
@@ -251,23 +236,23 @@ Every rule includes:
 
 ## Domain Overviews
 
-### Python Development (`python/`)
+### Python Development (`python-standards/`)
 
 Language-specific standards for Python agent development. Covers coding style, async patterns, error handling, dependency injection, testing, and security.
 
 **Key Rules:**
-- [CODING_STANDARDS.md](python/CODING_STANDARDS.md) - Python style guide and best practices
-- [ASYNC_PATTERNS.md](python/ASYNC_PATTERNS.md) - Async/await patterns with asyncio
-- [ERROR_HANDLING.md](python/ERROR_HANDLING.md) - Exception handling strategies
+- [CODING_STANDARDS.md](python-standards/CODING_STANDARDS.md) - Python style guide and best practices
+- [ASYNC_PATTERNS.md](python-standards/ASYNC_PATTERNS.md) - Async/await patterns with asyncio
+- [ERROR_HANDLING.md](python-standards/ERROR_HANDLING.md) - Exception handling strategies
 
-### Agent Roles (`agents/`)
+### Agent Roles (`agent-roles/`)
 
 Specialized agent role definitions for different tasks. Includes templates for worker setup in orchestrations.
 
 **Key Roles:**
-- [ARCHITECT_ROLE.md](agents/ARCHITECT_ROLE.md) - System design and planning
-- [CODE_ROLE.md](agents/CODE_ROLE.md) - Implementation tasks
-- [ORCHESTRATOR_ROLE.md](agents/ORCHESTRATOR_ROLE.md) - Multi-agent coordination
+- [ARCHITECT_ROLE.md](agent-roles/ARCHITECT_ROLE.md) - System design and planning
+- [CODE_ROLE.md](agent-roles/CODE_ROLE.md) - Implementation tasks
+- [ORCHESTRATOR_ROLE.md](agent-roles/ORCHESTRATOR_ROLE.md) - Multi-agent coordination
 
 ### Workflows (`workflows/`)
 
@@ -278,14 +263,14 @@ Development process patterns including git workflow, PR requirements, documentat
 - [PR_REQUIREMENTS.md](workflows/PR_REQUIREMENTS.md) - Pull request standards
 - [CLOSEOUT_PROCESS.md](workflows/CLOSEOUT_PROCESS.md) - Project completion
 
-### Design Patterns (`patterns/`)
+### Design Patterns (`design-patterns/`)
 
 Architectural patterns for agent systems including tool use, streaming, caching, and error recovery.
 
 **Key Patterns:**
-- [TOOL_USE_PATTERNS.md](patterns/TOOL_USE_PATTERNS.md) - Effective LLM tool calling
-- [ERROR_RECOVERY.md](patterns/ERROR_RECOVERY.md) - Resilience strategies
-- [CACHING_PATTERNS.md](patterns/CACHING_PATTERNS.md) - Performance optimization
+- [TOOL_USE_PATTERNS.md](design-patterns/TOOL_USE_PATTERNS.md) - Effective LLM tool calling
+- [ERROR_RECOVERY.md](design-patterns/ERROR_RECOVERY.md) - Resilience strategies
+- [CACHING_PATTERNS.md](design-patterns/CACHING_PATTERNS.md) - Performance optimization
 
 ### Testing (`testing/`)
 
@@ -310,9 +295,9 @@ Security best practices for authentication, authorization, secret management, an
 Reusable templates for projects, documentation, and testing. Use these as starting points for new work.
 
 **Key Templates:**
-- [agent-project-template.md](templates/agent-project-template.md) - Agent project structure
-- [readme-template.md](templates/readme-template.md) - README structure
-- [unit-test-template.md](templates/unit-test-template.md) - Unit test template
+- [agent-project-template.md](../templates/agent-project-template.md) - Agent project structure
+- [readme-template.md](../templates/agent-project-template.md) - README structure
+- [unit-test-template.md](../templates/agent-project-template.md) - Unit test template
 
 ### Documentation (`documentation/`)
 
@@ -358,9 +343,9 @@ Follow the [PR_REQUIREMENTS.md](workflows/PR_REQUIREMENTS.md) for pull request s
 
 ## Integration
 
-### Hopper Integration
+### System Integration
 
-Hopper can be configured to load these rules for context-aware assistance. See [../.hopper/README.md](../.hopper/README.md) for integration instructions.
+These rules can be integrated into various agent systems for context-aware assistance and quality standards.
 
 ### Direct Usage
 
@@ -408,7 +393,6 @@ This library is part of the Hopper project. See project license for details.
 ## Support
 
 - **Index:** [INDEX.md](INDEX.md) - Find rules by category
-- **Hopper Integration:** [../.hopper/README.md](../.hopper/README.md)
 - **Domain READMEs:** Each domain has a comprehensive README.md
 
 ---

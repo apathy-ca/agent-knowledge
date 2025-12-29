@@ -471,7 +471,7 @@ def test_verify_email_with_expired_token_returns_false()
 
 **See Also**:
 - [Testing Standards](../../core-rules/testing/) - Testing requirements and standards
-- [Pytest Standards](../../core-rules/testing/pytest-standards.md) - Pytest-specific guidelines
+- [Pytest Standards](../../core-rules/testing/UNIT_TESTING.md) - Pytest-specific guidelines
 
 **Note**: This patterns directory focuses on **HOW** to test effectively (workflows, strategies, examples). The core-rules directory defines **WHAT** is required (standards, coverage thresholds, tooling requirements).
 

@@ -353,9 +353,9 @@ This repository combines production-tested rules and patterns from:
 
 ## Quick Start
 
-- **New to AI development?** Start with [Getting Started Guide](./docs/getting-started.md)
+- **New to AI development?** Start with Getting Started Guide (reference removed)
 - **Looking for specific patterns?** Browse [Patterns Index](./patterns/INDEX.md)
-- **Setting up a project?** Check [Templates](./templates/INDEX.md)
+- **Setting up a project?** Check Templates (reference removed)
 - **Contributing?** Read [Contributing Guide](./CONTRIBUTING.md)
 
 ## Structure
@@ -381,7 +381,7 @@ Battle-tested patterns with quantified impact:
 
 ### Templates
 Quick-start templates for common project types:
-- [Project Templates](./templates/INDEX.md)
+- Project Templates (reference removed)
 
 ## Usage
 
@@ -447,14 +447,14 @@ See [CHANGELOG.md](./CHANGELOG.md) for version history.
 ## Related Patterns
 
 For detailed git workflow patterns, see:
-- [Git Workflows Patterns](../../patterns/git-workflows/README.md)
-- [Branch Strategies](../../patterns/git-workflows/branch-strategies.md)
-- [Commit Patterns](../../patterns/git-workflows/commit-patterns.md)
+- Git Workflows Patterns (reference removed)
+- Branch Strategies (reference removed)
+- Commit Patterns (reference removed)
 
 ## Related Templates
 
 For git workflow templates:
-- [Feature Branch Template](../../templates/git/feature-branch.md)
+- Feature Branch Template (reference removed)
 ```
 
 ### Step 6: Deduplication

@@ -636,7 +636,7 @@ integration-tests:
 - [Worker Coordination](./WORKER_COORDINATION.md)
 - [Daemon Automation](./DAEMON_AUTOMATION.md)
 - [Status Monitoring](./STATUS_MONITORING.md)
-- [Worker Templates](../templates/worker-definition-template.md)
+- [Worker Templates](../../templates/templates/agent-project-template.md)
 
 ## Related Patterns
 

@@ -1,0 +1,66 @@
+============================================================
+LINK VALIDATION REPORT
+============================================================
+Total markdown files checked: 120
+Total links checked: 651
+Broken links found: 117
+Success rate: 82.0%
+============================================================
+
+❌ VALIDATION FAILED - 117 broken links:
+  ❌ core-rules/agent-roles/QA_ROLE.md: ../../testing/INTEGRATION_TESTING.md -> /home/jhenry/Source/agent-knowledge/testing/INTEGRATION_TESTING.md
+  ❌ core-rules/agent-roles/README.md: ./templates/worker-definition-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agent-roles/templates/worker-definition-template.md
+  ❌ core-rules/agent-roles/README.md: ./templates/worker-identity-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agent-roles/templates/worker-identity-template.md
+  ❌ core-rules/agent-roles/README.md: ./templates/worker-closeout-template.md -> /home/jhenry/Source/agent-knowledge/core-rules/agent-roles/templates/worker-closeout-template.md
+  ❌ core-rules/documentation/API_DOCUMENTATION.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/API_DOCUMENTATION.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/ARCHITECTURE_DOCS.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/ARCHITECTURE_DOCS.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/DOCUMENTATION_STANDARDS.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/DOCUMENTATION_STANDARDS.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/API.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/DEPLOYMENT.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/DEPLOYMENT.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/COMMANDS.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/COMMANDS.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/ARCHITECTURE.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/getting-started.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/getting-started.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/API.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/ARCHITECTURE.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/CONTRIBUTING.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/CONTRIBUTING.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: API.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/API.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/getting-started.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/getting-started.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/guide.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/guide.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/API.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/API.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/ARCHITECTURE.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/ARCHITECTURE.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: docs/CONTRIBUTING.md -> /home/jhenry/Source/agent-knowledge/core-rules/documentation/docs/CONTRIBUTING.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/documentation/README_TEMPLATE.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/orchestration/ORCHESTRATION_PATTERNS.md: ./WORKER_COORDINATION.md -> /home/jhenry/Source/agent-knowledge/core-rules/orchestration/WORKER_COORDINATION.md
+  ❌ core-rules/orchestration/ORCHESTRATION_PATTERNS.md: ./DAEMON_AUTOMATION.md -> /home/jhenry/Source/agent-knowledge/core-rules/orchestration/DAEMON_AUTOMATION.md
+  ❌ core-rules/orchestration/ORCHESTRATION_PATTERNS.md: ./STATUS_MONITORING.md -> /home/jhenry/Source/agent-knowledge/core-rules/orchestration/STATUS_MONITORING.md
+  ❌ core-rules/orchestration/ORCHESTRATION_PATTERNS.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/orchestration/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/orchestration/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/orchestration/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/orchestration/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/orchestration/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/orchestration/README.md: ../../templates/templates/agent-project-template.md -> /home/jhenry/Source/agent-knowledge/templates/templates/agent-project-template.md
+  ❌ core-rules/workflows/DOCUMENTATION_WORKFLOW.md: ROADMAP.md -> /home/jhenry/Source/agent-knowledge/core-rules/workflows/ROADMAP.md
+  ❌ meta/cross-reference-map.md: ../../patterns/category/README.md -> /home/jhenry/Source/patterns/category/README.md
+  ❌ meta/cross-reference-map.md: ../../patterns/category/pattern.md -> /home/jhenry/Source/patterns/category/pattern.md
+  ❌ meta/cross-reference-map.md: ../../core-rules/category/README.md -> /home/jhenry/Source/core-rules/category/README.md
+
+... and 67 more broken links
+
+============================================================
+STATUS: ❌ FAIL - 117 broken links
+============================================================

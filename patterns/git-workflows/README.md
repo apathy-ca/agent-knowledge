@@ -234,7 +234,7 @@ Based on The Symposium development (v0.4.5):
 ## Related Core Rules
 
 **See Also**:
-- [Git Workflows](../../core-rules/workflows/git-workflows.md) - Git standards and requirements
+- [Git Workflows](../../core-rules/workflows/GIT_WORKFLOW.md) - Git standards and requirements
 
 **Note**: This patterns directory focuses on **HOW** to use git effectively (strategies, workflows, examples). The core-rules directory defines **WHAT** is required (standards, policies, requirements). Use both together for best results.
 

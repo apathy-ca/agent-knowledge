@@ -69,7 +69,7 @@ cp agent-rules/agents/templates/worker-definition-template.md .czarina/workers/
 
 ### Integration with Hopper
 
-See [MIGRATION_GUIDE.md](./MIGRATION_GUIDE.md) for complete Hopper integration instructions.
+ for complete Hopper integration instructions.
 
 Quick setup:
 ```bash
@@ -231,7 +231,7 @@ Multi-agent coordination patterns from Czarina.
 - 100% worker success rate
 - 3.4x speedup vs sequential execution
 
-See [CZARINA_ORCHESTRATION_CLOSEOUT.md](./CZARINA_ORCHESTRATION_CLOSEOUT.md) for complete orchestration report.
+ for complete orchestration report.
 
 ---
 
