@@ -1269,6 +1269,13 @@ except Exception as e:
 - [TOOL_USE_PATTERNS.md](TOOL_USE_PATTERNS.md) - Tool error handling
 - Cross-reference: `agent-rules/python/ERROR_HANDLING.md` (from foundation worker)
 
+For specific error recovery patterns in AI-assisted development, see:
+- [Error Recovery Patterns](../../patterns/error-recovery/README.md) - Common errors and recovery strategies
+- [Detection Patterns](../../patterns/error-recovery/detection-patterns.md) - Recognizing error patterns
+- [Recovery Strategies](../../patterns/error-recovery/recovery-strategies.md) - Systematic recovery approaches
+- [Retry Patterns](../../patterns/error-recovery/retry-patterns.md) - Retry and backoff strategies
+- [Fallback Patterns](../../patterns/error-recovery/fallback-patterns.md) - Graceful degradation patterns
+
 ---
 
 **Last Updated**: 2025-12-26

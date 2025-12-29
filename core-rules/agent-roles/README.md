@@ -460,6 +460,13 @@ as-is for use in agent-driven software development.
 
 ---
 
+## Related Patterns
+
+For tool-specific mode capabilities and optimization, see:
+- [Mode Capabilities](../../patterns/mode-capabilities/README.md) - Tool-specific mode definitions and optimization patterns
+
+---
+
 **Questions or Issues?**
 - Review the role documents
 - Check the templates

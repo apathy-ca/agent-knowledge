@@ -982,3 +982,8 @@ Git is not just version control - it's your communication tool with future devel
 - `PR_REQUIREMENTS.md` - Detailed PR review criteria
 - `DOCUMENTATION_WORKFLOW.md` - Documentation synchronization patterns
 - `PHASE_DEVELOPMENT.md` - Phase-based development workflow
+
+## Related Patterns
+
+For specific git workflow patterns and examples, see:
+- [Git Workflow Patterns](../../patterns/git-workflows/README.md) - Battle-tested patterns and examples

@@ -1,94 +1,71 @@
-# Tool Use Patterns for AI Coding Assistants
+# Tool Use Patterns for AI-Assisted Development
 
-**Purpose**: Efficient strategies for using AI coding assistant tools effectively.
+**Purpose**: Efficient tool usage strategies and optimization patterns for AI coding assistants.
 
-**Value**: 40-60% improvement in development efficiency through optimized tool usage.
+**Status**: To be populated with TOOL_USE_PATTERNS.md content from agentic-dev-patterns repository.
 
----
+## Overview
 
-## Core Principle
+This directory will contain specific tool usage patterns and optimization techniques that complement the comprehensive tool use design patterns in core-rules. While core-rules provide extensive implementations, this directory focuses on practical strategies specific to AI coding assistants.
 
-**Efficient tool use means**:
-- Reading multiple related files at once
-- Using the right tool for the job
-- Minimizing round trips
-- Batching operations
-- Caching results when appropriate
-- Executing operations in parallel
+## Planned Content
 
----
+The following patterns are planned for this directory:
 
-## Pattern Categories
+### File Reading Strategies
+- Parallel vs sequential file reading
+- When to use search vs read
+- Minimizing context usage
+- Progressive file exploration
 
-### [Optimization Patterns](./optimization-patterns.md)
-General strategies for optimizing tool usage:
-- Minimizing round trips
-- Choosing the right tool for the task
-- Understanding tool capabilities
-- Avoiding redundant operations
+### Modification Approaches
+- apply_diff vs write_to_file
+- Incremental changes vs full rewrites
+- Preserving file structure
+- Handling large files
 
-### [Batching Patterns](./batching-patterns.md)
-Combining multiple operations for efficiency:
-- Parallel file reading
-- Batch modifications
-- Grouped searches
-- Combined operations
+### Command Execution Best Practices
+- When to use shell commands
+- Batching commands efficiently
+- Error handling in commands
+- Output parsing strategies
 
-### [Caching Patterns](./caching-patterns.md)
-Strategies for caching and reusing results:
-- When to cache
-- Cache invalidation
-- Context retention
-- Avoiding redundant reads
+### Performance Optimization
+- Reducing redundant operations
+- Caching strategies
+- Minimizing API calls
+- Tool selection optimization
 
-### [Parallel Execution](./parallel-execution.md)
-Executing independent operations simultaneously:
-- Parallel file reads
-- Concurrent searches
-- Independent command execution
-- Dependency management
+### Search Strategies
+- Glob patterns for file discovery
+- Grep for code search
+- Combining search tools
+- Search result interpretation
 
-### [Tool Selection](./tool-selection.md)
-Choosing the appropriate tool for each task:
-- File reading vs. search
-- Different file modification approaches
-- Command execution strategies
-- Navigation vs. direct access
+## Value Proposition
 
----
+Tool use patterns from real AI-assisted development experience:
+- 40-60% improvement in AI assistant efficiency
+- Better use of tool capabilities
+- Reduced context overhead
+- Faster task completion
 
-## Quick Reference
+## Contributing
 
-### File Operations
-- **Read known files**: Batch read up to 5 related files
-- **Search for files**: Use search when location unknown
-- **Small changes**: Use targeted edits
-- **Large changes**: Rewrite entire sections
-- **New files**: Write complete file at once
+When adding patterns to this directory:
+1. Focus on AI coding assistant tool usage
+2. Include concrete examples showing tool usage
+3. Explain why certain approaches are more efficient
+4. Show both optimal and suboptimal patterns
+5. Provide metrics where possible (time saved, context usage)
 
-### Command Execution
-- **Control scripts**: Prefer project control scripts
-- **Raw commands**: Only when no wrapper exists
-- **Batching**: Chain related commands
-- **Error handling**: Check status before proceeding
+## Related Core Rules
 
-### Search Operations
-- **Specific patterns**: Use precise regex
-- **Broad exploration**: Start general, then narrow
-- **File type filtering**: Specify extensions
-- **Context**: Request surrounding lines
-
----
+For comprehensive tool usage design patterns and implementation, see:
+- [Tool Use Design Patterns](../../core-rules/design-patterns/TOOL_USE_PATTERNS.md) - Comprehensive tool usage patterns
 
 ## Related Patterns
 
-- [Error Recovery](../error-recovery/README.md) - Handling tool failures
-- [Context Management](../context-management/README.md) - Managing tool output
-- [Testing Patterns](../testing-patterns/README.md) - Testing tool integrations
-
----
-
-**Last Updated**: 2025-11-29
-**Source**: The Symposium development
-
-*"Efficient tools make efficient development."*
+For related optimization strategies, see:
+- [Context Management](../context-management/README.md) - Managing context windows and attention
+- [Mode Capabilities](../mode-capabilities/README.md) - Tool access and permissions per mode

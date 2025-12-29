@@ -1,78 +1,72 @@
-# Context Management Patterns
+# Context Management Patterns for AI-Assisted Development
 
-**Purpose**: Patterns for managing context windows and memory in AI-assisted development.
+**Purpose**: Strategies for managing context, attention, and memory in AI coding assistant interactions.
 
-**Status**: 🚧 Placeholder - Content to be developed
-
-**Value**: Optimized memory usage and attention focusing
-
----
+**Status**: To be populated with context management patterns.
 
 ## Overview
 
-Context management patterns help AI coding assistants:
-- Stay within context window limits
-- Maintain relevant information
-- Focus attention on important details
-- Use memory efficiently
-
----
+This directory will contain patterns for managing context, attention, and conversation memory when working with AI coding assistants. These patterns help maximize effectiveness within context windows and maintain coherent multi-turn interactions.
 
 ## Planned Content
 
-### Context Windows
-Managing context limits:
-- When to summarize
-- What to keep in context
-- How to structure context efficiently
-- Strategies for large codebases
-
-### Summarization
-Summarization strategies:
-- When to summarize vs. keep full context
-- What information to preserve
-- Progressive summarization
-- Summary quality validation
+The following patterns are planned for this directory:
 
 ### Memory Tiers
-Short-term vs long-term memory:
-- Session memory (immediate context)
-- Working memory (current task)
-- Long-term memory (project knowledge)
-- When to move between tiers
+- Short-term context (current conversation)
+- Mid-term context (recent files and changes)
+- Long-term context (project knowledge)
+- External memory (documentation, wikis)
 
-### Attention Shaping
-Focusing attention:
-- Highlighting important information
-- Structuring for relevance
-- Managing competing priorities
-- Attention budget allocation
+### Context Window Management
+- Prioritizing information within limited context
+- Summarization strategies
+- Context switching techniques
+- File selection strategies
 
----
+### Attention Management
+- Focusing AI attention on relevant code
+- Reducing noise in context
+- Progressive disclosure patterns
+- Context anchoring
 
-## Development Notes
+### Conversation Management
+- Multi-turn conversation strategies
+- Context preservation across turns
+- Reference management
+- Conversation checkpointing
 
-This pattern category needs to be developed based on:
-- Experience from The Symposium project
-- Hopper routing patterns
-- SARK compliance tracking
-- Czarina worker coordination
+### Project Knowledge Management
+- Maintaining project context
+- Documentation as context
+- Codebase navigation strategies
+- Knowledge extraction from conversations
 
-**Target content**:
-- Practical examples of context management
-- Strategies for staying within limits
-- Attention focusing techniques
-- Memory hierarchy patterns
+## Value Proposition
 
----
+Context management patterns from real experience:
+- More effective use of limited context windows
+- Better AI understanding of project structure
+- Reduced need to re-explain context
+- Improved multi-turn conversation quality
+
+## Contributing
+
+When adding patterns to this directory:
+1. Focus on practical context management techniques
+2. Include examples of effective context usage
+3. Explain the rationale and benefits
+4. Show both good and bad context management
+5. Provide metrics where possible (context usage, effectiveness)
+
+## Related Core Rules
+
+For design patterns that may involve memory and context, see:
+- [Design Patterns](../../core-rules/design-patterns/README.md) - Overview of all design patterns
+- [Caching Patterns](../../core-rules/design-patterns/CACHING_PATTERNS.md) - May include context caching strategies
 
 ## Related Patterns
 
-- [Tool Use Patterns](../tool-use/README.md) - Efficient tool usage reduces context needs
-- [Error Recovery](../error-recovery/README.md) - Error patterns affect context priority
-
----
-
-**Source**: To be developed from The Symposium patterns (v0.4.5)
-**Status**: Placeholder created during migration from agentic-dev-patterns
-**Created**: 2025-12-28
+For tools and workflows that affect context, see:
+- [Tool Use Patterns](../tool-use/README.md) - Efficient tool usage affects context
+- [Mode Capabilities](../mode-capabilities/README.md) - Different modes have different context needs

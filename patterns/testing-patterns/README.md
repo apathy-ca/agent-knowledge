@@ -1,111 +1,92 @@
-# Testing Patterns
+# Testing Patterns for AI-Assisted Development
 
-**Purpose**: Testing strategies and patterns for AI-assisted development.
+**Purpose**: Specific testing patterns, strategies, and examples that work well with AI coding assistants.
 
-**Status**: 🚧 Placeholder - Content to be developed
-
-**Value**: Comprehensive test coverage, zero pollution, efficient testing
-
----
+**Status**: To be populated with patterns from agentic-dev-patterns repository.
 
 ## Overview
 
-Testing patterns for AI-assisted development:
-- Test-driven development with AI
-- Automated testing strategies
-- Coverage optimization
-- Integration testing approaches
-- Test isolation and cleanup
+This directory will contain specific testing patterns and strategies that complement the comprehensive testing standards defined in core-rules. These patterns focus on practical approaches that have proven effective in AI-assisted development.
 
----
+## Relationship to Core Rules
+
+**Core Rules** define testing standards and requirements (the "what"):
+- [Testing Standards](../../core-rules/testing/README.md) - Comprehensive testing documentation overview
+- [Testing Policy](../../core-rules/testing/TESTING_POLICY.md) - When tests are required, philosophy, and core principles
+- [Unit Testing](../../core-rules/testing/UNIT_TESTING.md) - Unit test principles and patterns
+- [Integration Testing](../../core-rules/testing/INTEGRATION_TESTING.md) - Integration testing with Docker infrastructure
+- [Mocking Strategies](../../core-rules/testing/MOCKING_STRATEGIES.md) - Mock object patterns and best practices
+- [Coverage Standards](../../core-rules/testing/COVERAGE_STANDARDS.md) - Coverage requirements and tools
+
+**Patterns** show AI-assisted testing strategies (the "how"):
+- TDD patterns that work well with AI assistants
+- Test generation strategies
+- Mock creation patterns
+- Test isolation techniques
+- Automation patterns for test suites
 
 ## Planned Content
 
-### Test-Driven Development
-TDD patterns with AI assistants:
-- Writing tests before implementation
-- Test case generation
-- Coverage-driven development
-- Refactoring with test safety net
+The following patterns are planned for this directory:
 
-### Testing Automation
-Automation strategies:
-- CI/CD integration
-- Automated test generation
-- Regression test suites
-- Performance testing
-
-### Coverage Optimization
-Achieving comprehensive coverage:
-- Coverage goals and metrics
+### AI-Assisted TDD Patterns
+- Test-first development with AI coding assistants
+- Iterative test refinement
+- Test case generation strategies
 - Edge case identification
-- Missing coverage detection
-- Coverage-guided development
 
-### Integration Testing
-Integration test approaches:
-- Service integration patterns
-- Database integration tests
-- API testing strategies
-- End-to-end testing
-
-### Test Isolation
-Preventing test pollution:
-- Mock vs. real dependencies
+### Test Generation Patterns
+- Unit test creation workflows
+- Integration test scaffolding
+- Fixture generation
 - Test data management
-- Cleanup strategies
-- Test environment isolation
 
----
+### Mocking Patterns for AI Development
+- Mock object creation strategies
+- Dependency injection patterns
+- Test double selection
+- Mock verification approaches
 
-## Development Notes
+### Test Isolation Strategies
+- Database isolation patterns
+- External service mocking
+- File system isolation
+- Test cleanup automation
 
-This pattern category needs to be developed based on:
-- The Symposium testing (81 tests, 100% pass rate)
-- Zero production data pollution
-- Mock strategies for OpenSearch/Redis
-- Integration test patterns
+### Test Suite Automation
+- CI/CD integration patterns
+- Test execution optimization
+- Parallel test execution
+- Flaky test handling
 
-**Important**: This content may overlap with `core-rules/testing/`. The harmonize-content worker will need to:
-1. Identify overlapping content
-2. Determine canonical location
-3. Cross-reference appropriately
-4. Eliminate redundancy
+## Value Proposition
 
-**Target content**:
-- Practical testing patterns
-- Mock creation strategies
-- Test isolation techniques
-- Coverage optimization approaches
-- Real examples from The Symposium
+Testing patterns from real AI-assisted development experience:
+- Comprehensive test suite creation
+- Zero production data pollution risk
+- High coverage with minimal manual effort
+- Fast test execution through proper isolation
 
-**Key Achievements to Document**:
-- 81 tests created with AI assistance
-- 100% pass rate
-- Zero production data pollution
-- Effective mock strategies
-- Isolated test environments
+## Contributing
 
----
+When adding patterns to this directory:
+1. Ensure they are based on real AI-assisted development experience
+2. Include concrete examples with code snippets
+3. Explain why the pattern works well with AI assistants
+4. Cross-reference to relevant testing standards
+5. Include both successful and unsuccessful approaches
+
+## Related Core Rules
+
+For testing standards, requirements, and comprehensive documentation, see:
+- [Testing Standards](../../core-rules/testing/README.md) - Overview and quick reference
+- [Testing Policy](../../core-rules/testing/TESTING_POLICY.md) - Requirements and philosophy
+- [Unit Testing](../../core-rules/testing/UNIT_TESTING.md) - Unit test principles and patterns
+- [Integration Testing](../../core-rules/testing/INTEGRATION_TESTING.md) - Integration test patterns
+- [Mocking Strategies](../../core-rules/testing/MOCKING_STRATEGIES.md) - Mock object best practices
+- [Coverage Standards](../../core-rules/testing/COVERAGE_STANDARDS.md) - Coverage requirements and tools
 
 ## Related Patterns
 
-- [Error Recovery](../error-recovery/README.md) - Test-related error patterns
-- [Mode Capabilities](../mode-capabilities/README.md) - Testing in different modes
-- [Tool Use](../tool-use/README.md) - Efficient test execution
-
----
-
-## Cross-References
-
-**See Also**:
-- [Core Rules - Testing](../../core-rules/testing/) - Related testing content
-
-**Note**: Content harmonization needed between patterns and core-rules.
-
----
-
-**Source**: To be developed from The Symposium patterns (v0.4.5)
-**Status**: Placeholder created during migration from agentic-dev-patterns
-**Created**: 2025-12-28
-**Harmonization Required**: Yes (with core-rules/testing/)
+For error handling in tests, see:
+- [Error Recovery Patterns](../error-recovery/README.md) - Error detection and recovery strategies

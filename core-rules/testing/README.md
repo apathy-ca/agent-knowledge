@@ -566,6 +566,13 @@ This testing documentation provides:
 
 ---
 
+## Related Patterns
+
+For specific testing patterns and AI-assisted development strategies, see:
+- [Testing Patterns](../../patterns/testing-patterns/README.md) - TDD and automation strategies for AI-assisted development
+
+---
+
 **Last Updated**: 2025-12-26
 **Extracted From**: thesymposium, SARK, and czarina projects
 **Maintained By**: Agent Development Team

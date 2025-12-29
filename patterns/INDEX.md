@@ -1,303 +1,275 @@
-# Patterns Index
+# Agentic Development Patterns - Complete Index
 
-Battle-tested patterns with quantified impact from real projects.
-
-**What are Patterns?** Proven strategies that show **how** to implement requirements effectively.
-
-**How do they relate to Core Rules?** [Core Rules](../core-rules/INDEX.md) define what you must do; Patterns show how to do it well.
+**Version:** 1.0.0
+**Last Updated:** 2025-12-28
+**Purpose:** Practical patterns and strategies for AI-assisted software development
 
 ---
 
-## Navigation by Category
+## Quick Navigation
 
-### Error Recovery
-
-**Impact:** 30-50% reduction in debugging time
-
-Strategies for handling failures gracefully and recovering from errors:
-- Retry patterns with exponential backoff
-- Fallback strategies and graceful degradation
-- Circuit breaker patterns
-- Error context preservation
-- Recovery workflows
-
-**Related Core Rules:** [Error Handling](../core-rules/python-standards/error-handling.md), [Recovery Workflow](../core-rules/workflows/recovery-workflow.md)
-
-**Directory:** [error-recovery/](./error-recovery/)
+- [Error Recovery](#error-recovery) - Common errors and recovery strategies
+- [Git Workflows](#git-workflows) - Git patterns and examples
+- [Testing Patterns](#testing-patterns) - AI-assisted testing strategies
+- [Mode Capabilities](#mode-capabilities) - Tool-specific mode optimization
+- [Context Management](#context-management) - Context window management
+- [Tool Use](#tool-use) - Efficient tool usage strategies
 
 ---
 
-### Tool Use
+## Overview
 
-**Impact:** 40-60% efficiency improvement
+This patterns library contains proven strategies for effective AI-assisted development. While **core-rules** define standards and requirements (the "what"), **patterns** show practical implementations and strategies (the "how").
 
-Optimization strategies for effective tool usage:
-- Parallel tool calls for independent operations
-- Tool selection strategies
-- Error handling in tool calls
-- Tool call batching and optimization
-- Context-aware tool usage
+### Patterns vs Core Rules
 
-**Related Core Rules:** [Agent Roles](../core-rules/agent-roles/), [Workflows](../core-rules/workflows/)
-
-**Directory:** [tool-use/](./tool-use/)
-
----
-
-### Mode Capabilities
-
-**Impact:** Clear role separation and improved collaboration
-
-Role-specific patterns for different agent modes:
-- Code mode patterns (implementation strategies)
-- Ask mode patterns (information gathering)
-- Orchestrator patterns (coordination)
-- Debug mode patterns (troubleshooting)
-- Architect mode patterns (design)
-
-**Related Core Rules:** [Agent Roles](../core-rules/agent-roles/), [Orchestration](../core-rules/orchestration/)
-
-**Directory:** [mode-capabilities/](./mode-capabilities/)
+| Aspect | Core Rules | Patterns |
+|--------|-----------|----------|
+| **Purpose** | Standards, requirements, definitions | Strategies, examples, optimizations |
+| **Scope** | Comprehensive and generic | Specific and practical |
+| **Audience** | All agent development | AI-assisted development |
+| **Content** | What you must do | How to do it well |
+| **Examples** | Implementations | Battle-tested strategies |
 
 ---
 
-### Context Management
+## Error Recovery
 
-**Impact:** Memory optimization and efficient context usage
+**Purpose:** Common errors and proven recovery strategies when working with AI coding assistants.
 
-Strategies for managing context windows and memory:
-- Context window optimization
-- Summarization patterns
-- Context handoff between agents
-- Memory management strategies
-- Selective context inclusion
+**Value:** 30-50% reduction in debugging time by recognizing patterns quickly.
 
-**Related Core Rules:** [Memory Patterns](../core-rules/design-patterns/memory-patterns.md), [Agent Handoffs](../core-rules/orchestration/agent-handoffs.md)
+**Location:** `patterns/error-recovery/`
 
-**Directory:** [context-management/](./context-management/)
+| Document | Description | Path |
+|----------|-------------|------|
+| **Overview** | Error recovery philosophy and categories | [README.md](error-recovery/README.md) |
+| **Detection Patterns** | Recognizing common error patterns | [detection-patterns.md](error-recovery/detection-patterns.md) |
+| **Recovery Strategies** | Systematic recovery approaches | [recovery-strategies.md](error-recovery/recovery-strategies.md) |
+| **Retry Patterns** | Retry logic and backoff strategies | [retry-patterns.md](error-recovery/retry-patterns.md) |
+| **Fallback Patterns** | Graceful degradation mechanisms | [fallback-patterns.md](error-recovery/fallback-patterns.md) |
 
----
-
-### Git Workflows
-
-**Impact:** Consistent version control and collaboration
-
-Branch strategies, commit patterns, and PR workflows:
-- Branch naming conventions
-- Commit message patterns
-- PR workflow strategies
-- Conflict resolution patterns
-- Version control best practices
-
-**Related Core Rules:** [Git Workflows](../core-rules/workflows/git-workflows.md)
-
-**Directory:** [git-workflows/](./git-workflows/)
+**Related Core Rules:**
+- [Error Recovery Design Patterns](../core-rules/design-patterns/ERROR_RECOVERY.md)
+- [Error Handling Standards](../core-rules/python-standards/ERROR_HANDLING.md)
 
 ---
 
-### Testing Patterns
+## Git Workflows
 
-**Impact:** Comprehensive coverage and test quality
+**Purpose:** Specific git workflow patterns and battle-tested examples for AI-assisted development.
 
-Advanced testing strategies and organization:
-- Test organization patterns
-- Mocking and fixture strategies
-- Integration testing approaches
-- Coverage optimization
-- Test maintenance patterns
+**Value:** Clean history, easier collaboration, proper documentation sync.
 
-**Related Core Rules:** [Testing](../core-rules/testing/), [Pytest Standards](../core-rules/testing/pytest-standards.md)
+**Location:** `patterns/git-workflows/`
 
-**Directory:** [testing-patterns/](./testing-patterns/) (if exists)
+**Status:** ⏳ To be populated
 
----
+| Document | Description | Path |
+|----------|-------------|------|
+| **Overview** | Git workflow patterns overview | [README.md](git-workflows/README.md) |
+| *Branch Strategies* | *Specific branching patterns* | *To be added* |
+| *Commit Patterns* | *Commit message examples* | *To be added* |
+| *PR Workflows* | *PR creation and review examples* | *To be added* |
 
-## Navigation by Impact
-
-### Highest Efficiency Gains
-1. **Tool Use** (40-60% improvement) - Parallel execution, optimization
-2. **Error Recovery** (30-50% reduction) - Faster debugging, resilient systems
-3. **Context Management** - Reduced token usage, faster operations
-
-### Best for Collaboration
-1. **Mode Capabilities** - Clear roles, effective coordination
-2. **Git Workflows** - Consistent version control
-3. **Context Management** - Smooth agent handoffs
-
-### Best for Quality
-1. **Testing Patterns** - Comprehensive coverage
-2. **Error Recovery** - Resilient systems
-3. **Tool Use** - Correct and efficient operations
+**Related Core Rules:**
+- [Git Workflow Standards](../core-rules/workflows/GIT_WORKFLOW.md)
+- [PR Requirements](../core-rules/workflows/PR_REQUIREMENTS.md)
+- [Documentation Workflow](../core-rules/workflows/DOCUMENTATION_WORKFLOW.md)
 
 ---
 
-## Navigation by Use Case
+## Testing Patterns
 
-### I want to build more resilient systems
-**Recommended patterns:**
-- [Error Recovery](./error-recovery/) - Handle failures gracefully
-- **Related core rules:** [Recovery Workflow](../core-rules/workflows/recovery-workflow.md)
+**Purpose:** Testing strategies that work well with AI coding assistants.
 
----
+**Value:** Comprehensive test suites, zero pollution risk, high coverage with minimal manual effort.
 
-### I want to work more efficiently
-**Recommended patterns:**
-- [Tool Use](./tool-use/) - Optimize tool calls
-- [Context Management](./context-management/) - Manage memory effectively
-- **Related core rules:** [Workflows](../core-rules/workflows/)
+**Location:** `patterns/testing-patterns/`
 
----
+**Status:** ⏳ To be populated
 
-### I want to coordinate multiple agents
-**Recommended patterns:**
-- [Mode Capabilities](./mode-capabilities/) - Role-specific strategies
-- [Context Management](./context-management/) - Context handoff
-- **Related core rules:** [Orchestration](../core-rules/orchestration/), [Agent Roles](../core-rules/agent-roles/)
+| Document | Description | Path |
+|----------|-------------|------|
+| **Overview** | Testing patterns overview | [README.md](testing-patterns/README.md) |
+| *TDD Patterns* | *AI-assisted TDD strategies* | *To be added* |
+| *Test Generation* | *Unit and integration test creation* | *To be added* |
+| *Mocking Patterns* | *AI-friendly mocking strategies* | *To be added* |
 
----
-
-### I want to improve my version control
-**Recommended patterns:**
-- [Git Workflows](./git-workflows/) - Branch and commit strategies
-- **Related core rules:** [Git Workflows](../core-rules/workflows/git-workflows.md)
+**Related Core Rules:**
+- [Testing Standards](../core-rules/testing/README.md)
+- [Unit Testing](../core-rules/testing/UNIT_TESTING.md)
+- [Integration Testing](../core-rules/testing/INTEGRATION_TESTING.md)
+- [Coverage Standards](../core-rules/testing/COVERAGE_STANDARDS.md)
 
 ---
 
-### I want to write better tests
-**Recommended patterns:**
-- [Testing Patterns](./testing-patterns/) - Advanced testing strategies (if exists)
-- **Related core rules:** [Testing](../core-rules/testing/)
+## Mode Capabilities
+
+**Purpose:** Mode-specific capabilities, constraints, and optimization patterns for AI coding assistants.
+
+**Value:** Clearer boundaries, fewer mode-switching mistakes, better task routing.
+
+**Location:** `patterns/mode-capabilities/`
+
+**Status:** ⏳ To be populated
+
+| Document | Description | Path |
+|----------|-------------|------|
+| **Overview** | Mode capabilities overview | [README.md](mode-capabilities/README.md) |
+| *Mode Definitions* | *What each mode can/cannot do* | *To be added* |
+| *Mode Transitions* | *When to switch modes* | *To be added* |
+| *Optimization* | *Mode-specific best practices* | *To be added* |
+
+**Related Core Rules:**
+- [Agent Roles Overview](../core-rules/agent-roles/README.md)
+- [Architect Role](../core-rules/agent-roles/ARCHITECT_ROLE.md)
+- [Code Role](../core-rules/agent-roles/CODE_ROLE.md)
+- [Debug Role](../core-rules/agent-roles/DEBUG_ROLE.md)
 
 ---
 
-## Relationship to Core Rules
+## Context Management
 
-### Patterns vs. Core Rules
+**Purpose:** Strategies for managing context, attention, and memory in AI coding assistant interactions.
 
-**Patterns** show **HOW**:
-- Proven strategies from real projects
-- Real-world examples with code
-- Quantified impact metrics
-- Trade-offs and alternatives
+**Value:** More effective use of limited context windows, better AI understanding of project structure.
 
-**Core Rules** define **WHAT**:
-- Standards and requirements
-- Role definitions
-- Quality criteria
-- Workflow structures
+**Location:** `patterns/context-management/`
 
-### Example: Error Handling
+**Status:** ⏳ To be populated
 
-**Core Rule:** [Error Handling](../core-rules/python-standards/error-handling.md)
-- Defines WHAT: Use specific exceptions, log errors, handle failures properly
+| Document | Description | Path |
+|----------|-------------|------|
+| **Overview** | Context management overview | [README.md](context-management/README.md) |
+| *Memory Tiers* | *Short/mid/long-term context* | *To be added* |
+| *Context Windows* | *Maximizing context effectiveness* | *To be added* |
+| *Attention Management* | *Focusing AI attention* | *To be added* |
 
-**Pattern:** [Error Recovery](./error-recovery/)
-- Shows HOW: Retry with exponential backoff, circuit breakers, fallback strategies
-- Provides evidence: 30-50% reduction in debugging time
-
-### Cross-Reference Map
-
-For detailed relationships between patterns and core rules, see:
-- [Cross-Reference Map](../meta/cross-reference-map.md)
-- [Core Rules Index](../core-rules/INDEX.md)
+**Related Core Rules:**
+- [Caching Patterns](../core-rules/design-patterns/CACHING_PATTERNS.md)
 
 ---
 
-## Pattern Quality Levels
+## Tool Use
 
-### Proven
-- Used successfully in 3+ projects
-- Quantified impact from multiple sources
-- Recommended for general use
+**Purpose:** Efficient tool usage strategies and optimization patterns for AI coding assistants.
 
-### Accepted
-- Reviewed and approved
-- Evidence from at least one project
-- Documented impact
+**Value:** 40-60% improvement in AI assistant efficiency.
 
-### Proposed
-- New pattern, not yet battle-tested
-- Requires additional validation
-- Under review
+**Location:** `patterns/tool-use/`
 
-See [Pattern Template](../meta/pattern-template.md) for submission guidelines.
+**Status:** ⏳ To be populated
+
+| Document | Description | Path |
+|----------|-------------|------|
+| **Overview** | Tool use patterns overview | [README.md](tool-use/README.md) |
+| *File Reading* | *Parallel vs sequential strategies* | *To be added* |
+| *Modification* | *apply_diff vs write strategies* | *To be added* |
+| *Search* | *Glob and grep optimization* | *To be added* |
+
+**Related Core Rules:**
+- [Tool Use Design Patterns](../core-rules/design-patterns/TOOL_USE_PATTERNS.md)
 
 ---
 
-## Statistics
+## Pattern Categories Summary
 
-**Total Categories:** 6
+| Category | Status | Documents | Core Rule Links |
+|----------|--------|-----------|-----------------|
+| Error Recovery | ✅ Complete | 5 | 2 |
+| Git Workflows | ⏳ Planned | 1 | 3 |
+| Testing Patterns | ⏳ Planned | 1 | 4 |
+| Mode Capabilities | ⏳ Planned | 1 | 4 |
+| Context Management | ⏳ Planned | 1 | 1 |
+| Tool Use | ⏳ Planned | 1 | 1 |
 
-**Migration Status (2025-12-28):**
-- ✅ Error Recovery: **COMPLETE** (6 documents) - Migrated from agentic-dev-patterns
-- ✅ Tool Use: **COMPLETE** (6 documents) - Migrated from agentic-dev-patterns
-- ✅ Mode Capabilities: **COMPLETE** (7 documents) - Migrated from agentic-dev-patterns
-- 🚧 Context Management: **PLACEHOLDER** - Content to be developed
-- 🚧 Git Workflows: **PLACEHOLDER** - Content to be developed (harmonization needed with core-rules)
-- 🚧 Testing Patterns: **PLACEHOLDER** - Content to be developed (harmonization needed with core-rules)
+---
 
-**Impact Metrics:**
-- Error Recovery: 30-50% reduction in debugging time
-- Tool Use: 40-60% efficiency improvement
-- Mode Capabilities: Clear role separation
-- Context Management: Memory optimization (to be developed)
-- Git Workflows: Consistent version control (to be developed)
-- Testing Patterns: Comprehensive coverage (to be developed)
+## Quick Start Guide
 
-**Source Projects:**
-- The Symposium (multi-agent collaboration platform - v0.4.5)
-- Agentic-dev-patterns repository (v1.0.0)
-- Hopper (task routing)
-- Czarina (orchestration)
-- SARK (security validation)
+### For Developers
 
-**Documentation Status:**
-- Error handling and recovery ✅ (Complete with 6 focused sub-documents)
-- Tool usage optimization ✅ (Complete with 6 focused sub-documents)
-- Multi-agent coordination ✅ (Complete with 7 mode-specific documents)
-- Context management 🚧 (Placeholder - needs development)
-- Version control 🚧 (Placeholder - needs development + harmonization)
-- Testing strategies 🚧 (Placeholder - needs development + harmonization)
+1. **Encountering an error?** → Check [Error Recovery Patterns](error-recovery/README.md)
+2. **Setting up git workflow?** → See [Git Workflow Patterns](git-workflows/README.md)
+3. **Writing tests with AI?** → Read [Testing Patterns](testing-patterns/README.md)
+4. **Optimizing tool use?** → Review [Tool Use Patterns](tool-use/README.md)
+
+### For AI Coding Assistants
+
+If you're an AI assistant reading this:
+1. Read relevant pattern files for your current task
+2. Apply the patterns to your work
+3. Suggest improvements based on your experience
+4. Document new patterns you discover
 
 ---
 
 ## Contributing
 
-**Have a pattern to share?** See [CONTRIBUTING.md](../CONTRIBUTING.md)
+We welcome contributions! If you've discovered effective patterns for AI-assisted development:
 
-**Pattern submission process:**
-1. Use the [Pattern Template](../meta/pattern-template.md)
-2. Provide evidence from real projects
-3. Document impact (quantified or qualitative)
-4. Submit PR for review
-5. Human review and approval
+1. Fork this repository
+2. Add your pattern to the appropriate file
+3. Include real-world examples
+4. Submit a pull request
 
-**Questions?** Open an issue with the `pattern` label
-
----
-
-## Continuous Improvement
-
-Patterns are continuously extracted from:
-- **Czarina closeout learnings** - Worker insights and observations
-- **Hopper task feedback** - Routing and execution patterns
-- **Symposium Sage wisdom** - Multi-agent collaboration patterns
-- **SARK security learnings** - Security pattern effectiveness
-
-See [Learning Extraction](../meta/learning-extraction.md) for the full workflow.
+**Pattern Quality Guidelines:**
+- ✅ Based on real experience (not theory)
+- ✅ Includes concrete examples
+- ✅ Explains the "why" not just the "what"
+- ✅ Quantifies value when possible
 
 ---
 
-## Related Documentation
+## Related Core Rules
 
-- [Main README](../README.md) - Repository overview
-- [Core Rules Index](../core-rules/INDEX.md) - Standards and requirements
-- [Pattern Template](../meta/pattern-template.md) - Template for new patterns
-- [Learning Extraction](../meta/learning-extraction.md) - How patterns are captured
-- [CONTRIBUTING](../CONTRIBUTING.md) - How to contribute
-- [CHANGELOG](../CHANGELOG.md) - Version history
+For comprehensive standards, requirements, and implementations, see:
+
+### Core Rules Library
+
+- [**Core Rules Overview**](../core-rules/INDEX.md) - Complete core rules index
+- [Design Patterns](../core-rules/design-patterns/README.md) - Architectural patterns
+- [Agent Roles](../core-rules/agent-roles/README.md) - Role definitions
+- [Workflows](../core-rules/workflows/README.md) - Development processes
+- [Testing Standards](../core-rules/testing/README.md) - Testing requirements
+- [Python Standards](../core-rules/python-standards/README.md) - Python best practices
+- [Security](../core-rules/security/README.md) - Security standards
+
+**Relationship:** Patterns show "how to do it well" using the standards and requirements defined in core-rules.
 
 ---
 
-**Last Updated:** 2025-12-28
-**Version:** 1.0.0
+## Navigation Tips
+
+**Need standards?** → Start in [core-rules](../core-rules/INDEX.md)
+**Need examples?** → Start in patterns (this index)
+**Need both?** → Use cross-references to navigate between them
+
+See the [Cross-Reference Map](../meta/cross-reference-map.md) for detailed relationships.
+
+---
+
+## Statistics
+
+- **Total Pattern Categories:** 6
+- **Complete Categories:** 1 (Error Recovery)
+- **Planned Categories:** 5
+- **Total Documents:** 11 (5 complete, 6 planned)
+- **Cross-References to Core Rules:** 15+
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0.0 | 2025-12-28 | Initial patterns index with error recovery patterns and placeholders |
+
+---
+
+**Need help?** Check the [Cross-Reference Map](../meta/cross-reference-map.md) or the main [README.md](../README.md).
+
+---
+
+*"Good patterns emerge from real work, not ivory towers."*

@@ -1,94 +1,67 @@
 # Git Workflow Patterns
 
-**Purpose**: Git discipline and version control patterns for AI-assisted development.
+**Purpose**: Specific git workflow patterns and battle-tested examples for AI-assisted development.
 
-**Status**: 🚧 Placeholder - Content to be developed
-
-**Value**: Consistent version control practices, clean history
-
----
+**Status**: To be populated with patterns from agentic-dev-patterns repository.
 
 ## Overview
 
-Git workflow patterns ensure:
-- Clean commit history
-- Proper documentation sync
-- Effective collaboration
-- Recoverable changes
+This directory will contain specific git workflow patterns, examples, and strategies that complement the general git workflow rules defined in core-rules.
 
----
+## Relationship to Core Rules
+
+**Core Rules** define the standards and requirements (the "what"):
+- [Git Workflow (Core Rules)](../../core-rules/workflows/GIT_WORKFLOW.md) - General workflow rules and standards
+- [PR Requirements](../../core-rules/workflows/PR_REQUIREMENTS.md) - Pull request review criteria
+- [Documentation Workflow](../../core-rules/workflows/DOCUMENTATION_WORKFLOW.md) - Documentation synchronization
+
+**Patterns** show specific strategies and examples (the "how"):
+- Branch Strategies - Specific branching patterns for different scenarios
+- Commit Patterns - Commit message examples and templates
+- PR Workflow Examples - Step-by-step PR creation and review examples
+- Multi-Agent Coordination - Patterns for coordinating git work across multiple agents
 
 ## Planned Content
 
+The following patterns are planned for this directory:
+
 ### Branch Strategies
-Branching patterns for AI-assisted development:
-- Feature branches
-- Development workflows
-- Integration patterns
-- Branch naming conventions
+- Feature branch workflows
+- Release branch patterns
+- Hotfix workflows
+- Worker branch coordination (Czarina orchestration)
 
 ### Commit Patterns
-Commit message and organization:
-- Commit frequency
-- Message standards
-- Atomic commits
-- Documentation sync
-
-### PR Workflows
-Pull request workflows:
-- PR creation patterns
-- Review requirements
-- Automated checks
-- Merge strategies
-
-### Conflict Resolution
-Handling merge conflicts:
-- Prevention strategies
-- Resolution patterns
-- Testing after merge
-- Communication practices
-
----
-
-## Development Notes
-
-This pattern category needs to be developed based on:
-- The Symposium's git discipline
-- Multi-worker coordination (Czarina)
+- Conventional commit examples
+- Multi-file commit strategies
 - Documentation sync patterns
-- Version control at scale
+- Atomic commit guidelines
 
-**Important**: This content may overlap with `core-rules/workflows/git-workflows.md`. The harmonize-content worker will need to:
-1. Identify overlapping content
-2. Determine canonical location
-3. Cross-reference appropriately
-4. Eliminate redundancy
+### PR Workflow Patterns
+- PR creation templates
+- Review checklist examples
+- Merge strategies
+- Conflict resolution patterns
 
-**Target content**:
-- Practical git patterns for AI development
-- Commit message templates
-- Branch strategy examples
-- Conflict resolution workflows
+### Multi-Agent Git Patterns
+- Branch isolation strategies
+- Integration workflows
+- Code review coordination
+- Merge conflict prevention
 
----
+## Contributing
 
-## Related Patterns
+When adding patterns to this directory:
+1. Ensure they are based on real experience (not theory)
+2. Include concrete examples
+3. Explain the rationale and benefits
+4. Cross-reference to relevant core rules
+5. Show both good and bad examples where applicable
 
-- [Error Recovery](../error-recovery/README.md) - Git-related error patterns
-- [Mode Capabilities](../mode-capabilities/README.md) - Which modes can commit
+## Related Core Rules
 
----
-
-## Cross-References
-
-**See Also**:
-- [Core Rules - Workflows](../../core-rules/workflows/) - Related workflow content
-
-**Note**: Content harmonization needed between patterns and core-rules.
-
----
-
-**Source**: To be developed from The Symposium patterns (v0.4.5)
-**Status**: Placeholder created during migration from agentic-dev-patterns
-**Created**: 2025-12-28
-**Harmonization Required**: Yes (with core-rules/workflows/)
+For general git workflow rules and standards, see:
+- [Git Workflow](../../core-rules/workflows/GIT_WORKFLOW.md) - Core workflow principles and rules
+- [PR Requirements](../../core-rules/workflows/PR_REQUIREMENTS.md) - Detailed PR review criteria
+- [Documentation Workflow](../../core-rules/workflows/DOCUMENTATION_WORKFLOW.md) - Documentation synchronization patterns
+- [Phase Development](../../core-rules/workflows/PHASE_DEVELOPMENT.md) - Phase-based development workflow

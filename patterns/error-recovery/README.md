@@ -93,6 +93,12 @@ Knowing when to escalate to human intervention:
 - [Testing Patterns](../testing-patterns/README.md) - Testing strategies
 - [Git Workflows](../git-workflows/README.md) - Git discipline
 
+## Related Core Rules
+
+For comprehensive error recovery design patterns and implementation, see:
+- [Error Recovery Design Patterns](../../core-rules/design-patterns/ERROR_RECOVERY.md) - Retry patterns, circuit breakers, fallback strategies
+- [Error Handling Standards](../../core-rules/python-standards/ERROR_HANDLING.md) - Python error handling best practices
+
 ---
 
 **Last Updated**: 2025-11-29

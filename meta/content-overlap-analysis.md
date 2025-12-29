@@ -1,236 +1,364 @@
 # Content Overlap Analysis
 
-**Date**: 2025-12-28
-**Worker**: harmonize-content
-**Purpose**: Analyze overlapping content between agent-rules and agentic-dev-patterns repositories
+**Date:** 2025-12-29 (Updated)
+**Worker:** harmonize-content
+**Purpose:** Identify and resolve overlapping content between core-rules and patterns
+
+---
 
 ## Executive Summary
 
-After examining both source repositories, the actual overlap is **less than initially expected**. The agentic-dev-patterns repository is smaller and more focused than anticipated, containing only 4 core markdown files. Many patterns mentioned in its README (GIT_WORKFLOW_PATTERNS.md, TESTING_PATTERNS.md, DOCUMENTATION_PATTERNS.md) do not actually exist as separate files yet.
+After analyzing the repository structure post-migration, I've identified **4 main areas of content overlap** between core-rules and patterns. In all cases, the content is already **well-separated** with clear cross-references in place. The existing structure follows the principle:
 
-## Overlapping Content Areas
+- **Core Rules** = Standards, requirements, definitions (the "what")
+- **Patterns** = Strategies, examples, optimizations (the "how")
 
-### 1. Git Workflows
+Most harmonization work involves **validating existing cross-references** and **ensuring consistency** rather than major restructuring.
 
-**Source Files**:
-- **agent-rules**: `/agent-rules/workflows/GIT_WORKFLOW.md` (23,752 bytes)
-  - Comprehensive git workflow for AI agent development
-  - Branch naming conventions (feature/, fix/, etc.)
-  - PR-based development requirements
-  - Conventional commits
-  - Documentation synchronization
-  - Production-tested from The Symposium
+---
 
-- **agentic-dev-patterns**: `GIT_WORKFLOW_PATTERNS.md` (DOES NOT EXIST)
-  - Referenced in README but file doesn't exist
-  - README mentions: commit frequency, branch strategies, PR workflows, documentation sync
+## 1. Git Workflows
 
-**Overlap Assessment**: **MINIMAL**
-- Only one actual file exists (from agent-rules)
-- The agentic-dev-patterns file is referenced but not created yet
+### Current State
 
-**Resolution Strategy**:
-1. Migrate agent-rules GIT_WORKFLOW.md to `core-rules/workflows/git-workflows.md` as the primary source
-2. If migrate-patterns worker creates git-workflows content, place in `patterns/git-workflows/`
-3. Add cross-references between locations
-4. Ensure core-rules has standards/requirements, patterns has examples
+**core-rules/workflows/GIT_WORKFLOW.md** (990 lines)
+- Complete git workflow documentation
+- Branch naming conventions
+- Commit message structure (conventional commits)
+- PR workflow and merge strategies
+- Multi-agent coordination patterns
+- **Cross-reference status:** ✅ Has cross-reference to patterns at line 987-989
 
-### 2. Testing
+**patterns/git-workflows/README.md** (68 lines)
+- Placeholder file marked as "To be populated"
+- Planning structure for future content from agentic-dev-patterns
+- **Cross-reference status:** ✅ Has cross-references to core-rules at lines 13-17, 62-67
 
-**Source Files**:
-- **agent-rules**: `/agent-rules/testing/` (6 files, ~111K total)
-  - COVERAGE_STANDARDS.md (14,216 bytes)
-  - INTEGRATION_TESTING.md (28,531 bytes)
-  - MOCKING_STRATEGIES.md (19,699 bytes)
-  - README.md (14,107 bytes)
-  - TESTING_POLICY.md (12,919 bytes)
-  - UNIT_TESTING.md (22,227 bytes)
+### Overlap Assessment
 
-- **agentic-dev-patterns**: `TESTING_PATTERNS.md` (DOES NOT EXIST)
-  - Referenced in README but file doesn't exist
-  - README mentions: unit test creation, integration test design, test isolation, coverage goals
+**Overlap:** ❌ **NONE** - The patterns directory is a placeholder awaiting content
 
-**Overlap Assessment**: **MINIMAL**
-- Comprehensive content exists only in agent-rules
-- The agentic-dev-patterns file is referenced but not created yet
+**Unique to core-rules:**
+- All current git workflow content
+- Conventional commit standards
+- PR requirements
+- Branch strategies
+- Czarina orchestration patterns
 
-**Resolution Strategy**:
-1. Migrate all agent-rules testing content to `core-rules/testing/`
-2. If migrate-patterns creates testing-patterns content, place in `patterns/testing-patterns/`
-3. Add cross-references
-4. Core-rules = standards and requirements, patterns = strategies and examples
+**Unique to patterns:**
+- None yet (placeholder only)
 
-### 3. Agent Roles vs Mode Capabilities
+### Resolution Strategy
 
-**Source Files**:
-- **agent-rules**: `/agent-rules/agents/` (7 files, ~120K total)
-  - AGENT_ROLES.md (12,690 bytes)
-  - ARCHITECT_ROLE.md (13,681 bytes)
-  - CODE_ROLE.md (16,400 bytes)
-  - DEBUG_ROLE.md (18,459 bytes)
-  - ORCHESTRATOR_ROLE.md (27,372 bytes)
-  - QA_ROLE.md (20,081 bytes)
-  - README.md (12,514 bytes)
+✅ **NO ACTION REQUIRED** - Content is already separated:
+1. Core rules define the standards
+2. Patterns directory will contain specific examples when populated
+3. Cross-references are already in place
+4. Both files reference each other correctly
 
-- **agentic-dev-patterns**: `MODE_CAPABILITIES.md` (6,825 bytes)
-  - Defines 5 modes for Kilo Code: Architect, Code, Debug, Ask, Orchestrator
-  - Specific capabilities and constraints per mode
-  - File patterns allowed per mode
+**Recommendation:** Monitor when patterns are populated to ensure no duplication occurs.
 
-**Overlap Assessment**: **MODERATE**
-- Both define role-based capabilities
-- agent-rules is more generic (agent roles for any system)
-- agentic-dev-patterns is Kilo Code-specific (mode capabilities)
-- Different perspectives on similar concepts
+---
 
-**Resolution Strategy**:
-1. Migrate agent-rules content to `core-rules/agent-roles/` - generic role definitions
-2. Migrate MODE_CAPABILITIES.md to `patterns/mode-capabilities/` - specific mode optimization
-3. Add cross-references showing relationship
-4. Core-rules = role definitions and responsibilities (generic)
-5. Patterns = mode-specific optimization and transitions (tool-specific)
+## 2. Testing Content
 
-### 4. Error Recovery
+### Current State
 
-**Source Files**:
-- **agent-rules**: No dedicated error recovery content
-  - Some error handling in workflows/
+**core-rules/testing/** (580 lines in README.md + 5 additional files)
+- Complete testing standards and policy
+- Test organization and structure
+- Coverage requirements (80% minimum for new code)
+- pytest configuration
+- Unit, integration, mocking, and coverage standards
+- **Cross-reference status:** ✅ Has cross-reference to patterns at lines 569-572
 
-- **agentic-dev-patterns**: `ERROR_RECOVERY_PATTERNS.md` (8,150 bytes)
-  - Docker networking issues
-  - Database connection failures
-  - Async/await pitfalls
-  - Import resolution
-  - Syntax error recovery
+**patterns/testing-patterns/README.md** (93 lines)
+- Placeholder file marked as "To be populated"
+- Planning structure for AI-assisted TDD patterns
+- **Cross-reference status:** ✅ Has cross-references to core-rules at lines 13-20, 80-88
 
-**Overlap Assessment**: **NONE**
-- Unique to agentic-dev-patterns
-- No equivalent in agent-rules
+### Overlap Assessment
 
-**Resolution Strategy**:
-1. Migrate ERROR_RECOVERY_PATTERNS.md to `patterns/error-recovery/`
-2. No harmonization needed (unique content)
-3. If any workflow error recovery exists in agent-rules, add cross-reference
+**Overlap:** ❌ **NONE** - The patterns directory is a placeholder awaiting content
 
-### 5. Tool Use
+**Unique to core-rules:**
+- Testing policy and requirements
+- Unit testing standards
+- Integration testing with Docker
+- Mocking strategies
+- Coverage standards and tools
+- pytest configuration examples
 
-**Source Files**:
-- **agent-rules**: No dedicated tool use content
-  - Some tool guidance in role definitions
+**Unique to patterns:**
+- None yet (placeholder only)
 
-- **agentic-dev-patterns**: `TOOL_USE_PATTERNS.md` (1,524 bytes)
-  - File reading strategies
-  - Search vs read decisions
-  - Modification approaches
-  - Command execution
-  - Performance optimization
+### Resolution Strategy
 
-**Overlap Assessment**: **NONE**
-- Unique to agentic-dev-patterns
-- No equivalent in agent-rules
+✅ **NO ACTION REQUIRED** - Content is already separated:
+1. Core rules define comprehensive testing standards
+2. Patterns directory will contain AI-assisted TDD strategies when populated
+3. Cross-references are already in place
+4. Clear separation: core-rules = requirements, patterns = AI strategies
 
-**Resolution Strategy**:
-1. Migrate TOOL_USE_PATTERNS.md to `patterns/tool-use/`
-2. No harmonization needed (unique content)
+**Recommendation:** When patterns are populated, ensure they focus on AI-specific testing approaches (test generation, TDD with AI assistants) rather than duplicating general testing standards.
 
-### 6. Documentation Workflows
+---
 
-**Source Files**:
-- **agent-rules**: `/agent-rules/workflows/DOCUMENTATION_WORKFLOW.md` (28,087 bytes)
-  - Documentation-first development
-  - Sync strategies
-  - Archiving workflows
-  - Living documents
+## 3. Agent Roles vs Mode Capabilities
 
-- **agentic-dev-patterns**: `DOCUMENTATION_PATTERNS.md` (DOES NOT EXIST)
-  - Referenced in README but file doesn't exist
+### Current State
 
-**Overlap Assessment**: **NONE**
-- Only exists in agent-rules
-- agentic-dev-patterns reference is placeholder
+**core-rules/agent-roles/README.md** (478 lines + 6 role-specific files)
+- Generic agent role definitions (Architect, Code, Debug, QA, Orchestrator)
+- Worker taxonomy and organization
+- Role selection guide
+- Orchestration patterns
+- Worker templates
+- **Cross-reference status:** ✅ Has cross-reference to patterns at lines 463-466
 
-**Resolution Strategy**:
-1. Migrate DOCUMENTATION_WORKFLOW.md to `core-rules/workflows/documentation-workflow.md`
-2. No harmonization needed
+**patterns/mode-capabilities/README.md** (111 lines)
+- Placeholder file marked as "To be populated"
+- Planning structure for tool-specific mode optimization
+- **Cross-reference status:** ✅ Has cross-references to core-rules at lines 13-20, 98-106
 
-## Unique Content
+### Overlap Assessment
 
-### From agent-rules Only
-- Python standards
-- Security patterns
-- PR requirements (workflows/PR_REQUIREMENTS.md)
-- Phase development (workflows/PHASE_DEVELOPMENT.md)
-- Token planning (workflows/TOKEN_PLANNING.md)
-- Closeout process (workflows/CLOSEOUT_PROCESS.md)
-- Comprehensive testing standards
-- Agent role definitions
+**Overlap:** ❌ **NONE** - Clear conceptual separation
 
-### From agentic-dev-patterns Only
-- Error recovery patterns (actual file)
-- Tool use patterns (actual file)
-- Mode capabilities (actual file)
+**Difference:**
+- **Agent Roles** (core-rules): Generic role definitions independent of tool
+- **Mode Capabilities** (patterns): Tool-specific mode optimization (Kilo Code, Claude Code, etc.)
 
-### Referenced But Not Existing in agentic-dev-patterns
-- GIT_WORKFLOW_PATTERNS.md
-- TESTING_PATTERNS.md
-- DOCUMENTATION_PATTERNS.md
+**Unique to core-rules:**
+- Role taxonomy (Architect, Code, Debug, QA, Orchestrator)
+- Responsibilities and coordination patterns
+- Worker organization strategies
+- Orchestration workflows
 
-## Overall Assessment
+**Unique to patterns:**
+- None yet (placeholder only)
+- Will contain: tool-specific capabilities, mode transitions, optimization per mode
 
-**Actual Overlap**: **Much less than expected**
+### Resolution Strategy
 
-The agentic-dev-patterns repository is a lean, focused collection of 4 markdown files:
-1. README.md
-2. ERROR_RECOVERY_PATTERNS.md
-3. MODE_CAPABILITIES.md
-4. TOOL_USE_PATTERNS.md
+✅ **NO ACTION REQUIRED** - Content is conceptually different:
+1. Core rules = what roles should do (tool-agnostic)
+2. Patterns = how to optimize within specific tools (tool-specific)
+3. Cross-references already in place
+4. Explanation of relationship included in both files (lines 74-86 in patterns/README.md)
 
-Many patterns referenced in the README don't exist as separate files yet. This means:
-- Less deduplication work needed
-- More straightforward migration
-- Clearer separation of concerns
-- Focus on cross-referencing rather than merging
+**Recommendation:** When patterns are populated, maintain clear distinction between generic role responsibilities and tool-specific mode features.
 
-## Harmonization Priority
+---
 
-### High Priority (Actual Overlap)
-1. **Agent Roles / Mode Capabilities** - Moderate overlap, different perspectives
-   - Requires thoughtful cross-referencing
-   - Clear separation: generic roles vs mode-specific optimization
+## 4. Error Recovery
 
-### Low Priority (Minimal Overlap)
-2. **Git Workflows** - Only one file exists
-   - Straightforward migration
-   - Add placeholder cross-references
+### Current State
 
-3. **Testing** - Only comprehensive content in agent-rules
-   - Straightforward migration
-   - Add placeholder cross-references
+**core-rules/design-patterns/ERROR_RECOVERY.md** (1,287 lines)
+- Comprehensive error recovery design patterns
+- Retry with exponential backoff (with code from SARK)
+- Circuit breaker pattern
+- Error classification
+- Graceful degradation
+- Timeout management
+- **Cross-reference status:** ✅ Has cross-references to patterns at lines 1271-1277
 
-### No Priority (No Overlap)
-4. **Error Recovery** - Unique to patterns
-5. **Tool Use** - Unique to patterns
-6. **Documentation** - Unique to core-rules
+**patterns/error-recovery/README.md** (109 lines + 4 additional pattern files)
+- AI-assisted development error patterns
+- Common errors from real experience
+- Quick pattern recognition
+- Links to detailed pattern files (detection, recovery, retry, fallback)
+- **Cross-reference status:** ✅ Has cross-reference to core-rules at lines 97-101
 
-## Success Criteria
+### Overlap Assessment
 
-- [ ] Clear separation established: core-rules = standards/definitions, patterns = strategies/examples
-- [ ] All actual overlaps identified and resolved
-- [ ] Cross-references added for related content
-- [ ] No duplicate content in repository
-- [ ] Navigation clear between related topics
+**Overlap:** ⚠️ **MINIMAL** - Some conceptual overlap but different focus
 
-## Next Steps
+**Unique to core-rules:**
+- Design pattern implementations (with code)
+- Retry handler class implementation
+- Circuit breaker class implementation
+- Error classification system
+- Theoretical foundations and best practices
 
-1. Wait for migrate-rules and migrate-patterns workers to complete
-2. Examine actual migrated content in core-rules/ and patterns/
-3. Execute harmonization tasks based on actual content (not assumptions)
-4. Focus on Agent Roles/Mode Capabilities as primary overlap
-5. Add comprehensive cross-references throughout
+**Unique to patterns:**
+- AI-assisted development specific errors (Docker, Python, async, import)
+- Quick reference for common error patterns
+- Practical recovery strategies
+- Battle-tested examples from The Symposium
 
-## Notes
+**Conceptual Difference:**
+- **Core rules:** Generic error recovery design patterns (implementation-focused)
+- **Patterns:** AI-specific error patterns and quick recovery (troubleshooting-focused)
 
-- The implementation plan may have been based on assumptions about agentic-dev-patterns content
-- Actual content is leaner than expected
-- This is good news - less work, clearer structure
-- Focus should be on excellent cross-referencing rather than complex deduplication
+### Resolution Strategy
+
+✅ **MINIMAL ACTION REQUIRED** - Content serves different purposes:
+1. Core rules provide implementation patterns (code libraries)
+2. Patterns provide troubleshooting guides (error catalog)
+3. Cross-references already in place
+4. Natural division: design vs troubleshooting
+
+**Action Items:**
+- Verify cross-references are comprehensive ✓
+- Ensure no duplicate error examples between the two
+- Natural separation is appropriate
+
+---
+
+## 5. Memory/Context Management
+
+### Current State
+
+**core-rules/design-patterns/**
+- No memory-specific patterns found
+- ERROR_RECOVERY.md, CACHING_PATTERNS.md, BATCH_OPERATIONS.md, etc. exist
+- **Cross-reference status:** ❌ No memory patterns document found
+
+**patterns/context-management/README.md** (73 lines)
+- Placeholder file marked as "To be populated"
+- Planning structure for context management in AI interactions
+- Memory tiers, attention management, conversation management
+- **Cross-reference status:** ⚠️ References core-rules/design-patterns generically at lines 64-66
+
+### Overlap Assessment
+
+**Overlap:** ❌ **NONE** - Core rules don't have memory patterns document
+
+**Finding:** The task instructions mention "design-patterns/memory-patterns.md" but this file doesn't exist. The cross-reference in Task 6 (lines 209-220 of worker instructions) references a non-existent file.
+
+**Unique to patterns:**
+- None yet (placeholder only)
+- Will contain: memory tiers, context window management, attention management
+
+### Resolution Strategy
+
+✅ **UPDATE CROSS-REFERENCES ONLY**
+1. No harmonization needed (no core-rules memory patterns exist)
+2. Update patterns/context-management/README.md to remove reference to non-existent file
+3. Cross-reference to related design patterns instead (CACHING_PATTERNS.md if relevant)
+4. **Task 6 will be modified** - update cross-references to point to existing files only
+
+---
+
+## Additional Findings
+
+### Files with Existing Cross-References
+
+1. **core-rules/workflows/GIT_WORKFLOW.md** ✅
+   - Lines 987-989: Links to patterns/git-workflows/
+
+2. **core-rules/testing/README.md** ✅
+   - Lines 569-572: Links to patterns/testing-patterns/
+
+3. **core-rules/agent-roles/README.md** ✅
+   - Lines 463-466: Links to patterns/mode-capabilities/
+
+4. **core-rules/design-patterns/ERROR_RECOVERY.md** ✅
+   - Lines 1271-1277: Links to patterns/error-recovery/ (comprehensive)
+
+5. **patterns/git-workflows/README.md** ✅
+   - Lines 13-17, 62-67: Links to core-rules/workflows/
+
+6. **patterns/testing-patterns/README.md** ✅
+   - Lines 13-20, 80-88: Links to core-rules/testing/
+
+7. **patterns/mode-capabilities/README.md** ✅
+   - Lines 13-20, 98-106: Links to core-rules/agent-roles/
+
+8. **patterns/error-recovery/README.md** ✅
+   - Lines 97-101: Links to core-rules/design-patterns/ERROR_RECOVERY.md
+
+### Files Missing Cross-References
+
+**None found** - All files have appropriate cross-references!
+
+---
+
+## Summary Matrix
+
+| Area | Core Rules Location | Patterns Location | Overlap | Status | Action Required |
+|------|-------------------|------------------|---------|---------|-----------------|
+| Git Workflows | workflows/GIT_WORKFLOW.md (990 lines) | git-workflows/ (placeholder) | None | ✅ Good | Monitor when populated |
+| Testing | testing/ (6 files, 580+ lines) | testing-patterns/ (placeholder) | None | ✅ Good | Monitor when populated |
+| Agent Roles/Modes | agent-roles/ (7 files, 478+ lines) | mode-capabilities/ (placeholder) | None | ✅ Good | Monitor when populated |
+| Error Recovery | design-patterns/ERROR_RECOVERY.md (1,287 lines) | error-recovery/ (5 files) | Minimal | ✅ Good | Validate separation |
+| Memory/Context | ❌ Not found | context-management/ (placeholder) | None | ⚠️ Issue | Fix cross-ref |
+
+---
+
+## Proposed Resolution Strategy
+
+### Strategy 1: Git Workflows
+**Decision:** ✅ **Already harmonized** - No action required
+- Core rules contain complete standards
+- Patterns directory is placeholder for future examples
+- Cross-references in place
+
+### Strategy 2: Testing
+**Decision:** ✅ **Already harmonized** - No action required
+- Core rules contain comprehensive standards
+- Patterns directory will contain AI-specific strategies
+- Cross-references in place
+
+### Strategy 3: Agent Roles vs Mode Capabilities
+**Decision:** ✅ **Already harmonized** - No action required
+- Clear conceptual separation (generic vs tool-specific)
+- Cross-references in place
+- Relationship explained in both documents
+
+### Strategy 4: Error Recovery
+**Decision:** ✅ **Validate separation** - Minor review
+- Core rules focus on design pattern implementations
+- Patterns focus on troubleshooting and quick recovery
+- Cross-references comprehensive
+- **Action:** Verify no duplicate examples
+
+### Strategy 5: Memory/Context Management
+**Decision:** ⚠️ **Fix cross-reference**
+- No memory-patterns.md exists in core-rules
+- Update patterns/context-management/README.md
+- Reference CACHING_PATTERNS.md or other relevant patterns instead
+- **Action:** Update cross-references
+
+---
+
+## Recommendations
+
+### Immediate Actions (Tasks 2-11)
+
+1. **Task 2 (Git Workflows):** ✅ Validate existing cross-references - COMPLETE
+2. **Task 3 (Testing):** ✅ Validate existing cross-references - COMPLETE
+3. **Task 4 (Agent Roles/Modes):** ✅ Validate existing cross-references - COMPLETE
+4. **Task 5 (Error Recovery):** ✅ Validate cross-references, check for duplicate examples
+5. **Task 6 (Memory/Context):** ⚠️ **MODIFIED** - Update cross-refs to point to existing files (not memory-patterns.md)
+6. **Task 7:** Create cross-reference map
+7. **Task 8:** Validate all internal links
+8. **Task 9:** Update INDEX files with cross-references
+9. **Task 10:** Create harmonization summary
+10. **Task 11:** Commit all changes
+
+### Future Monitoring
+
+When patterns directories are populated from agentic-dev-patterns repository:
+- Ensure no duplication of content from core-rules
+- Verify patterns focus on "how" while core-rules focus on "what"
+- Maintain cross-references
+- Review for any new overlaps
+
+---
+
+## Success Metrics
+
+- ✅ All overlapping content identified
+- ✅ Clear strategy for each overlap
+- ✅ Most content already harmonized
+- ✅ Cross-references already in place
+- ⚠️ 1 issue found (memory-patterns.md doesn't exist)
+- 🎯 Ready to proceed with validation and link checking
+
+---
+
+**Analysis Complete**
+**Next Step:** Proceed to Task 2 - Validate existing cross-references
