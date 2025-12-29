@@ -1,13 +1,13 @@
 Validating directory structure...
-❌ Missing file: README.md
-❌ Missing file: CONTRIBUTING.md
-❌ Missing file: CHANGELOG.md
+✓ Found: README.md
+✓ Found: CONTRIBUTING.md
+✓ Found: CHANGELOG.md
 ✓ Found: LICENSE
 ✓ Found: .gitignore
-❌ Missing file: AGENT_RULES_LEGACY.md
-❌ Missing file: AGENTIC_DEV_PATTERNS_LEGACY.md
+✓ Found: AGENT_RULES_LEGACY.md
+✓ Found: AGENTIC_DEV_PATTERNS_LEGACY.md
 ✓ Found: core-rules
-❌ Missing file: core-rules/INDEX.md
+✓ Found: core-rules/INDEX.md
 ✓ Found: core-rules/python-standards
 ✓ Found: core-rules/agent-roles
 ✓ Found: core-rules/workflows
@@ -17,18 +17,18 @@ Validating directory structure...
 ✓ Found: core-rules/documentation
 ✓ Found: core-rules/orchestration
 ✓ Found: patterns
-❌ Missing file: patterns/INDEX.md
+✓ Found: patterns/INDEX.md
 ✓ Found: patterns/error-recovery
 ✓ Found: patterns/tool-use
 ✓ Found: patterns/mode-capabilities
 ✓ Found: patterns/context-management
 ✓ Found: patterns/git-workflows
-❌ Missing directory: patterns/testing-patterns
+✓ Found: patterns/testing-patterns
 ✓ Found: templates
 ✓ Found: examples
 ✓ Found: meta
-❌ Missing file: meta/versioning.md
-❌ Missing file: meta/pattern-template.md
-❌ Missing file: meta/learning-extraction.md
+✓ Found: meta/versioning.md
+✓ Found: meta/pattern-template.md
+✓ Found: meta/learning-extraction.md
 
-❌ Found 11 errors in structure
+✅ All structure validation checks passed!

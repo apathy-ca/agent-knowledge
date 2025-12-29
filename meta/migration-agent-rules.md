@@ -1,6 +1,6 @@
 # Migration Summary: agent-rules
 
-**Date:** 2025-12-28
+**Date:** 2025-12-29
 **Source:** /home/jhenry/Source/agent-rules (v1.0.0)
 **Target:** /home/jhenry/Source/agent-knowledge/core-rules/
 

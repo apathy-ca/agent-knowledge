@@ -1,299 +1,256 @@
-# Core Rules Index
+# Agent Rules Library - Complete Index
 
-Production-tested rules extracted from real projects.
-
-**What are Core Rules?** Standards, requirements, and definitions that establish **what** you must do.
-
-**How do they relate to Patterns?** Core Rules define requirements; [Patterns](../patterns/INDEX.md) show how to implement them effectively.
+**Version:** 1.0.0
+**Last Updated:** 2025-12-27
+**Total Rules:** 53 rules across 9 domains
 
 ---
 
-## Navigation by Domain
+## Quick Navigation
 
-### Python Standards (7 rules, ~1,827 lines)
-
-Foundation for Python development:
-- [README](./python-standards/README.md) - Overview and philosophy
-- [Imports](./python-standards/imports.md) - Import organization and standards
-- [Type Annotations](./python-standards/type-annotations.md) - Type hints and mypy
-- [Async/Await](./python-standards/async-await.md) - Asynchronous programming patterns
-- [Error Handling](./python-standards/error-handling.md) - Exception handling standards
-- [Logging](./python-standards/logging.md) - Structured logging requirements
-- [Testing](./python-standards/testing.md) - Python testing standards
-- [Packaging](./python-standards/packaging.md) - Distribution and dependency management
-
-**Related Patterns:** [Error Recovery](../patterns/error-recovery/), [Testing Patterns](../patterns/testing-patterns/)
+- [Python Development](#python-development) (7 rules)
+- [Agent Roles](#agent-roles) (9 rules)
+- [Workflow Patterns](#workflow-patterns) (6 rules)
+- [Design Patterns](#design-patterns) (5 rules)
+- [Testing Standards](#testing-standards) (5 rules)
+- [Security Practices](#security-practices) (5 rules)
+- [Templates](#templates) (13 templates)
+- [Documentation Standards](#documentation-standards) (5 rules)
+- [Orchestration](#orchestration) (1 rule)
 
 ---
 
-### Agent Roles (10 roles, ~11,485 lines)
+## Python Development
 
-Definitions and responsibilities for different agent roles:
-- [README](./agent-roles/README.md) - Overview of agent role system
-- [Architect Role](./agent-roles/architect-role.md) - System design and planning
-- [Code Role](./agent-roles/code-role.md) - Implementation and coding
-- [Debug Role](./agent-roles/debug-role.md) - Debugging and troubleshooting
-- [QA Role](./agent-roles/qa-role.md) - Quality assurance and testing
-- [Orchestrator Role](./agent-roles/orchestrator-role.md) - Task coordination
-- [Ask Role](./agent-roles/ask-role.md) - Information gathering and clarification
-- [Ops Role](./agent-roles/ops-role.md) - Operations and deployment
-- [Security Role](./agent-roles/security-role.md) - Security validation
-- [Docs Role](./agent-roles/docs-role.md) - Documentation creation
-- [Roles Coordination](./agent-roles/roles-coordination.md) - Multi-role collaboration
+Comprehensive Python coding standards and patterns for agent development.
 
-**Related Patterns:** [Mode Capabilities](../patterns/mode-capabilities/)
+**Location:** `agent-rules/python/`
 
----
-
-### Workflows (7 workflows, ~3,062 lines)
-
-Standard workflows for common development tasks:
-- [README](./workflows/README.md) - Workflow system overview
-- [Feature Workflow](./workflows/feature-workflow.md) - Adding new features
-- [Bugfix Workflow](./workflows/bugfix-workflow.md) - Fixing bugs
-- [Refactor Workflow](./workflows/refactor-workflow.md) - Code refactoring
-- [Investigation Workflow](./workflows/investigation-workflow.md) - Research and exploration
-- [Handoff Workflow](./workflows/handoff-workflow.md) - Transferring context between agents
-- [Recovery Workflow](./workflows/recovery-workflow.md) - Recovering from errors
-- [Git Workflows](./workflows/git-workflows.md) - Version control practices
-
-**Related Patterns:** [Error Recovery](../patterns/error-recovery/), [Git Workflows](../patterns/git-workflows/)
+| Rule | Description | Path |
+|------|-------------|------|
+| **Coding Standards** | Python style guide, naming conventions, and best practices | [CODING_STANDARDS.md](python/CODING_STANDARDS.md) |
+| **Async Patterns** | Asynchronous programming patterns with asyncio | [ASYNC_PATTERNS.md](python/ASYNC_PATTERNS.md) |
+| **Error Handling** | Exception handling strategies and patterns | [ERROR_HANDLING.md](python/ERROR_HANDLING.md) |
+| **Dependency Injection** | Service container and dependency management | [DEPENDENCY_INJECTION.md](python/DEPENDENCY_INJECTION.md) |
+| **Testing Patterns** | Python testing patterns with pytest | [TESTING_PATTERNS.md](python/TESTING_PATTERNS.md) |
+| **Security Patterns** | Python security best practices | [SECURITY_PATTERNS.md](python/SECURITY_PATTERNS.md) |
+| **README** | Python domain overview | [README.md](python/README.md) |
 
 ---
 
-### Design Patterns (6 patterns, ~1,926 lines)
+## Agent Roles
 
-Architectural and design patterns:
-- [README](./design-patterns/README.md) - Design philosophy
-- [Layer-Based Architecture](./design-patterns/layer-based-architecture.md) - Separation of concerns
-- [Modular Design](./design-patterns/modular-design.md) - Component organization
-- [Configuration Over Code](./design-patterns/configuration-over-code.md) - Externalized configuration
-- [Progressive Complexity](./design-patterns/progressive-complexity.md) - Incremental sophistication
-- [Comprehensive Testing](./design-patterns/comprehensive-testing.md) - Testing strategy
-- [Memory Patterns](./design-patterns/memory-patterns.md) - State management
+Specialized agent role definitions for different development tasks.
 
-**Related Patterns:** [Context Management](../patterns/context-management/)
+**Location:** `agent-rules/agents/`
 
----
-
-### Testing (6 rules, ~1,799 lines)
-
-Testing standards and requirements:
-- [README](./testing/README.md) - Testing philosophy
-- [Testing Philosophy](./testing/testing-philosophy.md) - Why and how we test
-- [Pytest Standards](./testing/pytest-standards.md) - Pytest conventions
-- [Test Organization](./testing/test-organization.md) - Test structure
-- [Fixtures and Mocks](./testing/fixtures-and-mocks.md) - Test helpers
-- [Integration Testing](./testing/integration-testing.md) - End-to-end tests
-- [Coverage Requirements](./testing/coverage-requirements.md) - Coverage targets
-
-**Related Patterns:** [Testing Patterns](../patterns/testing-patterns/)
+| Role | Description | Path |
+|------|-------------|------|
+| **Agent Roles Overview** | Taxonomy of agent roles and responsibilities | [AGENT_ROLES.md](agents/AGENT_ROLES.md) |
+| **Architect Role** | System design and architecture planning | [ARCHITECT_ROLE.md](agents/ARCHITECT_ROLE.md) |
+| **Code Role** | Implementation and coding tasks | [CODE_ROLE.md](agents/CODE_ROLE.md) |
+| **Debug Role** | Debugging and troubleshooting | [DEBUG_ROLE.md](agents/DEBUG_ROLE.md) |
+| **QA Role** | Testing, validation, and quality assurance | [QA_ROLE.md](agents/QA_ROLE.md) |
+| **Orchestrator Role** | Multi-agent coordination (Czar pattern) | [ORCHESTRATOR_ROLE.md](agents/ORCHESTRATOR_ROLE.md) |
+| **Worker Identity Template** | Template for worker identity files | [templates/worker-identity-template.md](agents/templates/worker-identity-template.md) |
+| **Worker Definition Template** | Template for worker task definitions | [templates/worker-definition-template.md](agents/templates/worker-definition-template.md) |
+| **Worker Closeout Template** | Template for worker completion reports | [templates/worker-closeout-template.md](agents/templates/worker-closeout-template.md) |
 
 ---
 
-### Security (5 rules, ~4,155 lines)
+## Workflow Patterns
 
-Security best practices and requirements:
-- [README](./security/README.md) - Security overview
-- [Authentication](./security/authentication.md) - User authentication
-- [Authorization](./security/authorization.md) - Access control
-- [Secrets Management](./security/secrets-management.md) - Credential handling
-- [Input Validation](./security/input-validation.md) - Data validation
-- [Audit Logging](./security/audit-logging.md) - Security event logging
+Development workflows and process standards.
 
-**Used by:** SARK for security validation
+**Location:** `agent-rules/workflows/`
 
----
-
-### Documentation (6 rules, ~1,959 lines)
-
-Documentation standards and best practices:
-- [README](./documentation/README.md) - Documentation philosophy
-- [Docstring Standards](./documentation/docstring-standards.md) - Code documentation
-- [README Structure](./documentation/readme-structure.md) - Project README format
-- [API Documentation](./documentation/api-documentation.md) - API reference docs
-- [Architecture Docs](./documentation/architecture-docs.md) - System design docs
-- [Changelog Standards](./documentation/changelog-standards.md) - Version history
-- [Inline Comments](./documentation/inline-comments.md) - Code comments
+| Workflow | Description | Path |
+|----------|-------------|------|
+| **Git Workflow** | Branching strategy, commits, and version control | [GIT_WORKFLOW.md](workflows/GIT_WORKFLOW.md) |
+| **PR Requirements** | Pull request standards and review process | [PR_REQUIREMENTS.md](workflows/PR_REQUIREMENTS.md) |
+| **Documentation Workflow** | Documentation creation and maintenance | [DOCUMENTATION_WORKFLOW.md](workflows/DOCUMENTATION_WORKFLOW.md) |
+| **Phase Development** | Multi-phase project development process | [PHASE_DEVELOPMENT.md](workflows/PHASE_DEVELOPMENT.md) |
+| **Token Planning** | LLM token budget planning and management | [TOKEN_PLANNING.md](workflows/TOKEN_PLANNING.md) |
+| **Closeout Process** | Project completion and handoff procedures | [CLOSEOUT_PROCESS.md](workflows/CLOSEOUT_PROCESS.md) |
 
 ---
 
-### Orchestration (2 patterns, ~1,098 lines)
+## Design Patterns
 
-Patterns for task coordination and agent orchestration:
-- [README](./orchestration/README.md) - Orchestration overview
-- [Task Coordination](./orchestration/task-coordination.md) - Multi-task management
-- [Agent Handoffs](./orchestration/agent-handoffs.md) - Context transfer between agents
+Architectural patterns for agent systems.
 
-**Related Patterns:** [Mode Capabilities](../patterns/mode-capabilities/)
+**Location:** `agent-rules/patterns/`
 
-**Used by:** Czarina for worker coordination, Hopper for task routing
-
----
-
-## Navigation by Use Case
-
-### I want to set up a new Python project
-**Relevant domains:**
-- [Python Standards](./python-standards/) - Language fundamentals
-- [Testing](./testing/) - Test setup and standards
-- [Documentation](./documentation/) - Project documentation
-- [Design Patterns](./design-patterns/) - Architecture guidance
-
-**Quick-start templates:**
-- See [Templates](../templates/) for project scaffolding
+| Pattern | Description | Path |
+|---------|-------------|------|
+| **Tool Use Patterns** | Effective LLM tool calling strategies | [TOOL_USE_PATTERNS.md](patterns/TOOL_USE_PATTERNS.md) |
+| **Streaming Patterns** | Real-time data streaming and processing | [STREAMING_PATTERNS.md](patterns/STREAMING_PATTERNS.md) |
+| **Caching Patterns** | Caching strategies for performance | [CACHING_PATTERNS.md](patterns/CACHING_PATTERNS.md) |
+| **Batch Operations** | Efficient batch processing patterns | [BATCH_OPERATIONS.md](patterns/BATCH_OPERATIONS.md) |
+| **Error Recovery** | Resilience and error recovery strategies | [ERROR_RECOVERY.md](patterns/ERROR_RECOVERY.md) |
 
 ---
 
-### I want to define agent roles for my project
-**Relevant domains:**
-- [Agent Roles](./agent-roles/) - Role definitions and responsibilities
-- [Orchestration](./orchestration/) - Coordination patterns
+## Testing Standards
 
-**Related patterns:**
-- [Mode Capabilities](../patterns/mode-capabilities/) - Role-specific strategies
+Comprehensive testing policies and methodologies.
 
-**Example systems:**
-- Hopper (task routing)
-- The Symposium (multi-agent collaboration)
+**Location:** `agent-rules/testing/`
 
----
-
-### I want to establish development workflows
-**Relevant domains:**
-- [Workflows](./workflows/) - Standard development workflows
-- [Agent Roles](./agent-roles/) - Role-specific workflows
-
-**Related patterns:**
-- [Git Workflows](../patterns/git-workflows/) - Version control strategies
-- [Error Recovery](../patterns/error-recovery/) - Recovery workflows
+| Standard | Description | Path |
+|----------|-------------|------|
+| **Testing Policy** | Overall testing philosophy and requirements | [TESTING_POLICY.md](testing/TESTING_POLICY.md) |
+| **Unit Testing** | Unit test standards and best practices | [UNIT_TESTING.md](testing/UNIT_TESTING.md) |
+| **Integration Testing** | Integration test strategies | [INTEGRATION_TESTING.md](testing/INTEGRATION_TESTING.md) |
+| **Coverage Standards** | Code coverage requirements and tools | [COVERAGE_STANDARDS.md](testing/COVERAGE_STANDARDS.md) |
+| **Mocking Strategies** | Test doubles and mocking patterns | [MOCKING_STRATEGIES.md](testing/MOCKING_STRATEGIES.md) |
 
 ---
 
-### I want to implement comprehensive testing
-**Relevant domains:**
-- [Testing](./testing/) - Testing standards
-- [Python Standards](./python-standards/) - Language-level testing
-- [Design Patterns](./design-patterns/) - Testable architecture
+## Security Practices
 
-**Related patterns:**
-- [Testing Patterns](../patterns/testing-patterns/) - Advanced testing strategies
+Security standards and implementation guidelines.
 
----
+**Location:** `agent-rules/security/`
 
-### I want to secure my application
-**Relevant domains:**
-- [Security](./security/) - Security requirements and best practices
-
-**Example systems:**
-- SARK (security validation)
+| Practice | Description | Path |
+|----------|-------------|------|
+| **Authentication** | User authentication patterns | [AUTHENTICATION.md](security/AUTHENTICATION.md) |
+| **Authorization** | Access control and permissions | [AUTHORIZATION.md](security/AUTHORIZATION.md) |
+| **Secret Management** | Secure credential and secret handling | [SECRET_MANAGEMENT.md](security/SECRET_MANAGEMENT.md) |
+| **Injection Prevention** | Protection against injection attacks | [INJECTION_PREVENTION.md](security/INJECTION_PREVENTION.md) |
+| **Audit Logging** | Security event logging and monitoring | [AUDIT_LOGGING.md](security/AUDIT_LOGGING.md) |
 
 ---
 
-### I want to document my code properly
-**Relevant domains:**
-- [Documentation](./documentation/) - Documentation standards
+## Templates
 
-**Example outputs:**
-- This repository's documentation (meta-documentation)
+Reusable templates for projects, documentation, and testing.
+
+**Location:** `agent-rules/templates/`
+
+### Project Templates
+
+| Template | Description | Path |
+|----------|-------------|------|
+| **Python Project** | Python project structure and setup | [python-project-template.md](templates/python-project-template.md) |
+| **Agent Project** | Agent-based project template | [agent-project-template.md](templates/agent-project-template.md) |
+| **Repository Structure** | Standard repository organization | [repository-structure-template.md](templates/repository-structure-template.md) |
+
+### Documentation Templates
+
+| Template | Description | Path |
+|----------|-------------|------|
+| **README Template** | Comprehensive README structure | [readme-template.md](templates/readme-template.md) |
+| **API Documentation** | API documentation format | [api-documentation-template.md](templates/api-documentation-template.md) |
+| **Architecture Docs** | Architecture documentation template | [architecture-documentation-template.md](templates/architecture-documentation-template.md) |
+
+### Testing Templates
+
+| Template | Description | Path |
+|----------|-------------|------|
+| **Unit Test** | Unit test structure and patterns | [unit-test-template.md](templates/unit-test-template.md) |
+| **Integration Test** | Integration test template | [integration-test-template.md](templates/integration-test-template.md) |
+| **Test Fixture** | Test fixture and data template | [test-fixture-template.md](templates/test-fixture-template.md) |
+
+### Worker Templates
+
+| Template | Description | Path |
+|----------|-------------|------|
+| **Worker Identity** | Worker identity file template | [worker-identity-template.md](templates/worker-identity-template.md) |
+| **Worker Definition** | Worker task definition template | [worker-definition-template.md](templates/worker-definition-template.md) |
+| **Worker Closeout** | Worker completion report template | [worker-closeout-template.md](templates/worker-closeout-template.md) |
 
 ---
 
-### I want to coordinate multiple agents
-**Relevant domains:**
-- [Orchestration](./orchestration/) - Task and agent coordination
-- [Agent Roles](./agent-roles/) - Role definitions
+## Documentation Standards
 
-**Related patterns:**
-- [Mode Capabilities](../patterns/mode-capabilities/) - Role-specific patterns
+Standards for creating and maintaining documentation.
 
-**Example systems:**
-- Czarina (worker orchestration)
-- The Symposium (multi-agent dialogue)
-- Hopper (task routing)
+**Location:** `agent-rules/documentation/`
+
+| Standard | Description | Path |
+|----------|-------------|------|
+| **Documentation Standards** | Overall documentation philosophy and requirements | [DOCUMENTATION_STANDARDS.md](documentation/DOCUMENTATION_STANDARDS.md) |
+| **API Documentation** | API documentation best practices | [API_DOCUMENTATION.md](documentation/API_DOCUMENTATION.md) |
+| **Architecture Docs** | Architecture documentation guidelines | [ARCHITECTURE_DOCS.md](documentation/ARCHITECTURE_DOCS.md) |
+| **Changelog Standards** | Changelog format and maintenance | [CHANGELOG_STANDARDS.md](documentation/CHANGELOG_STANDARDS.md) |
+| **README Template** | README structure template | [README_TEMPLATE.md](documentation/README_TEMPLATE.md) |
 
 ---
 
-## Relationship to Patterns
+## Orchestration
 
-### Core Rules vs. Patterns
+Multi-agent orchestration patterns.
 
-**Core Rules** define **WHAT**:
-- Standards you must follow
-- Requirements you must meet
-- Definitions of roles and concepts
-- Quality criteria
+**Location:** `agent-rules/orchestration/`
 
-**Patterns** show **HOW**:
-- Proven strategies for implementation
-- Real-world examples
-- Impact metrics and evidence
-- Trade-offs and alternatives
+| Pattern | Description | Path |
+|---------|-------------|------|
+| **Orchestration Patterns** | Czarina-style multi-agent coordination | [ORCHESTRATION_PATTERNS.md](orchestration/ORCHESTRATION_PATTERNS.md) |
 
-### Example: Error Handling
+---
 
-**Core Rule:** [Python Standards - Error Handling](./python-standards/error-handling.md)
-- Defines WHAT: Use specific exceptions, log errors, don't swallow exceptions
+## Using This Index
 
-**Pattern:** [Error Recovery](../patterns/error-recovery/)
-- Shows HOW: Retry patterns, fallback strategies, circuit breakers
-- Provides evidence: 30-50% reduction in debugging time
+### Finding Rules by Topic
 
-### Cross-Reference Map
+1. **Browse by category** - Use the navigation links at the top
+2. **Search by keyword** - Use your editor's search function (Ctrl+F / Cmd+F)
+3. **Check domain READMEs** - Each domain has a README.md with detailed overviews
 
-For detailed relationships between core rules and patterns, see:
-- [Cross-Reference Map](../meta/cross-reference-map.md)
-- [Patterns Index](../patterns/INDEX.md)
+### Understanding the Organization
+
+The library is organized into 9 domains:
+
+- **python/** - Language-specific coding standards
+- **agents/** - Role-based agent definitions
+- **workflows/** - Development process patterns
+- **patterns/** - Architectural design patterns
+- **testing/** - Testing methodologies and standards
+- **security/** - Security best practices
+- **templates/** - Reusable project and documentation templates
+- **documentation/** - Documentation creation standards
+- **orchestration/** - Multi-agent coordination patterns
+
+### Quick Start
+
+1. **New to the library?** Start with [agent-rules/README.md](README.md)
+2. **Building a Python agent?** Check [python/CODING_STANDARDS.md](python/CODING_STANDARDS.md)
+3. **Setting up a project?** Use [templates/agent-project-template.md](templates/agent-project-template.md)
+4. **Running an orchestration?** See [orchestration/ORCHESTRATION_PATTERNS.md](orchestration/ORCHESTRATION_PATTERNS.md)
+5. **Integrating with Hopper?** Read [../.hopper/README.md](../.hopper/README.md)
 
 ---
 
 ## Statistics
 
-**Total Content:**
-- 9 domains
-- 53+ individual rules
-- ~43,873 lines of content
-- Production-tested in real projects
-
-**Most Referenced:**
-- Agent Roles (used by Hopper, Czarina, The Symposium)
-- Python Standards (foundation for Python projects)
-- Workflows (standard development processes)
-
-**Coverage:**
-- Python development ✓
-- Multi-agent systems ✓
-- Security and compliance ✓
-- Documentation ✓
-- Testing ✓
-- Orchestration ✓
+- **Total Domains:** 9
+- **Total Rules:** 53
+- **Total Templates:** 13 (included in rule count)
+- **Total Files:** 63 (including READMEs)
+- **Lines of Documentation:** ~35,000+
 
 ---
 
 ## Contributing
 
-**Found a gap?** See [CONTRIBUTING.md](../CONTRIBUTING.md)
+To add new rules or update existing ones:
 
-**Want to add a rule?** Follow the same process as adding patterns:
-1. Use appropriate template
-2. Provide evidence from real projects
-3. Submit PR
-4. Human review
-
-**Questions?** Open an issue with the `question` label
+1. Follow the [DOCUMENTATION_STANDARDS.md](documentation/DOCUMENTATION_STANDARDS.md)
+2. Place new rules in the appropriate domain directory
+3. Update this INDEX.md with the new rule
+4. Update the domain README.md
+5. Submit a pull request following [PR_REQUIREMENTS.md](workflows/PR_REQUIREMENTS.md)
 
 ---
 
-## Related Documentation
+## Version History
 
-- [Main README](../README.md) - Repository overview
-- [Patterns Index](../patterns/INDEX.md) - Implementation patterns
-- [Templates](../templates/) - Project templates
-- [Examples](../examples/) - Real-world examples
-- [CONTRIBUTING](../CONTRIBUTING.md) - How to contribute
-- [CHANGELOG](../CHANGELOG.md) - Version history
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0.0 | 2025-12-27 | Initial release - Complete agent rules library extraction |
 
 ---
 
-**Last Updated:** 2025-12-28
-**Version:** 1.0.0
+**Need help?** Check the main [README.md](README.md) or the [.hopper integration guide](../.hopper/README.md).
