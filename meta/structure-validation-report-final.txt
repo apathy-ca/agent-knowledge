@@ -1,0 +1,34 @@
+Validating directory structure...
+✓ Found: README.md
+✓ Found: CONTRIBUTING.md
+✓ Found: CHANGELOG.md
+✓ Found: LICENSE
+✓ Found: .gitignore
+✓ Found: AGENT_RULES_LEGACY.md
+✓ Found: AGENTIC_DEV_PATTERNS_LEGACY.md
+✓ Found: core-rules
+✓ Found: core-rules/INDEX.md
+✓ Found: core-rules/python-standards
+✓ Found: core-rules/agent-roles
+✓ Found: core-rules/workflows
+✓ Found: core-rules/design-patterns
+✓ Found: core-rules/testing
+✓ Found: core-rules/security
+✓ Found: core-rules/documentation
+✓ Found: core-rules/orchestration
+✓ Found: patterns
+✓ Found: patterns/INDEX.md
+✓ Found: patterns/error-recovery
+✓ Found: patterns/tool-use
+✓ Found: patterns/mode-capabilities
+✓ Found: patterns/context-management
+✓ Found: patterns/git-workflows
+✓ Found: patterns/testing-patterns
+✓ Found: templates
+✓ Found: examples
+✓ Found: meta
+✓ Found: meta/versioning.md
+✓ Found: meta/pattern-template.md
+✓ Found: meta/learning-extraction.md
+
+✅ All structure validation checks passed!

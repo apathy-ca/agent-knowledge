@@ -415,17 +415,14 @@ An agent role system is working well when:
 ## Related Documentation
 
 ### Within This Library
-- [Python Coding Standards](../../python/CODING_STANDARDS.md)
-- [Git Workflow](../../workflows/GIT_WORKFLOW.md)
-- [Testing Patterns](../../python/TESTING_PATTERNS.md)
+- [Python Coding Standards](../python-standards/CODING_STANDARDS.md)
+- [Git Workflow](../workflows/GIT_WORKFLOW.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
 
 ### Orchestration Resources
-- [Czarina Documentation](../../.czarina/README.md)
-- [Orchestration Plan](../../plans/czarina-orchestration-plan.md)
-- [Worker Examples](../../.czarina/workers/)
 
 ### Real-World Examples
-- [Agent Rules Extraction](../../.czarina/README.md) - This project!
+ - This project!
 - [SARK Implementation](https://github.com/sark)
 - [Hopper Development](https://github.com/hopper)
 

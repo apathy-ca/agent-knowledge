@@ -32,7 +32,7 @@ This repository captures **proven patterns for effective AI-assisted development
 
 ## 📚 Pattern Categories
 
-### 1. [Error Recovery Patterns](ERROR_RECOVERY_PATTERNS.md)
+### 1. Error Recovery Patterns (archived)
 Common errors and their solutions when working with AI assistants.
 
 **Key Topics**:
@@ -44,7 +44,7 @@ Common errors and their solutions when working with AI assistants.
 
 **Value**: 30-50% reduction in debugging time
 
-### 2. [Tool Use Patterns](TOOL_USE_PATTERNS.md)
+### 2. Tool Use Patterns (archived)
 Efficient strategies for using AI coding assistant tools.
 
 **Key Topics**:
@@ -56,7 +56,7 @@ Efficient strategies for using AI coding assistant tools.
 
 **Value**: 40-60% improvement in AI assistant efficiency
 
-### 3. [Mode Capabilities](MODE_CAPABILITIES.md) *(Kilo Code specific)*
+### 3. Mode Capabilities (archived) *(Kilo Code specific)*
 What each mode can and cannot do.
 
 **Key Topics**:
@@ -68,7 +68,7 @@ What each mode can and cannot do.
 
 **Value**: Clearer boundaries, fewer mode-switching mistakes
 
-### 4. [Git Workflow Patterns](GIT_WORKFLOW_PATTERNS.md)
+### 4. Git Workflow Patterns (archived)
 Git discipline for AI-assisted development.
 
 **Key Topics**:
@@ -79,7 +79,7 @@ Git discipline for AI-assisted development.
 
 **Value**: Clean history, easier collaboration
 
-### 5. [Testing Patterns](TESTING_PATTERNS.md)
+### 5. Testing Patterns (archived)
 Testing strategies that work well with AI assistants.
 
 **Key Topics**:
@@ -90,7 +90,7 @@ Testing strategies that work well with AI assistants.
 
 **Value**: Comprehensive test suites, zero pollution risk
 
-### 6. [Documentation Patterns](DOCUMENTATION_PATTERNS.md)
+### 6. Documentation Patterns (archived)
 Keeping documentation in sync with code.
 
 **Key Topics**:
