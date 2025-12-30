@@ -205,7 +205,7 @@ When deprecating patterns or rules:
 **Example:**
 ```markdown
 > **DEPRECATED:** This pattern is deprecated as of v1.2.0.
-> Use [New Pattern](./new-pattern.md) instead.
+> Use the updated pattern instead.
 > This pattern will be removed in v2.0.0.
 ```
 

@@ -143,21 +143,21 @@ example_key: value
 
 [Links to related patterns in this repository]
 
-- [Pattern Name 1](../category/pattern1.md) - [Brief description of relationship]
-- [Pattern Name 2](../category/pattern2.md) - [Brief description of relationship]
+- [Example: Error Recovery](../patterns/error-recovery/) - Example of relationship to other patterns
+- Reference other patterns that complement or relate to this one
 
 **Use together with:**
-- [Pattern that complements this one]
+- List patterns that work well in combination
 
 **Alternative to:**
-- [Pattern that solves similar problem differently]
+- List patterns that solve similar problems differently
 
 ## Related Core Rules
 
 [Links to related core rules in this repository]
 
-- [Rule Name 1](../../core-rules/domain/rule1.md) - [Why it's related]
-- [Rule Name 2](../../core-rules/domain/rule2.md) - [Why it's related]
+- [Example: Python Standards](../core-rules/python-standards/) - Example reference to core rules
+- Reference relevant core rules that define the standards this pattern implements
 
 ## Trade-offs
 
