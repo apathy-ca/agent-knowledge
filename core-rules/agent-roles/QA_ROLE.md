@@ -737,7 +737,7 @@ A QA worker has succeeded when:
 
 ## References
 
-- [Testing Patterns](../../python/TESTING_PATTERNS.md)
-- [Integration Testing](../../testing/INTEGRATION_TESTING.md)
-- [Czarina Closeout Examples](../../.czarina/archive/)
-- [QA Worker Definition](../../.czarina/workers/qa.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
+- [Integration Testing](../testing/INTEGRATION_TESTING.md)
+- <!-- Czarina Closeout Examples - internal archive directory -->
+- <!-- QA Worker Definition - internal worker definition -->

@@ -256,16 +256,16 @@ ls agent-rules/security/
 1. **Read Integration Guide**
    ```bash
    # Hopper-specific documentation
-   cat .hopper/README.md
+<!--    cat .hopper/README.md - .hopper directory not included -->
    ```
 
 2. **Configure Modes**
    ```bash
    # Research mode
-   cat .hopper/modes/research.md
+<!--    cat .hopper/modes/research.md - .hopper directory not included -->
 
    # Implementation mode
-   cat .hopper/modes/implementation.md
+<!--    cat .hopper/modes/implementation.md - .hopper directory not included -->
    ```
 
 3. **Reference Rules in Prompts**
@@ -524,7 +524,7 @@ cat agent-rules/python/CODING_STANDARDS.md
 **Solution:** Check the Hopper README:
 
 ```bash
-cat .hopper/README.md
+<!-- cat .hopper/README.md - .hopper directory not included -->
 ```
 
 Common issues:
@@ -571,7 +571,7 @@ Common issues:
 2. **Read domain READMEs:** Each domain has comprehensive overview
 3. **Search the library:** Use grep/search for keywords
 4. **Follow cross-references:** Rules link to related rules
-5. **Consult Hopper integration:** [.hopper/README.md](../.hopper/README.md)
+<!-- 5. **Consult Hopper integration:** <!-- .hopper/README.md - .hopper directory not included in this repository --> - .hopper directory not included -->
 
 ---
 

@@ -433,6 +433,6 @@ An agent role system is well-designed when:
 
 ## References
 
-- [Czarina Orchestration Plan](../../plans/czarina-orchestration-plan.md)
+- <!-- Czarina Orchestration Plan - plans directory not included in this repository - plans directory not included in this repository -->
 - [Czarina Worker Examples](../../.czarina/workers/)
-- [Agent Rules Extraction](../../.czarina/README.md) - Real-world orchestration example
+- <!-- Agent Rules Extraction - internal orchestration directory --> - Real-world orchestration example

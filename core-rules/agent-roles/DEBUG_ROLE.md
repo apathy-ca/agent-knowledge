@@ -715,7 +715,7 @@ A debug worker has succeeded when:
 
 ## References
 
-- [Python Error Handling](../../python/ERROR_HANDLING.md)
-- [Testing Patterns](../../python/TESTING_PATTERNS.md)
-- [Logging Standards](../../python/CODING_STANDARDS.md#docstring-conventions)
+- [Python Error Handling](../python-standards/ERROR_HANDLING.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
+- [Logging Standards](../python-standards/CODING_STANDARDS.md#docstring-conventions)
 - [SARK Debugging Examples](https://github.com/sark)

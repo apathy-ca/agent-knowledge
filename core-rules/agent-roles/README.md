@@ -28,7 +28,7 @@ This directory defines the agent roles and worker taxonomy used in multi-agent s
    - What are the dependencies?
    - How will they coordinate?
 
-3. **Define Workers** - Use [Worker Templates](./templates/)
+3. **Define Workers** - Use [Worker Templates](../../templates/)
    - Copy worker-definition-template.md
    - Fill in role-specific details
    - Define clear success criteria
@@ -247,17 +247,17 @@ See [AGENT_ROLES.md](./AGENT_ROLES.md#orchestration-patterns) for details.
 
 Use these templates to create consistent worker definitions:
 
-### [Worker Definition Template](./templates/worker-definition-template.md)
+### [Worker Definition Template](../../templates/worker-definition-template.md)
 Complete template for defining a worker's role, tasks, and deliverables.
 
 **Use for:** Creating new worker definitions in `.czarina/workers/`
 
-### [Worker Identity Template](./templates/worker-identity-template.md)
+### [Worker Identity Template](../../templates/worker-identity-template.md)
 Template for worker identity files that guide agents.
 
 **Use for:** Creating `WORKER_IDENTITY.md` in worker worktrees
 
-### [Worker Closeout Template](./templates/worker-closeout-template.md)
+### [Worker Closeout Template](../../templates/worker-closeout-template.md)
 Template for worker closeout reports.
 
 **Use for:** Documenting worker completion and handoff to QA
@@ -415,17 +415,17 @@ An agent role system is working well when:
 ## Related Documentation
 
 ### Within This Library
-- [Python Coding Standards](../../python/CODING_STANDARDS.md)
-- [Git Workflow](../../workflows/GIT_WORKFLOW.md)
-- [Testing Patterns](../../python/TESTING_PATTERNS.md)
+- [Python Coding Standards](../python-standards/CODING_STANDARDS.md)
+- [Git Workflow](../workflows/GIT_WORKFLOW.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
 
 ### Orchestration Resources
-- [Czarina Documentation](../../.czarina/README.md)
-- [Orchestration Plan](../../plans/czarina-orchestration-plan.md)
+- <!-- Czarina Documentation - internal orchestration directory -->
+- <!-- Orchestration Plan - plans directory not included in this repository - plans directory not included in this repository -->
 - [Worker Examples](../../.czarina/workers/)
 
 ### Real-World Examples
-- [Agent Rules Extraction](../../.czarina/README.md) - This project!
+- <!-- Agent Rules Extraction - internal orchestration directory --> - This project!
 - [SARK Implementation](https://github.com/sark)
 - [Hopper Development](https://github.com/hopper)
 

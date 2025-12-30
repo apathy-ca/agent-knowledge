@@ -633,10 +633,10 @@ integration-tests:
 
 ## Related Documents
 
-- [Worker Coordination](./WORKER_COORDINATION.md)
-- [Daemon Automation](./DAEMON_AUTOMATION.md)
-- [Status Monitoring](./STATUS_MONITORING.md)
-- [Worker Templates](../templates/worker-definition-template.md)
+- [Worker Coordination](#worker-coordination)
+- [Daemon Automation](#daemon-patterns)
+- [Status Monitoring](#status-monitoring)
+- [Worker Templates](../../templates/worker-definition-template.md)
 
 ## References
 

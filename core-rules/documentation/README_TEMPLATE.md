@@ -6,11 +6,11 @@
 
 ## Overview
 
-This document provides guidance on using the comprehensive README template. For the full template with all sections and examples, see [README Template](../templates/readme-template.md).
+This document provides guidance on using the comprehensive README template. For the full template with all sections and examples, see [README Template](../../templates/readme-template.md).
 
 ## Quick Reference
 
-The README template is located at: [`../templates/readme-template.md`](../templates/readme-template.md)
+The README template is located at: [`../templates/readme-template.md`](../../templates/readme-template.md)
 
 It provides comprehensive README structure for different project types:
 - Libraries/Packages
@@ -73,7 +73,7 @@ result = client.do_something()
 
 ## API Reference
 
-See [API Documentation](docs/API.md) for complete reference.
+See [API Documentation](docs/YOUR-API-DOCS.md) for complete reference.
 \`\`\`
 
 ### For Applications/Services
@@ -103,7 +103,7 @@ REDIS_URL=redis://...
 
 ## Deployment
 
-See [Deployment Guide](docs/DEPLOYMENT.md) for detailed instructions.
+See [Deployment Guide](docs/YOUR-DEPLOYMENT-GUIDE.md) for detailed instructions.
 \`\`\`
 
 ### For Tools/CLI
@@ -130,7 +130,7 @@ mytool deploy       # Deploy to production
 
 ## Commands
 
-See [Commands Reference](docs/COMMANDS.md) for all available commands.
+See [Commands Reference](docs/YOUR-COMMANDS-REFERENCE.md) for all available commands.
 \`\`\`
 
 ### For Frameworks
@@ -156,7 +156,7 @@ Focus on:
 
 ## Architecture
 
-See [Architecture Documentation](docs/ARCHITECTURE.md) for detailed design.
+See [Architecture Documentation](docs/YOUR-ARCHITECTURE-DOCS.md) for detailed design.
 \`\`\`
 
 ## Best Practices
@@ -234,10 +234,10 @@ my-project start
 \`\`\`markdown
 ## Documentation
 
-- [Getting Started](docs/getting-started.md)
-- [API Reference](docs/API.md)
-- [Architecture](docs/ARCHITECTURE.md)
-- [Contributing](docs/CONTRIBUTING.md)
+- [Getting Started](docs/YOUR-GETTING-STARTED.md)
+- [API Reference](docs/YOUR-API-REFERENCE.md)
+- [Architecture](docs/YOUR-ARCHITECTURE.md)
+- [Contributing](CONTRIBUTING.md)
 \`\`\`
 
 ### Contributing
@@ -310,10 +310,10 @@ MIT
 
 ## Documentation
 
-- [Getting Started](docs/getting-started.md)
-- [User Guide](docs/guide.md)
-- [API Reference](docs/API.md)
-- [Architecture](docs/ARCHITECTURE.md)
+- [Getting Started](docs/YOUR-GETTING-STARTED.md)
+- [User Guide](docs/YOUR-USER-GUIDE.md)
+- [API Reference](docs/YOUR-API-REFERENCE.md)
+- [Architecture](docs/YOUR-ARCHITECTURE.md)
 
 ## Development
 
@@ -330,7 +330,7 @@ MIT - see [LICENSE](LICENSE).
 
 ## Related Resources
 
-- **Full Template:** [README Template](../templates/readme-template.md)
+- **Full Template:** [README Template](../../templates/readme-template.md)
 - **Documentation Standards:** [Documentation Standards](./DOCUMENTATION_STANDARDS.md)
 - **API Documentation:** [API Documentation Standards](./API_DOCUMENTATION.md)
 - **Documentation Workflow:** [Documentation Workflow](../workflows/DOCUMENTATION_WORKFLOW.md)
@@ -338,11 +338,11 @@ MIT - see [LICENSE](LICENSE).
 ## References
 
 This guide references:
-- [README Template](../templates/readme-template.md) - Complete template
+- [README Template](../../templates/readme-template.md) - Complete template
 - Workflows Worker: Documentation practices
 - All Workers: README structures
 
 ---
 
 **For the complete, detailed template with all sections and examples, see:**
-**[../templates/readme-template.md](../templates/readme-template.md)**
+**[../templates/readme-template.md](../../templates/readme-template.md)**

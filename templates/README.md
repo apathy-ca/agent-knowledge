@@ -294,34 +294,34 @@ README Template (entry point)
 These templates reference and integrate with extracted agent rules:
 
 ### Python Development
-- [Python Coding Standards](../python/CODING_STANDARDS.md)
-- [Async Patterns](../python/ASYNC_PATTERNS.md)
-- [Error Handling](../python/ERROR_HANDLING.md)
-- [Testing Patterns](../python/TESTING_PATTERNS.md)
-- [Security Patterns](../python/SECURITY_PATTERNS.md)
+- [Python Coding Standards](../core-rules/python-standards/CODING_STANDARDS.md)
+- [Async Patterns](../core-rules/python-standards/ASYNC_PATTERNS.md)
+- [Error Handling](../core-rules/python-standards/ERROR_HANDLING.md)
+- [Testing Patterns](../core-rules/python-standards/TESTING_PATTERNS.md)
+- [Security Patterns](../core-rules/python-standards/SECURITY_PATTERNS.md)
 
 ### Agent Development
-- [Agent Roles](../agents/AGENT_ROLES.md)
-- [Tool Use Patterns](../patterns/TOOL_USE_PATTERNS.md)
-- [Error Recovery](../patterns/ERROR_RECOVERY.md)
+- [Agent Roles](../core-rules/agent-roles/AGENT_ROLES.md)
+- [Tool Use Patterns](../patterns/tool-use/README.md)
+- [Error Recovery](../patterns/error-recovery/README.md)
 
 ### Workflows
-- [Git Workflow](../workflows/GIT_WORKFLOW.md)
-- [Documentation Workflow](../workflows/DOCUMENTATION_WORKFLOW.md)
-- [PR Requirements](../workflows/PR_REQUIREMENTS.md)
-- [Token Planning](../workflows/TOKEN_PLANNING.md)
+- [Git Workflow](../core-rules/workflows/GIT_WORKFLOW.md)
+- [Documentation Workflow](../core-rules/workflows/DOCUMENTATION_WORKFLOW.md)
+- [PR Requirements](../core-rules/workflows/PR_REQUIREMENTS.md)
+- [Token Planning](../core-rules/workflows/TOKEN_PLANNING.md)
 
 ### Testing
-- [Testing Policy](../testing/TESTING_POLICY.md)
-- [Unit Testing Standards](../testing/UNIT_TESTING.md)
-- [Integration Testing Standards](../testing/INTEGRATION_TESTING.md)
-- [Coverage Standards](../testing/COVERAGE_STANDARDS.md)
+- [Testing Policy](../core-rules/testing/TESTING_POLICY.md)
+- [Unit Testing Standards](../core-rules/testing/UNIT_TESTING.md)
+- [Integration Testing Standards](../core-rules/testing/INTEGRATION_TESTING.md)
+- [Coverage Standards](../core-rules/testing/COVERAGE_STANDARDS.md)
 
 ### Security
-- [Authentication](../security/AUTHENTICATION.md)
-- [Authorization](../security/AUTHORIZATION.md)
-- [Secret Management](../security/SECRET_MANAGEMENT.md)
-- [Injection Prevention](../security/INJECTION_PREVENTION.md)
+- [Authentication](../core-rules/security/AUTHENTICATION.md)
+- [Authorization](../core-rules/security/AUTHORIZATION.md)
+- [Secret Management](../core-rules/security/SECRET_MANAGEMENT.md)
+- [Injection Prevention](../core-rules/security/INJECTION_PREVENTION.md)
 
 ## Best Practices
 
@@ -435,13 +435,13 @@ These templates reference and integrate with extracted agent rules:
 
 ## Related Directories
 
-- [Documentation Standards](../documentation/) - Comprehensive documentation standards
-- [Orchestration Rules](../orchestration/) - Czarina orchestration patterns
-- [Agent Rules](../agents/) - Agent role definitions
-- [Python Standards](../python/) - Python coding standards
-- [Testing Standards](../testing/) - Testing best practices
-- [Security Standards](../security/) - Security patterns
-- [Workflow Standards](../workflows/) - Development workflows
+- [Documentation Standards](../core-rules/documentation/) - Comprehensive documentation standards
+- [Orchestration Rules](../core-rules/orchestration/) - Czarina orchestration patterns
+- [Agent Rules](../core-rules/agent-roles/) - Agent role definitions
+- [Python Standards](../core-rules/python-standards/) - Python coding standards
+- [Testing Standards](../core-rules/testing/) - Testing best practices
+- [Security Standards](../core-rules/security/README.md) - Security patterns
+- [Workflow Standards](../core-rules/workflows/) - Development workflows
 - [Design Patterns](../patterns/) - Implementation patterns
 
 ## Support

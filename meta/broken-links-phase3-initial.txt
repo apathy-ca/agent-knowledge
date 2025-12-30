@@ -1,0 +1,119 @@
+================================================================================
+LINK VALIDATION REPORT
+================================================================================
+
+❌ STATUS: FAILED
+
+Total links checked: 810
+Broken links found: 255
+Success rate: 68.5%
+
+BROKEN LINKS BY CATEGORY:
+
+Category 2: Template Example Links (22 links)
+--------------------------------------------------------------------------------
+  File: core-rules/documentation/README_TEMPLATE.md
+  Line: 9
+  Link: ../templates/readme-template.md
+
+  File: core-rules/documentation/README_TEMPLATE.md
+  Line: 13
+  Link: ../templates/readme-template.md
+
+  File: core-rules/documentation/README_TEMPLATE.md
+  Line: 76
+  Link: docs/API.md
+
+  File: core-rules/documentation/README_TEMPLATE.md
+  Line: 106
+  Link: docs/DEPLOYMENT.md
+
+  File: core-rules/documentation/README_TEMPLATE.md
+  Line: 133
+  Link: docs/COMMANDS.md
+
+  ... and 17 more
+
+Category 3: Worker Template References (3 links)
+--------------------------------------------------------------------------------
+  File: core-rules/agent-roles/README.md
+  Line: 250
+  Link: ./templates/worker-definition-template.md
+
+  File: core-rules/agent-roles/README.md
+  Line: 255
+  Link: ./templates/worker-identity-template.md
+
+  File: core-rules/agent-roles/README.md
+  Line: 260
+  Link: ./templates/worker-closeout-template.md
+
+
+Category 4: Missing Orchestration Files (3 links)
+--------------------------------------------------------------------------------
+  File: core-rules/orchestration/ORCHESTRATION_PATTERNS.md
+  Line: 636
+  Link: ./WORKER_COORDINATION.md
+
+  File: core-rules/orchestration/ORCHESTRATION_PATTERNS.md
+  Line: 637
+  Link: ./DAEMON_AUTOMATION.md
+
+  File: core-rules/orchestration/ORCHESTRATION_PATTERNS.md
+  Line: 638
+  Link: ./STATUS_MONITORING.md
+
+Category 6: Other Missing Files (227 links)
+--------------------------------------------------------------------------------
+  File: AGENT_KNOWLEDGE_MERGE_PLAN.md
+  Line: 356
+  Link: ./docs/getting-started.md
+  Target: /home/jhenry/Source/agent-knowledge/docs/getting-started.md
+
+  File: AGENT_KNOWLEDGE_MERGE_PLAN.md
+  Line: 358
+  Link: ./templates/INDEX.md
+  Target: /home/jhenry/Source/agent-knowledge/templates/INDEX.md
+
+  File: AGENT_KNOWLEDGE_MERGE_PLAN.md
+  Line: 384
+  Link: ./templates/INDEX.md
+  Target: /home/jhenry/Source/agent-knowledge/templates/INDEX.md
+
+  File: AGENT_KNOWLEDGE_MERGE_PLAN.md
+  Line: 450
+  Link: ../../patterns/git-workflows/README.md
+  Target: /home/jhenry/patterns/git-workflows/README.md
+
+  File: AGENT_KNOWLEDGE_MERGE_PLAN.md
+  Line: 451
+  Link: ../../patterns/git-workflows/branch-strategies.md
+  Target: /home/jhenry/patterns/git-workflows/branch-strategies.md
+
+  File: AGENT_KNOWLEDGE_MERGE_PLAN.md
+  Line: 452
+  Link: ../../patterns/git-workflows/commit-patterns.md
+  Target: /home/jhenry/patterns/git-workflows/commit-patterns.md
+
+  File: AGENT_KNOWLEDGE_MERGE_PLAN.md
+  Line: 457
+  Link: ../../templates/git/feature-branch.md
+  Target: /home/jhenry/templates/git/feature-branch.md
+
+  File: AGENT_RULES_LEGACY.md
+  Line: 60
+  Link: ./MIGRATION_GUIDE.md
+  Target: /home/jhenry/Source/agent-knowledge/MIGRATION_GUIDE.md
+
+  File: AGENT_RULES_LEGACY.md
+  Line: 222
+  Link: ./CZARINA_ORCHESTRATION_CLOSEOUT.md
+  Target: /home/jhenry/Source/agent-knowledge/CZARINA_ORCHESTRATION_CLOSEOUT.md
+
+  File: AGENTIC_DEV_PATTERNS_LEGACY.md
+  Line: 23
+  Link: ERROR_RECOVERY_PATTERNS.md
+  Target: /home/jhenry/Source/agent-knowledge/ERROR_RECOVERY_PATTERNS.md
+
+  ... and 217 more
+

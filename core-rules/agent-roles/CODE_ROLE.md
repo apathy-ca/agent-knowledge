@@ -274,7 +274,7 @@ def getUserById(userId, db):  # Wrong naming, no types
 - Async/await where appropriate
 - Proper error handling
 
-See [CODING_STANDARDS.md](../../python/CODING_STANDARDS.md) for complete standards.
+See [CODING_STANDARDS.md](../python-standards/CODING_STANDARDS.md) for complete standards.
 
 ### Pattern Adherence
 
@@ -318,7 +318,7 @@ async def get_server(server_id: UUID):
 - Structured logging
 - Circuit breakers for external calls
 
-See [ASYNC_PATTERNS.md](../../python/ASYNC_PATTERNS.md) and [DEPENDENCY_INJECTION.md](../../python/DEPENDENCY_INJECTION.md).
+See [ASYNC_PATTERNS.md](../python-standards/ASYNC_PATTERNS.md) and [DEPENDENCY_INJECTION.md](../python-standards/DEPENDENCY_INJECTION.md).
 
 ## When to Write Code vs Plan
 
@@ -639,8 +639,8 @@ A code worker has succeeded when:
 
 ## References
 
-- [Python Coding Standards](../../python/CODING_STANDARDS.md)
-- [Async Patterns](../../python/ASYNC_PATTERNS.md)
-- [Dependency Injection](../../python/DEPENDENCY_INJECTION.md)
-- [Testing Patterns](../../python/TESTING_PATTERNS.md)
+- [Python Coding Standards](../python-standards/CODING_STANDARDS.md)
+- [Async Patterns](../python-standards/ASYNC_PATTERNS.md)
+- [Dependency Injection](../python-standards/DEPENDENCY_INJECTION.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
 - [SARK Codebase](https://github.com/sark) - Implementation examples

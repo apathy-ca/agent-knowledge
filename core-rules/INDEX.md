@@ -28,13 +28,13 @@ Comprehensive Python coding standards and patterns for agent development.
 
 | Rule | Description | Path |
 |------|-------------|------|
-| **Coding Standards** | Python style guide, naming conventions, and best practices | [CODING_STANDARDS.md](python/CODING_STANDARDS.md) |
-| **Async Patterns** | Asynchronous programming patterns with asyncio | [ASYNC_PATTERNS.md](python/ASYNC_PATTERNS.md) |
-| **Error Handling** | Exception handling strategies and patterns | [ERROR_HANDLING.md](python/ERROR_HANDLING.md) |
-| **Dependency Injection** | Service container and dependency management | [DEPENDENCY_INJECTION.md](python/DEPENDENCY_INJECTION.md) |
-| **Testing Patterns** | Python testing patterns with pytest | [TESTING_PATTERNS.md](python/TESTING_PATTERNS.md) |
-| **Security Patterns** | Python security best practices | [SECURITY_PATTERNS.md](python/SECURITY_PATTERNS.md) |
-| **README** | Python domain overview | [README.md](python/README.md) |
+| **Coding Standards** | Python style guide, naming conventions, and best practices | [CODING_STANDARDS.md](python-standards/CODING_STANDARDS.md) |
+| **Async Patterns** | Asynchronous programming patterns with asyncio | [ASYNC_PATTERNS.md](python-standards/ASYNC_PATTERNS.md) |
+| **Error Handling** | Exception handling strategies and patterns | [ERROR_HANDLING.md](python-standards/ERROR_HANDLING.md) |
+| **Dependency Injection** | Service container and dependency management | [DEPENDENCY_INJECTION.md](python-standards/DEPENDENCY_INJECTION.md) |
+| **Testing Patterns** | Python testing patterns with pytest | [TESTING_PATTERNS.md](python-standards/TESTING_PATTERNS.md) |
+| **Security Patterns** | Python security best practices | [SECURITY_PATTERNS.md](python-standards/SECURITY_PATTERNS.md) |
+| **README** | Python domain overview | [README.md](python-standards/README.md) |
 
 ---
 
@@ -46,15 +46,15 @@ Specialized agent role definitions for different development tasks.
 
 | Role | Description | Path |
 |------|-------------|------|
-| **Agent Roles Overview** | Taxonomy of agent roles and responsibilities | [AGENT_ROLES.md](agents/AGENT_ROLES.md) |
-| **Architect Role** | System design and architecture planning | [ARCHITECT_ROLE.md](agents/ARCHITECT_ROLE.md) |
-| **Code Role** | Implementation and coding tasks | [CODE_ROLE.md](agents/CODE_ROLE.md) |
-| **Debug Role** | Debugging and troubleshooting | [DEBUG_ROLE.md](agents/DEBUG_ROLE.md) |
-| **QA Role** | Testing, validation, and quality assurance | [QA_ROLE.md](agents/QA_ROLE.md) |
-| **Orchestrator Role** | Multi-agent coordination (Czar pattern) | [ORCHESTRATOR_ROLE.md](agents/ORCHESTRATOR_ROLE.md) |
-| **Worker Identity Template** | Template for worker identity files | [templates/worker-identity-template.md](agents/templates/worker-identity-template.md) |
-| **Worker Definition Template** | Template for worker task definitions | [templates/worker-definition-template.md](agents/templates/worker-definition-template.md) |
-| **Worker Closeout Template** | Template for worker completion reports | [templates/worker-closeout-template.md](agents/templates/worker-closeout-template.md) |
+| **Agent Roles Overview** | Taxonomy of agent roles and responsibilities | [AGENT_ROLES.md](agent-roles/AGENT_ROLES.md) |
+| **Architect Role** | System design and architecture planning | [ARCHITECT_ROLE.md](agent-roles/ARCHITECT_ROLE.md) |
+| **Code Role** | Implementation and coding tasks | [CODE_ROLE.md](agent-roles/CODE_ROLE.md) |
+| **Debug Role** | Debugging and troubleshooting | [DEBUG_ROLE.md](agent-roles/DEBUG_ROLE.md) |
+| **QA Role** | Testing, validation, and quality assurance | [QA_ROLE.md](agent-roles/QA_ROLE.md) |
+| **Orchestrator Role** | Multi-agent coordination (Czar pattern) | [ORCHESTRATOR_ROLE.md](agent-roles/ORCHESTRATOR_ROLE.md) |
+| **Worker Identity Template** | Template for worker identity files | [templates/worker-identity-template.md](../templates/worker-identity-template.md) |
+| **Worker Definition Template** | Template for worker task definitions | [templates/worker-definition-template.md](../templates/worker-definition-template.md) |
+| **Worker Closeout Template** | Template for worker completion reports | [templates/worker-closeout-template.md](../templates/worker-closeout-template.md) |
 
 ---
 
@@ -83,11 +83,11 @@ Architectural patterns for agent systems.
 
 | Pattern | Description | Path |
 |---------|-------------|------|
-| **Tool Use Patterns** | Effective LLM tool calling strategies | [TOOL_USE_PATTERNS.md](patterns/TOOL_USE_PATTERNS.md) |
-| **Streaming Patterns** | Real-time data streaming and processing | [STREAMING_PATTERNS.md](patterns/STREAMING_PATTERNS.md) |
-| **Caching Patterns** | Caching strategies for performance | [CACHING_PATTERNS.md](patterns/CACHING_PATTERNS.md) |
-| **Batch Operations** | Efficient batch processing patterns | [BATCH_OPERATIONS.md](patterns/BATCH_OPERATIONS.md) |
-| **Error Recovery** | Resilience and error recovery strategies | [ERROR_RECOVERY.md](patterns/ERROR_RECOVERY.md) |
+| **Tool Use Patterns** | Effective LLM tool calling strategies | [TOOL_USE_PATTERNS.md](design-patterns/TOOL_USE_PATTERNS.md) |
+| **Streaming Patterns** | Real-time data streaming and processing | [STREAMING_PATTERNS.md](design-patterns/STREAMING_PATTERNS.md) |
+| **Caching Patterns** | Caching strategies for performance | [CACHING_PATTERNS.md](design-patterns/CACHING_PATTERNS.md) |
+| **Batch Operations** | Efficient batch processing patterns | [BATCH_OPERATIONS.md](design-patterns/BATCH_OPERATIONS.md) |
+| **Error Recovery** | Resilience and error recovery strategies | [ERROR_RECOVERY.md](design-patterns/ERROR_RECOVERY.md) |
 
 ---
 
@@ -99,11 +99,11 @@ Comprehensive testing policies and methodologies.
 
 | Standard | Description | Path |
 |----------|-------------|------|
-| **Testing Policy** | Overall testing philosophy and requirements | [TESTING_POLICY.md](testing/TESTING_POLICY.md) |
+| **Testing Policy** | Overall testing philosophy and requirements | [TESTING_POLICY.md](testing/README.md) |
 | **Unit Testing** | Unit test standards and best practices | [UNIT_TESTING.md](testing/UNIT_TESTING.md) |
 | **Integration Testing** | Integration test strategies | [INTEGRATION_TESTING.md](testing/INTEGRATION_TESTING.md) |
 | **Coverage Standards** | Code coverage requirements and tools | [COVERAGE_STANDARDS.md](testing/COVERAGE_STANDARDS.md) |
-| **Mocking Strategies** | Test doubles and mocking patterns | [MOCKING_STRATEGIES.md](testing/MOCKING_STRATEGIES.md) |
+| **Mocking Strategies** | Test doubles and mocking patterns | [MOCKING_STRATEGIES.md](testing/README.md#mocking) |
 
 ---
 
@@ -133,33 +133,33 @@ Reusable templates for projects, documentation, and testing.
 
 | Template | Description | Path |
 |----------|-------------|------|
-| **Python Project** | Python project structure and setup | [python-project-template.md](templates/python-project-template.md) |
-| **Agent Project** | Agent-based project template | [agent-project-template.md](templates/agent-project-template.md) |
-| **Repository Structure** | Standard repository organization | [repository-structure-template.md](templates/repository-structure-template.md) |
+| **Python Project** | Python project structure and setup | [python-project-template.md](../templates/python-project-template.md) |
+| **Agent Project** | Agent-based project template | [agent-project-template.md](../templates/agent-project-template.md) |
+| **Repository Structure** | Standard repository organization | [repository-structure-template.md](../templates/repository-structure-template.md) |
 
 ### Documentation Templates
 
 | Template | Description | Path |
 |----------|-------------|------|
-| **README Template** | Comprehensive README structure | [readme-template.md](templates/readme-template.md) |
-| **API Documentation** | API documentation format | [api-documentation-template.md](templates/api-documentation-template.md) |
-| **Architecture Docs** | Architecture documentation template | [architecture-documentation-template.md](templates/architecture-documentation-template.md) |
+| **README Template** | Comprehensive README structure | [readme-template.md](../templates/readme-template.md) |
+| **API Documentation** | API documentation format | [api-documentation-template.md](../templates/api-documentation-template.md) |
+| **Architecture Docs** | Architecture documentation template | [architecture-documentation-template.md](../templates/architecture-documentation-template.md) |
 
 ### Testing Templates
 
 | Template | Description | Path |
 |----------|-------------|------|
-| **Unit Test** | Unit test structure and patterns | [unit-test-template.md](templates/unit-test-template.md) |
-| **Integration Test** | Integration test template | [integration-test-template.md](templates/integration-test-template.md) |
-| **Test Fixture** | Test fixture and data template | [test-fixture-template.md](templates/test-fixture-template.md) |
+| **Unit Test** | Unit test structure and patterns | [unit-test-template.md](../templates/unit-test-template.md) |
+| **Integration Test** | Integration test template | [integration-test-template.md](../templates/integration-test-template.md) |
+| **Test Fixture** | Test fixture and data template | [test-fixture-template.md](../templates/test-fixture-template.md) |
 
 ### Worker Templates
 
 | Template | Description | Path |
 |----------|-------------|------|
-| **Worker Identity** | Worker identity file template | [worker-identity-template.md](templates/worker-identity-template.md) |
-| **Worker Definition** | Worker task definition template | [worker-definition-template.md](templates/worker-definition-template.md) |
-| **Worker Closeout** | Worker completion report template | [worker-closeout-template.md](templates/worker-closeout-template.md) |
+| **Worker Identity** | Worker identity file template | [worker-identity-template.md](../templates/worker-identity-template.md) |
+| **Worker Definition** | Worker task definition template | [worker-definition-template.md](../templates/worker-definition-template.md) |
+| **Worker Closeout** | Worker completion report template | [worker-closeout-template.md](../templates/worker-closeout-template.md) |
 
 ---
 
@@ -216,10 +216,10 @@ The library is organized into 9 domains:
 ### Quick Start
 
 1. **New to the library?** Start with [agent-rules/README.md](README.md)
-2. **Building a Python agent?** Check [python/CODING_STANDARDS.md](python/CODING_STANDARDS.md)
-3. **Setting up a project?** Use [templates/agent-project-template.md](templates/agent-project-template.md)
+2. **Building a Python agent?** Check [python/CODING_STANDARDS.md](python-standards/CODING_STANDARDS.md)
+3. **Setting up a project?** Use [templates/agent-project-template.md](../templates/agent-project-template.md)
 4. **Running an orchestration?** See [orchestration/ORCHESTRATION_PATTERNS.md](orchestration/ORCHESTRATION_PATTERNS.md)
-5. **Integrating with Hopper?** Read [../.hopper/README.md](../.hopper/README.md)
+<!-- 5. **Integrating with Hopper?** Read .hopper/README.md - .hopper directory not included in this repository -->
 
 ---
 
@@ -272,4 +272,4 @@ For practical implementation patterns and AI-assisted development strategies, se
 
 ---
 
-**Need help?** Check the main [README.md](README.md) or the [.hopper integration guide](../.hopper/README.md).
+<!-- **Need help?** Check the main README.md or the .hopper integration guide - .hopper directory not included in this repository -->

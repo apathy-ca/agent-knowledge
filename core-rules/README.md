@@ -33,23 +33,23 @@ Start with the [INDEX.md](INDEX.md) to see all available rules organized by cate
 ### 2. Choose Your Path
 
 **Building a new agent?**
-- Start with [agents/AGENT_ROLES.md](agents/AGENT_ROLES.md) to understand role taxonomy
-- Review [python/CODING_STANDARDS.md](python/CODING_STANDARDS.md) for code quality
-- Use [templates/agent-project-template.md](templates/agent-project-template.md) to scaffold your project
+- Start with [agents/AGENT_ROLES.md](agent-roles/AGENT_ROLES.md) to understand role taxonomy
+- Review [python/CODING_STANDARDS.md](python-standards/CODING_STANDARDS.md) for code quality
+- Use [templates/agent-project-template.md](../templates/agent-project-template.md) to scaffold your project
 
 **Improving an existing system?**
-- Check [patterns/](patterns/) for design patterns you can apply
+- Check [patterns/](../patterns/) for design patterns you can apply
 - Review [security/](security/) for security hardening opportunities
 - See [testing/](testing/) to improve test coverage
 
 **Running an orchestration?**
 - Study [orchestration/ORCHESTRATION_PATTERNS.md](orchestration/ORCHESTRATION_PATTERNS.md)
-- Use worker templates in [agents/templates/](agents/templates/)
+- Use worker templates in [agents/templates/](../templates/)
 - Follow [workflows/CLOSEOUT_PROCESS.md](workflows/CLOSEOUT_PROCESS.md) for completion
 
 **Integrating with Hopper?**
-- Read [../.hopper/README.md](../.hopper/README.md) for integration guide
-- Check [../.hopper/modes/](../.hopper/modes/) for mode-specific usage
+<!-- - Read <!-- ../.hopper/README.md - .hopper directory not included in this repository --> for integration guide - .hopper directory not included -->
+<!-- - Check <!-- ../.hopper/modes/ - .hopper directory not included in this repository --> for mode-specific usage - .hopper directory not included -->
 
 ### 3. Apply the Rules
 
@@ -201,14 +201,14 @@ cp agent-rules/agents/templates/worker-closeout-template.md CLOSEOUT.md
 
 ```bash
 # Read integration guide
-cat .hopper/README.md
+<!-- cat .hopper/README.md - .hopper directory not included -->
 
 # Check mode-specific rules
-cat .hopper/modes/research.md
-cat .hopper/modes/implementation.md
+<!-- cat .hopper/modes/research.md - .hopper directory not included -->
+<!-- cat .hopper/modes/implementation.md - .hopper directory not included -->
 
 # Configure Hopper to use rules
-# (See .hopper/README.md for configuration)
+<!-- # (See .hopper/README.md for configuration) - .hopper directory not included -->
 ```
 
 ---
@@ -256,18 +256,18 @@ Every rule includes:
 Language-specific standards for Python agent development. Covers coding style, async patterns, error handling, dependency injection, testing, and security.
 
 **Key Rules:**
-- [CODING_STANDARDS.md](python/CODING_STANDARDS.md) - Python style guide and best practices
-- [ASYNC_PATTERNS.md](python/ASYNC_PATTERNS.md) - Async/await patterns with asyncio
-- [ERROR_HANDLING.md](python/ERROR_HANDLING.md) - Exception handling strategies
+- [CODING_STANDARDS.md](python-standards/CODING_STANDARDS.md) - Python style guide and best practices
+- [ASYNC_PATTERNS.md](python-standards/ASYNC_PATTERNS.md) - Async/await patterns with asyncio
+- [ERROR_HANDLING.md](python-standards/ERROR_HANDLING.md) - Exception handling strategies
 
 ### Agent Roles (`agents/`)
 
 Specialized agent role definitions for different tasks. Includes templates for worker setup in orchestrations.
 
 **Key Roles:**
-- [ARCHITECT_ROLE.md](agents/ARCHITECT_ROLE.md) - System design and planning
-- [CODE_ROLE.md](agents/CODE_ROLE.md) - Implementation tasks
-- [ORCHESTRATOR_ROLE.md](agents/ORCHESTRATOR_ROLE.md) - Multi-agent coordination
+- [ARCHITECT_ROLE.md](agent-roles/ARCHITECT_ROLE.md) - System design and planning
+- [CODE_ROLE.md](agent-roles/CODE_ROLE.md) - Implementation tasks
+- [ORCHESTRATOR_ROLE.md](agent-roles/ORCHESTRATOR_ROLE.md) - Multi-agent coordination
 
 ### Workflows (`workflows/`)
 
@@ -283,9 +283,9 @@ Development process patterns including git workflow, PR requirements, documentat
 Architectural patterns for agent systems including tool use, streaming, caching, and error recovery.
 
 **Key Patterns:**
-- [TOOL_USE_PATTERNS.md](patterns/TOOL_USE_PATTERNS.md) - Effective LLM tool calling
-- [ERROR_RECOVERY.md](patterns/ERROR_RECOVERY.md) - Resilience strategies
-- [CACHING_PATTERNS.md](patterns/CACHING_PATTERNS.md) - Performance optimization
+- [TOOL_USE_PATTERNS.md](../patterns/tool-use/README.md) - Effective LLM tool calling
+- [ERROR_RECOVERY.md](../patterns/error-recovery/README.md) - Resilience strategies
+- [CACHING_PATTERNS.md](../patterns/tool-use/caching-patterns.md) - Performance optimization
 
 ### Testing (`testing/`)
 
@@ -310,17 +310,17 @@ Security best practices for authentication, authorization, secret management, an
 Reusable templates for projects, documentation, and testing. Use these as starting points for new work.
 
 **Key Templates:**
-- [agent-project-template.md](templates/agent-project-template.md) - Agent project structure
-- [readme-template.md](templates/readme-template.md) - README structure
-- [unit-test-template.md](templates/unit-test-template.md) - Unit test template
+- [agent-project-template.md](../templates/agent-project-template.md) - Agent project structure
+- [readme-template.md](../templates/readme-template.md) - README structure
+- [unit-test-template.md](../templates/unit-test-template.md) - Unit test template
 
 ### Documentation (`documentation/`)
 
 Standards for creating and maintaining technical documentation including API docs, architecture docs, and changelogs.
 
 **Key Standards:**
-- [DOCUMENTATION_STANDARDS.md](documentation/DOCUMENTATION_STANDARDS.md) - Overall documentation requirements
-- [API_DOCUMENTATION.md](documentation/API_DOCUMENTATION.md) - API documentation best practices
+- [DOCUMENTATION_STANDARDS.md](./documentation/DOCUMENTATION_STANDARDS.md) - Overall documentation requirements
+- [API_DOCUMENTATION.md](./documentation/API_DOCUMENTATION.md) - API documentation best practices
 
 ### Orchestration (`orchestration/`)
 
@@ -360,7 +360,7 @@ Follow the [PR_REQUIREMENTS.md](workflows/PR_REQUIREMENTS.md) for pull request s
 
 ### Hopper Integration
 
-Hopper can be configured to load these rules for context-aware assistance. See [../.hopper/README.md](../.hopper/README.md) for integration instructions.
+<!-- Hopper can be configured to load these rules for context-aware assistance. See <!-- ../.hopper/README.md - .hopper directory not included in this repository --> for integration instructions. - .hopper directory not included -->
 
 ### Direct Usage
 
@@ -408,7 +408,7 @@ This library is part of the Hopper project. See project license for details.
 ## Support
 
 - **Index:** [INDEX.md](INDEX.md) - Find rules by category
-- **Hopper Integration:** [../.hopper/README.md](../.hopper/README.md)
+<!-- - **Hopper Integration:** <!-- ../.hopper/README.md - .hopper directory not included in this repository --> - .hopper directory not included -->
 - **Domain READMEs:** Each domain has a comprehensive README.md
 
 ---

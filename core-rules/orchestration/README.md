@@ -172,9 +172,9 @@ A ──┤      ├── E
 
 Use these templates to define workers:
 
-- [Worker Definition Template](../templates/worker-definition-template.md)
-- [Worker Identity Template](../templates/worker-identity-template.md)
-- [Worker Closeout Template](../templates/worker-closeout-template.md)
+- [Worker Definition Template](../../templates/worker-definition-template.md)
+- [Worker Identity Template](../../templates/worker-identity-template.md)
+- [Worker Closeout Template](../../templates/worker-closeout-template.md)
 
 ## Best Practices
 
@@ -296,9 +296,9 @@ Orchestrator requires approval:
 ## Related Resources
 
 ### Templates
-- [Worker Definition Template](../templates/worker-definition-template.md)
-- [Worker Identity Template](../templates/worker-identity-template.md)
-- [Worker Closeout Template](../templates/worker-closeout-template.md)
+- [Worker Definition Template](../../templates/worker-definition-template.md)
+- [Worker Identity Template](../../templates/worker-identity-template.md)
+- [Worker Closeout Template](../../templates/worker-closeout-template.md)
 
 ### Standards
 - [Documentation Standards](../documentation/DOCUMENTATION_STANDARDS.md)
@@ -306,9 +306,9 @@ Orchestrator requires approval:
 - [PR Requirements](../workflows/PR_REQUIREMENTS.md)
 
 ### Agent Roles
-- [Agent Roles](../agents/AGENT_ROLES.md)
-- [Orchestrator Role](../agents/ORCHESTRATOR_ROLE.md)
-- [QA Role](../agents/QA_ROLE.md)
+- [Agent Roles](../agent-roles/AGENT_ROLES.md)
+- [Orchestrator Role](../agent-roles/ORCHESTRATOR_ROLE.md)
+- [QA Role](../agent-roles/QA_ROLE.md)
 
 ## Use Cases
 

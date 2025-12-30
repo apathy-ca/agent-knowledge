@@ -143,8 +143,8 @@ example_key: value
 
 [Links to related patterns in this repository]
 
-- [Pattern Name 1](../category/pattern1.md) - [Brief description of relationship]
-- [Pattern Name 2](../category/pattern2.md) - [Brief description of relationship]
+- Pattern Name 1 <!-- example path --> - [Brief description of relationship]
+- Pattern Name 2 <!-- example path --> - [Brief description of relationship]
 
 **Use together with:**
 - [Pattern that complements this one]
@@ -156,8 +156,8 @@ example_key: value
 
 [Links to related core rules in this repository]
 
-- [Rule Name 1](../../core-rules/domain/rule1.md) - [Why it's related]
-- [Rule Name 2](../../core-rules/domain/rule2.md) - [Why it's related]
+- Rule Name 1 <!-- example path --> - [Why it's related]
+- Rule Name 2 <!-- example path --> - [Why it's related]
 
 ## Trade-offs
 
