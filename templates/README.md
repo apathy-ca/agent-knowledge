@@ -302,8 +302,8 @@ These templates reference and integrate with extracted agent rules:
 
 ### Agent Development
 - [Agent Roles](../core-rules/agent-roles/AGENT_ROLES.md)
-- [Tool Use Patterns](../core-rules/design-patterns/TOOL_USE_PATTERNS.md)
-- [Error Recovery](../core-rules/design-patterns/ERROR_RECOVERY.md)
+- [Tool Use Patterns](../patterns/tool-use/README.md)
+- [Error Recovery](../patterns/error-recovery/README.md)
 
 ### Workflows
 - [Git Workflow](../core-rules/workflows/GIT_WORKFLOW.md)
@@ -440,9 +440,9 @@ These templates reference and integrate with extracted agent rules:
 - [Agent Rules](../core-rules/agent-roles/) - Agent role definitions
 - [Python Standards](../core-rules/python-standards/) - Python coding standards
 - [Testing Standards](../core-rules/testing/) - Testing best practices
-- [Security Standards](../core-rules/security/) - Security patterns
+- [Security Standards](../core-rules/security/README.md) - Security patterns
 - [Workflow Standards](../core-rules/workflows/) - Development workflows
-- [Design Patterns](../core-rules/design-patterns/) - Implementation patterns
+- [Design Patterns](../patterns/) - Implementation patterns
 
 ## Support
 

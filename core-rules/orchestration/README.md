@@ -172,9 +172,9 @@ A ──┤      ├── E
 
 Use these templates to define workers:
 
-- [Worker Definition Template](../templates/worker-definition-template.md)
-- [Worker Identity Template](../templates/worker-identity-template.md)
-- [Worker Closeout Template](../templates/worker-closeout-template.md)
+- [Worker Definition Template](../../templates/worker-definition-template.md)
+- [Worker Identity Template](../../templates/worker-identity-template.md)
+- [Worker Closeout Template](../../templates/worker-closeout-template.md)
 
 ## Best Practices
 
@@ -296,19 +296,19 @@ Orchestrator requires approval:
 ## Related Resources
 
 ### Templates
-- [Worker Definition Template](../templates/worker-definition-template.md)
-- [Worker Identity Template](../templates/worker-identity-template.md)
-- [Worker Closeout Template](../templates/worker-closeout-template.md)
+- [Worker Definition Template](../../templates/worker-definition-template.md)
+- [Worker Identity Template](../../templates/worker-identity-template.md)
+- [Worker Closeout Template](../../templates/worker-closeout-template.md)
 
 ### Standards
-- [Documentation Standards](../core-rules/documentation/DOCUMENTATION_STANDARDS.md)
-- [Git Workflow](../core-rules/workflows/GIT_WORKFLOW.md)
-- [PR Requirements](../core-rules/workflows/PR_REQUIREMENTS.md)
+- [Documentation Standards](../documentation/DOCUMENTATION_STANDARDS.md)
+- [Git Workflow](../workflows/GIT_WORKFLOW.md)
+- [PR Requirements](../workflows/PR_REQUIREMENTS.md)
 
 ### Agent Roles
-- [Agent Roles](../core-rules/agent-roles/AGENT_ROLES.md)
-- [Orchestrator Role](../core-rules/agent-roles/ORCHESTRATOR_ROLE.md)
-- [QA Role](../core-rules/agent-roles/QA_ROLE.md)
+- [Agent Roles](../agent-roles/AGENT_ROLES.md)
+- [Orchestrator Role](../agent-roles/ORCHESTRATOR_ROLE.md)
+- [QA Role](../agent-roles/QA_ROLE.md)
 
 ## Use Cases
 

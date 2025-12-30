@@ -24,7 +24,7 @@
 
 Comprehensive Python coding standards and patterns for agent development.
 
-**Location:** `agent-knowledge/core-rules/python-standards/`
+**Location:** `agent-rules/python/`
 
 | Rule | Description | Path |
 |------|-------------|------|
@@ -42,7 +42,7 @@ Comprehensive Python coding standards and patterns for agent development.
 
 Specialized agent role definitions for different development tasks.
 
-**Location:** `agent-knowledge/core-rules/agent-roles/`
+**Location:** `agent-rules/agents/`
 
 | Role | Description | Path |
 |------|-------------|------|
@@ -62,7 +62,7 @@ Specialized agent role definitions for different development tasks.
 
 Development workflows and process standards.
 
-**Location:** `agent-knowledge/core-rules/workflows/`
+**Location:** `agent-rules/workflows/`
 
 | Workflow | Description | Path |
 |----------|-------------|------|
@@ -79,7 +79,7 @@ Development workflows and process standards.
 
 Architectural patterns for agent systems.
 
-**Location:** `agent-knowledge/core-rules/design-patterns/`
+**Location:** `agent-rules/patterns/`
 
 | Pattern | Description | Path |
 |---------|-------------|------|
@@ -95,15 +95,15 @@ Architectural patterns for agent systems.
 
 Comprehensive testing policies and methodologies.
 
-**Location:** `agent-knowledge/core-rules/testing/`
+**Location:** `agent-rules/testing/`
 
 | Standard | Description | Path |
 |----------|-------------|------|
-| **Testing Policy** | Overall testing philosophy and requirements | [TESTING_POLICY.md](testing/TESTING_POLICY.md) |
+| **Testing Policy** | Overall testing philosophy and requirements | [TESTING_POLICY.md](testing/README.md) |
 | **Unit Testing** | Unit test standards and best practices | [UNIT_TESTING.md](testing/UNIT_TESTING.md) |
 | **Integration Testing** | Integration test strategies | [INTEGRATION_TESTING.md](testing/INTEGRATION_TESTING.md) |
 | **Coverage Standards** | Code coverage requirements and tools | [COVERAGE_STANDARDS.md](testing/COVERAGE_STANDARDS.md) |
-| **Mocking Strategies** | Test doubles and mocking patterns | [MOCKING_STRATEGIES.md](testing/MOCKING_STRATEGIES.md) |
+| **Mocking Strategies** | Test doubles and mocking patterns | [MOCKING_STRATEGIES.md](testing/README.md#mocking) |
 
 ---
 
@@ -111,7 +111,7 @@ Comprehensive testing policies and methodologies.
 
 Security standards and implementation guidelines.
 
-**Location:** `agent-knowledge/core-rules/security/`
+**Location:** `agent-rules/security/`
 
 | Practice | Description | Path |
 |----------|-------------|------|
@@ -127,7 +127,7 @@ Security standards and implementation guidelines.
 
 Reusable templates for projects, documentation, and testing.
 
-**Location:** `agent-knowledge/templates/`
+**Location:** `agent-rules/templates/`
 
 ### Project Templates
 
@@ -167,7 +167,7 @@ Reusable templates for projects, documentation, and testing.
 
 Standards for creating and maintaining documentation.
 
-**Location:** `agent-knowledge/core-rules/documentation/`
+**Location:** `agent-rules/documentation/`
 
 | Standard | Description | Path |
 |----------|-------------|------|
@@ -183,7 +183,7 @@ Standards for creating and maintaining documentation.
 
 Multi-agent orchestration patterns.
 
-**Location:** `agent-knowledge/core-rules/orchestration/`
+**Location:** `agent-rules/orchestration/`
 
 | Pattern | Description | Path |
 |---------|-------------|------|
@@ -203,10 +203,10 @@ Multi-agent orchestration patterns.
 
 The library is organized into 9 domains:
 
-- **python-standards/** - Language-specific coding standards
-- **agent-roles/** - Role-based agent definitions
+- **python/** - Language-specific coding standards
+- **agents/** - Role-based agent definitions
 - **workflows/** - Development process patterns
-- **design-patterns/** - Architectural design patterns
+- **patterns/** - Architectural design patterns
 - **testing/** - Testing methodologies and standards
 - **security/** - Security best practices
 - **templates/** - Reusable project and documentation templates
@@ -215,10 +215,11 @@ The library is organized into 9 domains:
 
 ### Quick Start
 
-1. **New to the library?** Start with [README.md](README.md)
-2. **Building a Python agent?** Check [python-standards/CODING_STANDARDS.md](python-standards/CODING_STANDARDS.md)
-3. **Setting up a project?** Use [../templates/agent-project-template.md](../templates/agent-project-template.md)
+1. **New to the library?** Start with [agent-rules/README.md](README.md)
+2. **Building a Python agent?** Check [python/CODING_STANDARDS.md](python-standards/CODING_STANDARDS.md)
+3. **Setting up a project?** Use [templates/agent-project-template.md](../templates/agent-project-template.md)
 4. **Running an orchestration?** See [orchestration/ORCHESTRATION_PATTERNS.md](orchestration/ORCHESTRATION_PATTERNS.md)
+<!-- 5. **Integrating with Hopper?** Read .hopper/README.md - .hopper directory not included in this repository -->
 
 ---
 
@@ -271,4 +272,4 @@ For practical implementation patterns and AI-assisted development strategies, se
 
 ---
 
-**Need help?** Check the main [README.md](README.md) for more information.
+<!-- **Need help?** Check the main README.md or the .hopper integration guide - .hopper directory not included in this repository -->

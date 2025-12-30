@@ -69,7 +69,7 @@ This directory contains comprehensive documentation standards covering all aspec
 - Best practices
 - Examples
 
-**Links to:** [Full README Template](../templates/readme-template.md)
+**Links to:** [Full README Template](../../templates/readme-template.md)
 
 ## Quick Reference
 
@@ -162,7 +162,7 @@ index = binary_search(items, target)
 - Basic usage
 - Links to detailed docs
 
-See: [README Template](../templates/readme-template.md)
+See: [README Template](../../templates/readme-template.md)
 
 ### 3. API Documentation
 
@@ -325,10 +325,10 @@ This directory provides standards; templates provide structure:
 
 ### Templates Directory
 
-- [Python Project Template](../templates/python-project-template.md)
-- [README Template](../templates/readme-template.md)
-- [API Documentation Template](../templates/api-documentation-template.md)
-- [Architecture Documentation Template](../templates/architecture-documentation-template.md)
+- [Python Project Template](../../templates/python-project-template.md)
+- [README Template](../../templates/readme-template.md)
+- [API Documentation Template](../../templates/api-documentation-template.md)
+- [Architecture Documentation Template](../../templates/architecture-documentation-template.md)
 
 **Use Together:**
 1. Read standards (this directory)
@@ -338,16 +338,16 @@ This directory provides standards; templates provide structure:
 ## Related Standards
 
 ### Foundation Worker
-- [Python Coding Standards](../core-rules/python-standards/CODING_STANDARDS.md)
-- [Testing Patterns](../core-rules/python-standards/TESTING_PATTERNS.md)
+- [Python Coding Standards](../python-standards/CODING_STANDARDS.md)
+- [Testing Patterns](../python-standards/TESTING_PATTERNS.md)
 
 ### Workflows Worker
-- [Documentation Workflow](../core-rules/workflows/DOCUMENTATION_WORKFLOW.md)
-- [Git Workflow](../core-rules/workflows/GIT_WORKFLOW.md)
-- [PR Requirements](../core-rules/workflows/PR_REQUIREMENTS.md)
+- [Documentation Workflow](../workflows/DOCUMENTATION_WORKFLOW.md)
+- [Git Workflow](../workflows/GIT_WORKFLOW.md)
+- [PR Requirements](../workflows/PR_REQUIREMENTS.md)
 
 ### Testing Worker
-- [Testing Policy](../core-rules/testing/TESTING_POLICY.md)
+- [Testing Policy](../testing/TESTING_POLICY.md)
 
 ## Contributing to Documentation Standards
 

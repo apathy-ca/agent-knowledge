@@ -34,7 +34,7 @@ Every significant system should have:
 - Security Architecture
 - Deployment Architecture
 
-**Full template:** [Architecture Documentation Template](../../templates/templates/agent-project-template.md)
+**Full template:** [Architecture Documentation Template](../../templates/architecture-documentation-template.md)
 
 ### 2. Architecture Decision Records (ADRs)
 
@@ -520,7 +520,7 @@ erDiagram
 
 ## Templates
 
-- [Architecture Documentation Template](../../templates/templates/agent-project-template.md)
+- [Architecture Documentation Template](../../templates/architecture-documentation-template.md)
 
 ## References
 

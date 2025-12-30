@@ -940,3 +940,6 @@ An orchestrator has succeeded when:
 ## References
 
 - [Czarina Documentation](https://github.com/czarina)
+- <!-- Orchestration Plan - plans directory not included in this repository - plans directory not included in this repository -->
+- [Worker Definitions](../../.czarina/workers/)
+- <!-- Czarina README - internal orchestration directory -->

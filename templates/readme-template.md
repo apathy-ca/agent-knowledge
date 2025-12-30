@@ -133,16 +133,16 @@ Expected output from the example
 
 ### Core Documentation
 
-- **[Getting Started Guide](docs/getting-started.md)** - Detailed setup and first steps
-- **[API Reference](docs/API.md)** - Complete API documentation
-- **[Architecture](docs/ARCHITECTURE.md)** - System design and architecture
+- **[Getting Started Guide](docs/YOUR-GETTING-STARTED.md)** - Detailed setup and first steps
+- **[API Reference](docs/YOUR-API-DOCS.md)** - Complete API documentation
+- **[Architecture](docs/YOUR-ARCHITECTURE.md)** - System design and architecture
 - **[Examples](examples/)** - Comprehensive examples
 - **[FAQ](docs/FAQ.md)** - Frequently asked questions
 
 ### Additional Resources
 
 - **[Roadmap](docs/ROADMAP.md)** - Development roadmap and future plans
-- **[Contributing](docs/CONTRIBUTING.md)** - How to contribute
+- **[Contributing](CONTRIBUTING.md)** - How to contribute
 - **[Changelog](CHANGELOG.md)** - Version history and changes
 - **[Migration Guide](docs/MIGRATION.md)** - Upgrading between versions
 
@@ -245,7 +245,7 @@ cp .env.example .env
 - **Component 2:** Description and responsibility
 - **Component 3:** Description and responsibility
 
-For detailed architecture documentation, see [ARCHITECTURE.md](docs/ARCHITECTURE.md).
+For detailed architecture documentation, see [ARCHITECTURE.md](docs/YOUR-ARCHITECTURE.md).
 
 ## API Reference
 
@@ -274,7 +274,7 @@ Description of return value(s).
 | `ErrorType1` | When X occurs | Do Y |
 | `ErrorType2` | When Z occurs | Do W |
 
-For complete API documentation, see [API.md](docs/API.md).
+For complete API documentation, see [API.md](docs/YOUR-API-DOCS.md).
 
 ## Deployment
 
@@ -357,7 +357,7 @@ Steps to resolve...
 
 ## Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details.
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ### Quick Contribution Guide
 

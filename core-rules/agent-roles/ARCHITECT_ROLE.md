@@ -528,4 +528,6 @@ An architect has succeeded when:
 
 ## References
 
+- <!-- Hopper Implementation Plan - plans directory not included in this repository - plans directory not included in this repository -->
+- <!-- Czarina Orchestration Plan - plans directory not included in this repository - plans directory not included in this repository -->
 - [Architecture Decision Records](https://adr.github.io/)

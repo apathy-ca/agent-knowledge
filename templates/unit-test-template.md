@@ -601,7 +601,7 @@ def test_method_changes_state(self):
 
 - [Testing Policy](../core-rules/testing/TESTING_POLICY.md)
 - [Unit Testing Best Practices](../core-rules/testing/UNIT_TESTING.md)
-- [Mocking Strategies](../core-rules/testing/MOCKING_STRATEGIES.md)
+- [Mocking Strategies](../core-rules/testing/README.md#mocking)
 
 ## References
 

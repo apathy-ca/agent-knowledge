@@ -633,18 +633,10 @@ integration-tests:
 
 ## Related Documents
 
-- [Worker Coordination](./WORKER_COORDINATION.md)
-- [Daemon Automation](./DAEMON_AUTOMATION.md)
-- [Status Monitoring](./STATUS_MONITORING.md)
-- [Worker Templates](../../templates/templates/agent-project-template.md)
-
-## Related Patterns
-
-For context management and handoff strategies, see:
-- [Context Management](../../patterns/context-management/README.md) - Context window management, memory tiers
-- [Context Windows](../../patterns/context-management/context-windows.md) - Managing context limits
-- [Summarization](../../patterns/context-management/summarization.md) - Handoff summaries for coordination
-- [Memory Tiers](../../patterns/context-management/memory-tiers.md) - Working, Session, Project, Reference memory
+- [Worker Coordination](#worker-coordination)
+- [Daemon Automation](#daemon-patterns)
+- [Status Monitoring](#status-monitoring)
+- [Worker Templates](../../templates/worker-definition-template.md)
 
 ## References
 
