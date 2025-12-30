@@ -475,8 +475,8 @@ auto-changelog
 ## Related Standards
 
 - [Documentation Standards](./DOCUMENTATION_STANDARDS.md)
-- [Git Workflow](../workflows/GIT_WORKFLOW.md)
-- [PR Requirements](../workflows/PR_REQUIREMENTS.md)
+- [Git Workflow](../core-rules/workflows/GIT_WORKFLOW.md)
+- [PR Requirements](../core-rules/workflows/PR_REQUIREMENTS.md)
 
 ## References
 

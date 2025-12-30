@@ -338,16 +338,16 @@ This directory provides standards; templates provide structure:
 ## Related Standards
 
 ### Foundation Worker
-- [Python Coding Standards](../python/CODING_STANDARDS.md)
-- [Testing Patterns](../python/TESTING_PATTERNS.md)
+- [Python Coding Standards](../core-rules/python-standards/CODING_STANDARDS.md)
+- [Testing Patterns](../core-rules/python-standards/TESTING_PATTERNS.md)
 
 ### Workflows Worker
-- [Documentation Workflow](../workflows/DOCUMENTATION_WORKFLOW.md)
-- [Git Workflow](../workflows/GIT_WORKFLOW.md)
-- [PR Requirements](../workflows/PR_REQUIREMENTS.md)
+- [Documentation Workflow](../core-rules/workflows/DOCUMENTATION_WORKFLOW.md)
+- [Git Workflow](../core-rules/workflows/GIT_WORKFLOW.md)
+- [PR Requirements](../core-rules/workflows/PR_REQUIREMENTS.md)
 
 ### Testing Worker
-- [Testing Policy](../testing/TESTING_POLICY.md)
+- [Testing Policy](../core-rules/testing/TESTING_POLICY.md)
 
 ## Contributing to Documentation Standards
 

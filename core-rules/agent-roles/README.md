@@ -28,7 +28,7 @@ This directory defines the agent roles and worker taxonomy used in multi-agent s
    - What are the dependencies?
    - How will they coordinate?
 
-3. **Define Workers** - Use [Worker Templates](./templates/)
+3. **Define Workers** - Use [Worker Templates](../templates/)
    - Copy worker-definition-template.md
    - Fill in role-specific details
    - Define clear success criteria
@@ -247,17 +247,17 @@ See [AGENT_ROLES.md](./AGENT_ROLES.md#orchestration-patterns) for details.
 
 Use these templates to create consistent worker definitions:
 
-### [Worker Definition Template](./templates/worker-definition-template.md)
+### [Worker Definition Template](../templates/worker-definition-template.md)
 Complete template for defining a worker's role, tasks, and deliverables.
 
 **Use for:** Creating new worker definitions in `.czarina/workers/`
 
-### [Worker Identity Template](./templates/worker-identity-template.md)
+### [Worker Identity Template](../templates/worker-identity-template.md)
 Template for worker identity files that guide agents.
 
 **Use for:** Creating `WORKER_IDENTITY.md` in worker worktrees
 
-### [Worker Closeout Template](./templates/worker-closeout-template.md)
+### [Worker Closeout Template](../templates/worker-closeout-template.md)
 Template for worker closeout reports.
 
 **Use for:** Documenting worker completion and handoff to QA

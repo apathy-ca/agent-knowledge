@@ -621,7 +621,7 @@ From the Czarina orchestration:
 - [Architecture Documentation Standards](./ARCHITECTURE_DOCS.md)
 - [Changelog Standards](./CHANGELOG_STANDARDS.md)
 - [README Template](./README_TEMPLATE.md)
-- [Documentation Workflow](../workflows/DOCUMENTATION_WORKFLOW.md)
+- [Documentation Workflow](../core-rules/workflows/DOCUMENTATION_WORKFLOW.md)
 
 ## References
 

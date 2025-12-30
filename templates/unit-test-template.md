@@ -599,9 +599,9 @@ def test_method_changes_state(self):
 
 ## Related Documents
 
-- [Testing Policy](../testing/TESTING_POLICY.md)
-- [Unit Testing Best Practices](../testing/UNIT_TESTING.md)
-- [Mocking Strategies](../testing/MOCKING_STRATEGIES.md)
+- [Testing Policy](../core-rules/testing/TESTING_POLICY.md)
+- [Unit Testing Best Practices](../core-rules/testing/UNIT_TESTING.md)
+- [Mocking Strategies](../core-rules/testing/MOCKING_STRATEGIES.md)
 
 ## References
 

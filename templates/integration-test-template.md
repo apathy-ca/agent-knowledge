@@ -718,8 +718,8 @@ class UserFactory:
 
 ## Related Documents
 
-- [Integration Testing Standards](../testing/INTEGRATION_TESTING.md)
-- [Testing Policy](../testing/TESTING_POLICY.md)
+- [Integration Testing Standards](../core-rules/testing/INTEGRATION_TESTING.md)
+- [Testing Policy](../core-rules/testing/TESTING_POLICY.md)
 - [Docker Best Practices](../patterns/)
 
 ## References
