@@ -1,4 +1,16 @@
-# Agent Rules Library
+# Agent Rules Library - LEGACY
+
+> **Historical Document**
+> This is the original README from the `agent-rules` repository (v1.0.0).
+> Content has been migrated to `core-rules/` and `templates/` directories in this repository.
+> Preserved for historical reference and attribution.
+
+**Source Repository:** https://github.com/apathy-ca/agent-rules
+**Original Version:** 1.0.0
+**Migration Date:** 2025-12-27
+**Migrated To:** `/home/jhenry/Source/agent-knowledge/core-rules/` and `/home/jhenry/Source/agent-knowledge/templates/`
+
+---
 
 **Comprehensive agent development rules extracted from production systems**
 

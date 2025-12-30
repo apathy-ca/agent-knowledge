@@ -638,6 +638,14 @@ integration-tests:
 - [Status Monitoring](./STATUS_MONITORING.md)
 - [Worker Templates](../templates/worker-definition-template.md)
 
+## Related Patterns
+
+For context management and handoff strategies, see:
+- [Context Management](../../patterns/context-management/README.md) - Context window management, memory tiers
+- [Context Windows](../../patterns/context-management/context-windows.md) - Managing context limits
+- [Summarization](../../patterns/context-management/summarization.md) - Handoff summaries for coordination
+- [Memory Tiers](../../patterns/context-management/memory-tiers.md) - Working, Session, Project, Reference memory
+
 ## References
 
 This document extracts patterns from:
