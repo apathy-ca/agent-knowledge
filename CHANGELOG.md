@@ -112,16 +112,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- (Future additions will be listed here)
+- Created docs/archive/ directory for historical documents
+- Added docs/archive/README.md to document archived content
 
 ### Changed
-- (Future changes will be listed here)
-
-### Deprecated
-- (Future deprecations will be listed here)
+- Updated README.md with cleaner repository description
+- Reorganized documentation section with better structure
+- Updated credits section to focus on continuous learning
 
 ### Removed
-- (Future removals will be listed here)
+- Moved legacy documentation to docs/archive/:
+  - AGENTIC_DEV_PATTERNS_LEGACY.md
+  - AGENT_RULES_LEGACY.md
+  - AGENT_KNOWLEDGE_MERGE_PLAN.md
+  - REMEDIATION_PLAN.md
+- Moved all validation/migration reports to docs/archive/
+- Removed temporary WORKER_IDENTITY.md file
 
 ### Fixed
 - (Future fixes will be listed here)

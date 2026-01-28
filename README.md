@@ -1,10 +1,8 @@
 # Agent Knowledge
 
-**Unified Knowledge Base for AI-Assisted Development**
+**Production-Tested Rules and Patterns for AI-Assisted Development**
 
-This repository combines production-tested rules and patterns from:
-- **agent-rules** - 53+ rules across 9 domains (~43,873 lines)
-- **agentic-dev-patterns** - Battle-tested patterns from The Symposium
+A unified knowledge base combining standards, workflows, and battle-tested patterns for building reliable software with AI assistance.
 
 Used by: **Hopper**, **Czarina**, **The Symposium**, and **SARK**
 
@@ -193,14 +191,21 @@ See [Learning Extraction](./meta/learning-extraction.md) for details.
 
 ## Documentation
 
-- [README](./README.md) - This file
-- [CONTRIBUTING](./CONTRIBUTING.md) - How to contribute
+### Main Documentation
+- [README](./README.md) - Overview and quick start
+- [CONTRIBUTING](./CONTRIBUTING.md) - Contribution guidelines
 - [CHANGELOG](./CHANGELOG.md) - Version history
-- [Core Rules Index](./core-rules/INDEX.md) - Navigate core rules
-- [Patterns Index](./patterns/INDEX.md) - Navigate patterns
+- [Core Rules Index](./core-rules/INDEX.md) - Browse standards and rules
+- [Patterns Index](./patterns/INDEX.md) - Browse proven patterns
+
+### Meta Documentation
+- [Cross-Reference Map](./meta/cross-reference-map.md) - Navigate between rules and patterns
 - [Versioning Strategy](./meta/versioning.md) - Version bump guidelines
 - [Pattern Template](./meta/pattern-template.md) - Template for new patterns
 - [Learning Extraction](./meta/learning-extraction.md) - How learnings become patterns
+
+### Archives
+Historical documents and migration artifacts are preserved in [docs/archive/](./docs/archive/) for reference.
 
 ## License
 
@@ -214,8 +219,12 @@ See [CHANGELOG.md](./CHANGELOG.md) for version history and details.
 
 ## Credits
 
-This repository is a merge of:
-- **agent-rules** v1.0.0 - Production-tested development rules
-- **agentic-dev-patterns** v1.0.0 - Battle-tested patterns from The Symposium
+Built from production-tested knowledge extracted from real projects, including The Symposium distributed AI platform.
 
-Maintained by the Czarina orchestration system and enhanced through continuous learning from Hopper, Czarina, The Symposium, and SARK.
+Maintained through continuous learning extraction from:
+- **Hopper** - Task routing and agent orchestration
+- **Czarina** - Multi-phase project coordination
+- **The Symposium** - Distributed AI consciousness platform
+- **SARK** - Security validation and compliance
+
+Enhanced through systematic closeout learning analysis and pattern validation.
