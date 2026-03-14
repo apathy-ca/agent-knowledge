@@ -1,8 +1,19 @@
 # Agent Rules Library - Complete Index
 
-**Version:** 1.0.0
-**Last Updated:** 2025-12-27
-**Total Rules:** 53 rules across 9 domains
+**Version:** 1.1.0
+**Last Updated:** 2026-03-14
+**Total Rules:** 56 rules across 11 domains
+
+---
+
+## Capability Priority Order
+
+Four layers, four jobs. Start at the top. Move down only when the layer above cannot do the job.
+
+1. **Project instructions (AGENTS.md)** — Zero tool overhead. Always-on. Solves most problems people reach for MCP to fix.
+2. **Skills** — Load on demand. ~100 tokens dormant, full instructions when triggered.
+3. **Direct tools (Bash / shell)** — One schema, unlimited reach. Right for any shell-accessible environment.
+4. **MCP** — Structured discovery for sandboxed/no-shell environments only. Do not use where layers 1–3 are available.
 
 ---
 
@@ -11,7 +22,9 @@
 - [Python Development](#python-development) (7 rules)
 - [Agent Roles](#agent-roles) (9 rules)
 - [Workflow Patterns](#workflow-patterns) (6 rules)
-- [Design Patterns](#design-patterns) (5 rules)
+- [Design Patterns](#design-patterns) (6 rules)
+- [Skills](#skills) (2 rules) ← new
+- [MCP Patterns](#mcp-patterns) (1 rule) ← new
 - [Testing Standards](#testing-standards) (5 rules)
 - [Security Practices](#security-practices) (5 rules)
 - [Templates](#templates) (13 templates)
@@ -79,7 +92,7 @@ Development workflows and process standards.
 
 Architectural patterns for agent systems.
 
-**Location:** `agent-rules/patterns/`
+**Location:** `core-rules/design-patterns/`
 
 | Pattern | Description | Path |
 |---------|-------------|------|
@@ -88,6 +101,33 @@ Architectural patterns for agent systems.
 | **Caching Patterns** | Caching strategies for performance | [CACHING_PATTERNS.md](design-patterns/CACHING_PATTERNS.md) |
 | **Batch Operations** | Efficient batch processing patterns | [BATCH_OPERATIONS.md](design-patterns/BATCH_OPERATIONS.md) |
 | **Error Recovery** | Resilience and error recovery strategies | [ERROR_RECOVERY.md](design-patterns/ERROR_RECOVERY.md) |
+| **API Integration** | Direct API integration: auth, pagination, retry, rate limiting | [API_INTEGRATION.md](design-patterns/API_INTEGRATION.md) |
+
+---
+
+## Skills
+
+Framework for authoring model-invoked skills — position 2 in the capability priority order.
+
+**Location:** `core-rules/skills/`
+
+| File | Description | Path |
+|------|-------------|------|
+| **Skill Authoring** | Complete skill authoring guide: SKILL.md format, progressive disclosure, descriptions, testing, security | [SKILL_AUTHORING.md](skills/SKILL_AUTHORING.md) |
+| **README** | Domain overview and capability priority context | [README.md](skills/README.md) |
+
+---
+
+## MCP Patterns
+
+Model Context Protocol — position 4, for sandboxed/no-shell environments only.
+
+**Location:** `core-rules/mcp/`
+
+| File | Description | Path |
+|------|-------------|------|
+| **MCP Patterns** | Transport types, configuration, tool schema design, server authoring, security, when-to-use decision table | [MCP_PATTERNS.md](mcp/MCP_PATTERNS.md) |
+| **README** | Domain overview and last-resort guidance | [README.md](mcp/README.md) |
 
 ---
 
@@ -269,6 +309,7 @@ For practical implementation patterns and AI-assisted development strategies, se
 |---------|------|---------|
 | 1.0.0 | 2025-12-27 | Initial release - Complete agent rules library extraction |
 | 1.1.0 | 2025-12-28 | Added cross-references to patterns library |
+| 1.2.0 | 2026-03-14 | Added AGENTS.md, skills domain, MCP domain, API_INTEGRATION pattern; established capability priority order |
 
 ---
 
