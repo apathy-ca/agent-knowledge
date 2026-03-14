@@ -69,10 +69,21 @@ agent-knowledge/
 4. Update `core-rules/INDEX.md` with the new entry
 5. Submit a PR per `core-rules/workflows/PR_REQUIREMENTS.md`
 
-### Adding a Skill (Framework)
+### Using Skills
 
-Skills belong in `.claude/skills/<name>/` in the **consuming project**, not here. This library
-contains the **authoring framework** only. See `core-rules/skills/SKILL_AUTHORING.md`.
+Installable skills live in `skills/` at the repo root. Any agent working in a project that
+references `agent-knowledge` should treat this directory as the skill source:
+
+```
+agent-knowledge/skills/
+├── skill-creator/     # Create, evaluate, and improve skills
+├── doc-coauthoring/   # Structured workflow for writing docs, specs, proposals
+├── webapp-testing/    # Playwright-based local webapp testing
+└── claude-api/        # Build apps with the Claude API / Anthropic SDK
+```
+
+To add a skill to a project, symlink or reference from `agent-knowledge/skills/<name>/`.
+For authoring new skills, see `core-rules/skills/SKILL_AUTHORING.md`.
 
 ### Language Coverage
 
